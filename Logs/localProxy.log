@@ -1,0 +1,1565 @@
+2025-01-13 12:51:16,030 - CRL_OCSP_Proxy - [INFO] - CERT 5
+2025-01-13 12:51:16,030 - CRL_OCSP_Proxy - [INFO] - Proxy iniciado en puerto 80
+2025-01-13 12:51:16,032 - CRL_OCSP_Proxy - [INFO] - Log detallado en: proxy_debug.log
+2025-01-13 12:51:16,032 - CRL_OCSP_Proxy - [INFO] - OCSP endpoint: https://XXX3qwi566.execute-api.eu-north-1.amazonaws.com/prod/ocsp
+2025-01-13 12:51:16,032 - CRL_OCSP_Proxy - [INFO] - CRL endpoint: https://XXX3qwi566.execute-api.eu-north-1.amazonaws.com/prod/crl
+2025-01-13 12:51:26,611 - CRL_OCSP_Proxy - [DEBUG] - 
+======================================================================
+2025-01-13 12:51:26,611 - CRL_OCSP_Proxy - [DEBUG] - Nueva petición POST - 2025-01-13T12:51:26.611662
+2025-01-13 12:51:26,611 - CRL_OCSP_Proxy - [DEBUG] - Method: POST
+2025-01-13 12:51:26,611 - CRL_OCSP_Proxy - [DEBUG] - Path: /
+2025-01-13 12:51:26,611 - CRL_OCSP_Proxy - [DEBUG] - Protocol Version: HTTP/1.0
+2025-01-13 12:51:26,611 - CRL_OCSP_Proxy - [DEBUG] - Client Address: ('127.0.0.1', 54152)
+2025-01-13 12:51:26,611 - CRL_OCSP_Proxy - [DEBUG] - 
+Headers recibidos:
+2025-01-13 12:51:26,611 - CRL_OCSP_Proxy - [DEBUG] -   Accept: */*
+2025-01-13 12:51:26,611 - CRL_OCSP_Proxy - [DEBUG] -   Content-Type: application/ocsp-request
+2025-01-13 12:51:26,611 - CRL_OCSP_Proxy - [DEBUG] -   Content-Length: 155
+2025-01-13 12:51:26,611 - CRL_OCSP_Proxy - [DEBUG] -   Character-Encoding: binary
+2025-01-13 12:51:26,611 - CRL_OCSP_Proxy - [DEBUG] -   User-Agent: PPKHandler
+2025-01-13 12:51:26,611 - CRL_OCSP_Proxy - [DEBUG] -   Host: ocsp.xxxx.es
+2025-01-13 12:51:26,611 - CRL_OCSP_Proxy - [DEBUG] -   Connection: Keep-Alive
+2025-01-13 12:51:26,611 - CRL_OCSP_Proxy - [DEBUG] -   Cache-Control: no-cache
+2025-01-13 12:51:26,611 - CRL_OCSP_Proxy - [DEBUG] - 
+=== OCSP Request Details ===
+2025-01-13 12:51:26,616 - CRL_OCSP_Proxy - [DEBUG] - Version: v1
+2025-01-13 12:51:26,616 - CRL_OCSP_Proxy - [DEBUG] - 
+Requested Certificate:
+2025-01-13 12:51:26,616 - CRL_OCSP_Proxy - [DEBUG] -   Hash Algorithm: sha1
+2025-01-13 12:51:26,616 - CRL_OCSP_Proxy - [DEBUG] -   Issuer Name Hash: 4959446cba6569e93af75cddf7ca65b078f852f2
+2025-01-13 12:51:26,616 - CRL_OCSP_Proxy - [DEBUG] -   Issuer Key Hash: e8409b8efb663fc144d8a1dfd44a81420817cbe5
+2025-01-13 12:51:26,616 - CRL_OCSP_Proxy - [DEBUG] -   Serial Number: xxx293361980993820391764910620631686006
+2025-01-13 12:51:26,616 - CRL_OCSP_Proxy - [DEBUG] - 
+Request Extensions:
+2025-01-13 12:51:26,616 - CRL_OCSP_Proxy - [DEBUG] -   acceptable_responses: ['basic_ocsp_response']
+2025-01-13 12:51:26,616 - CRL_OCSP_Proxy - [DEBUG] -   nonce: b'\x8a\xc7\xab\xc8\x8bj\xadi]\x00\x02\xdb\xcf2\x17\x1c'
+2025-01-13 12:51:26,616 - CRL_OCSP_Proxy - [DEBUG] - 
+Enviando petición a AWS Gateway:
+2025-01-13 12:51:26,616 - CRL_OCSP_Proxy - [DEBUG] - URL: https://XXX3qwi566.execute-api.eu-north-1.amazonaws.com/prod/ocsp
+2025-01-13 12:51:26,616 - urllib3.connectionpool - [DEBUG] - Starting new HTTPS connection (1): XXX3qwi566.execute-api.eu-north-1.amazonaws.com:443
+2025-01-13 12:51:27,891 - urllib3.connectionpool - [DEBUG] - https://XXX3qwi566.execute-api.eu-north-1.amazonaws.com:443 "POST /prod/ocsp HTTP/1.1" 200 1916
+2025-01-13 12:51:27,897 - CRL_OCSP_Proxy - [DEBUG] - 
+Detalles de la respuesta:
+2025-01-13 12:51:27,897 - CRL_OCSP_Proxy - [DEBUG] - Status Code: 200
+2025-01-13 12:51:27,897 - CRL_OCSP_Proxy - [DEBUG] - Reason: OK
+2025-01-13 12:51:27,897 - CRL_OCSP_Proxy - [DEBUG] - 
+Headers de respuesta:
+2025-01-13 12:51:27,897 - CRL_OCSP_Proxy - [DEBUG] -   Date: Mon, 13 Jan 2025 11:51:29 GMT
+2025-01-13 12:51:27,897 - CRL_OCSP_Proxy - [DEBUG] -   Content-Type: application/ocsp-response
+2025-01-13 12:51:27,897 - CRL_OCSP_Proxy - [DEBUG] -   Content-Length: 1916
+2025-01-13 12:51:27,897 - CRL_OCSP_Proxy - [DEBUG] -   Connection: keep-alive
+2025-01-13 12:51:27,897 - CRL_OCSP_Proxy - [DEBUG] -   x-amzn-RequestId: 2aabf47f-7aae-467e-a13d-99ee8cb5a7f8
+2025-01-13 12:51:27,897 - CRL_OCSP_Proxy - [DEBUG] -   Access-Control-Allow-Origin: *
+2025-01-13 12:51:27,897 - CRL_OCSP_Proxy - [DEBUG] -   x-amz-apigw-id: EUyqHGkwAi0ErBw=
+2025-01-13 12:51:27,897 - CRL_OCSP_Proxy - [DEBUG] -   X-Amzn-Trace-Id: Root=1-6784fe40-6bb20bf87fffad3f7c2f969c;Parent=07489de40127293d;Sampled=0;Lineage=1:e924009f:0
+2025-01-13 12:51:27,897 - CRL_OCSP_Proxy - [DEBUG] - Content Length: 1916 bytes
+2025-01-13 12:51:27,897 - CRL_OCSP_Proxy - [DEBUG] - 
+=== OCSP Response Details ===
+2025-01-13 12:51:27,897 - CRL_OCSP_Proxy - [DEBUG] - Response Status: successful
+2025-01-13 12:51:27,897 - CRL_OCSP_Proxy - [DEBUG] - Version: v1
+2025-01-13 12:51:27,900 - CRL_OCSP_Proxy - [DEBUG] - Responder ID: OrderedDict([('country_name', 'ES'), ('state_or_province_name', 'VALENCIA'), ('locality_name', 'BURJASSOT'), ('organization_name', 'xxxx'), ('serial_number', 'Axxx73396'), ('common_name', 'Servidor OCSP xxxxCA120 DE xxxx-ISTEC')])
+2025-01-13 12:51:27,900 - CRL_OCSP_Proxy - [DEBUG] - Produced At: 2025-01-13 11:51:29+00:00
+2025-01-13 12:51:27,900 - CRL_OCSP_Proxy - [DEBUG] - 
+Certificate Status: good
+2025-01-13 12:51:27,900 - CRL_OCSP_Proxy - [DEBUG] -   This Update: 2025-01-13 10:10:31+00:00
+2025-01-13 12:51:27,901 - CRL_OCSP_Proxy - [DEBUG] -   Next Update: 2025-01-16 10:10:31+00:00
+2025-01-13 12:51:40,508 - CRL_OCSP_Proxy - [DEBUG] - 
+======================================================================
+2025-01-13 12:51:40,508 - CRL_OCSP_Proxy - [DEBUG] - Nueva petición POST - 2025-01-13T12:51:40.508713
+2025-01-13 12:51:40,510 - CRL_OCSP_Proxy - [DEBUG] - Method: POST
+2025-01-13 12:51:40,510 - CRL_OCSP_Proxy - [DEBUG] - Path: /
+2025-01-13 12:51:40,510 - CRL_OCSP_Proxy - [DEBUG] - Protocol Version: HTTP/1.0
+2025-01-13 12:51:40,510 - CRL_OCSP_Proxy - [DEBUG] - Client Address: ('127.0.0.1', 54162)
+2025-01-13 12:51:40,510 - CRL_OCSP_Proxy - [DEBUG] - 
+Headers recibidos:
+2025-01-13 12:51:40,510 - CRL_OCSP_Proxy - [DEBUG] -   Accept: */*
+2025-01-13 12:51:40,510 - CRL_OCSP_Proxy - [DEBUG] -   Content-Type: application/ocsp-request
+2025-01-13 12:51:40,510 - CRL_OCSP_Proxy - [DEBUG] -   Content-Length: 155
+2025-01-13 12:51:40,510 - CRL_OCSP_Proxy - [DEBUG] -   Character-Encoding: binary
+2025-01-13 12:51:40,510 - CRL_OCSP_Proxy - [DEBUG] -   User-Agent: PPKHandler
+2025-01-13 12:51:40,510 - CRL_OCSP_Proxy - [DEBUG] -   Host: ocsp.xxxx.es
+2025-01-13 12:51:40,510 - CRL_OCSP_Proxy - [DEBUG] -   Connection: Keep-Alive
+2025-01-13 12:51:40,510 - CRL_OCSP_Proxy - [DEBUG] -   Cache-Control: no-cache
+2025-01-13 12:51:40,510 - CRL_OCSP_Proxy - [DEBUG] - 
+=== OCSP Request Details ===
+2025-01-13 12:51:40,510 - CRL_OCSP_Proxy - [DEBUG] - Version: v1
+2025-01-13 12:51:40,510 - CRL_OCSP_Proxy - [DEBUG] - 
+Requested Certificate:
+2025-01-13 12:51:40,510 - CRL_OCSP_Proxy - [DEBUG] -   Hash Algorithm: sha1
+2025-01-13 12:51:40,510 - CRL_OCSP_Proxy - [DEBUG] -   Issuer Name Hash: 4959446cba6569e93af75cddf7ca65b078f852f2
+2025-01-13 12:51:40,510 - CRL_OCSP_Proxy - [DEBUG] -   Issuer Key Hash: e8409b8efb663fc144d8a1dfd44a81420817cbe5
+2025-01-13 12:51:40,510 - CRL_OCSP_Proxy - [DEBUG] -   Serial Number: xxx293361980993820391764910620631686006
+2025-01-13 12:51:40,510 - CRL_OCSP_Proxy - [DEBUG] - 
+Request Extensions:
+2025-01-13 12:51:40,510 - CRL_OCSP_Proxy - [DEBUG] -   acceptable_responses: ['basic_ocsp_response']
+2025-01-13 12:51:40,510 - CRL_OCSP_Proxy - [DEBUG] -   nonce: b'\x82\x19\x0f\xe0\xce\xffd&!\xe3U\x164\xe4c\x15'
+2025-01-13 12:51:40,510 - CRL_OCSP_Proxy - [DEBUG] - 
+Enviando petición a AWS Gateway:
+2025-01-13 12:51:40,514 - CRL_OCSP_Proxy - [DEBUG] - URL: https://XXX3qwi566.execute-api.eu-north-1.amazonaws.com/prod/ocsp
+2025-01-13 12:51:40,514 - urllib3.connectionpool - [DEBUG] - Starting new HTTPS connection (1): XXX3qwi566.execute-api.eu-north-1.amazonaws.com:443
+2025-01-13 12:51:41,039 - urllib3.connectionpool - [DEBUG] - https://XXX3qwi566.execute-api.eu-north-1.amazonaws.com:443 "POST /prod/ocsp HTTP/1.1" 200 1916
+2025-01-13 12:51:41,039 - CRL_OCSP_Proxy - [DEBUG] - 
+Detalles de la respuesta:
+2025-01-13 12:51:41,039 - CRL_OCSP_Proxy - [DEBUG] - Status Code: 200
+2025-01-13 12:51:41,039 - CRL_OCSP_Proxy - [DEBUG] - Reason: OK
+2025-01-13 12:51:41,039 - CRL_OCSP_Proxy - [DEBUG] - 
+Headers de respuesta:
+2025-01-13 12:51:41,039 - CRL_OCSP_Proxy - [DEBUG] -   Date: Mon, 13 Jan 2025 11:51:42 GMT
+2025-01-13 12:51:41,043 - CRL_OCSP_Proxy - [DEBUG] -   Content-Type: application/ocsp-response
+2025-01-13 12:51:41,043 - CRL_OCSP_Proxy - [DEBUG] -   Content-Length: 1916
+2025-01-13 12:51:41,043 - CRL_OCSP_Proxy - [DEBUG] -   Connection: keep-alive
+2025-01-13 12:51:41,043 - CRL_OCSP_Proxy - [DEBUG] -   x-amzn-RequestId: 07e9661a-d2f6-4a96-8b0e-92be61e6f391
+2025-01-13 12:51:41,043 - CRL_OCSP_Proxy - [DEBUG] -   Access-Control-Allow-Origin: *
+2025-01-13 12:51:41,043 - CRL_OCSP_Proxy - [DEBUG] -   x-amz-apigw-id: EUysRFAqgi0EcUQ=
+2025-01-13 12:51:41,043 - CRL_OCSP_Proxy - [DEBUG] -   X-Amzn-Trace-Id: Root=1-6784fe4e-341458d33f2c79bf29795d14;Parent=1873bac47c537304;Sampled=0;Lineage=1:e924009f:0
+2025-01-13 12:51:41,043 - CRL_OCSP_Proxy - [DEBUG] - Content Length: 1916 bytes
+2025-01-13 12:51:41,043 - CRL_OCSP_Proxy - [DEBUG] - 
+=== OCSP Response Details ===
+2025-01-13 12:51:41,043 - CRL_OCSP_Proxy - [DEBUG] - Response Status: successful
+2025-01-13 12:51:41,043 - CRL_OCSP_Proxy - [DEBUG] - Version: v1
+2025-01-13 12:51:41,045 - CRL_OCSP_Proxy - [DEBUG] - Responder ID: OrderedDict([('country_name', 'ES'), ('state_or_province_name', 'VALENCIA'), ('locality_name', 'BURJASSOT'), ('organization_name', 'xxxx'), ('serial_number', 'Axxx73396'), ('common_name', 'Servidor OCSP xxxxCA120 DE xxxx-ISTEC')])
+2025-01-13 12:51:41,045 - CRL_OCSP_Proxy - [DEBUG] - Produced At: 2025-01-13 11:51:42+00:00
+2025-01-13 12:51:41,045 - CRL_OCSP_Proxy - [DEBUG] - 
+Certificate Status: good
+2025-01-13 12:51:41,045 - CRL_OCSP_Proxy - [DEBUG] -   This Update: 2025-01-13 10:10:31+00:00
+2025-01-13 12:51:41,045 - CRL_OCSP_Proxy - [DEBUG] -   Next Update: 2025-01-16 10:10:31+00:00
+2025-01-13 12:51:48,878 - CRL_OCSP_Proxy - [DEBUG] - 
+======================================================================
+2025-01-13 12:51:48,878 - CRL_OCSP_Proxy - [DEBUG] - Nueva petición POST - 2025-01-13T12:51:48.878750
+2025-01-13 12:51:48,878 - CRL_OCSP_Proxy - [DEBUG] - Method: POST
+2025-01-13 12:51:48,878 - CRL_OCSP_Proxy - [DEBUG] - Path: /
+2025-01-13 12:51:48,878 - CRL_OCSP_Proxy - [DEBUG] - Protocol Version: HTTP/1.0
+2025-01-13 12:51:48,878 - CRL_OCSP_Proxy - [DEBUG] - Client Address: ('127.0.0.1', 54166)
+2025-01-13 12:51:48,878 - CRL_OCSP_Proxy - [DEBUG] - 
+Headers recibidos:
+2025-01-13 12:51:48,878 - CRL_OCSP_Proxy - [DEBUG] -   Accept: */*
+2025-01-13 12:51:48,878 - CRL_OCSP_Proxy - [DEBUG] -   Content-Type: application/ocsp-request
+2025-01-13 12:51:48,878 - CRL_OCSP_Proxy - [DEBUG] -   Content-Length: 155
+2025-01-13 12:51:48,878 - CRL_OCSP_Proxy - [DEBUG] -   Character-Encoding: binary
+2025-01-13 12:51:48,878 - CRL_OCSP_Proxy - [DEBUG] -   User-Agent: PPKHandler
+2025-01-13 12:51:48,878 - CRL_OCSP_Proxy - [DEBUG] -   Host: ocsp.xxxx.es
+2025-01-13 12:51:48,878 - CRL_OCSP_Proxy - [DEBUG] -   Connection: Keep-Alive
+2025-01-13 12:51:48,878 - CRL_OCSP_Proxy - [DEBUG] -   Cache-Control: no-cache
+2025-01-13 12:51:48,878 - CRL_OCSP_Proxy - [DEBUG] - 
+=== OCSP Request Details ===
+2025-01-13 12:51:48,878 - CRL_OCSP_Proxy - [DEBUG] - Version: v1
+2025-01-13 12:51:48,878 - CRL_OCSP_Proxy - [DEBUG] - 
+Requested Certificate:
+2025-01-13 12:51:48,878 - CRL_OCSP_Proxy - [DEBUG] -   Hash Algorithm: sha1
+2025-01-13 12:51:48,878 - CRL_OCSP_Proxy - [DEBUG] -   Issuer Name Hash: 4959446cba6569e93af75cddf7ca65b078f852f2
+2025-01-13 12:51:48,878 - CRL_OCSP_Proxy - [DEBUG] -   Issuer Key Hash: e8409b8efb663fc144d8a1dfd44a81420817cbe5
+2025-01-13 12:51:48,878 - CRL_OCSP_Proxy - [DEBUG] -   Serial Number: xxx293361980993820391764910620631686006
+2025-01-13 12:51:48,883 - CRL_OCSP_Proxy - [DEBUG] - 
+Request Extensions:
+2025-01-13 12:51:48,883 - CRL_OCSP_Proxy - [DEBUG] -   acceptable_responses: ['basic_ocsp_response']
+2025-01-13 12:51:48,883 - CRL_OCSP_Proxy - [DEBUG] -   nonce: b'\x19\x91<\xb2Q#7h\t\xdd\x94\x8bj\xc7\xa9v'
+2025-01-13 12:51:48,883 - CRL_OCSP_Proxy - [DEBUG] - 
+Enviando petición a AWS Gateway:
+2025-01-13 12:51:48,883 - CRL_OCSP_Proxy - [DEBUG] - URL: https://XXX3qwi566.execute-api.eu-north-1.amazonaws.com/prod/ocsp
+2025-01-13 12:51:48,885 - urllib3.connectionpool - [DEBUG] - Starting new HTTPS connection (1): XXX3qwi566.execute-api.eu-north-1.amazonaws.com:443
+2025-01-13 12:51:49,246 - urllib3.connectionpool - [DEBUG] - https://XXX3qwi566.execute-api.eu-north-1.amazonaws.com:443 "POST /prod/ocsp HTTP/1.1" 200 1916
+2025-01-13 12:51:49,247 - CRL_OCSP_Proxy - [DEBUG] - 
+Detalles de la respuesta:
+2025-01-13 12:51:49,247 - CRL_OCSP_Proxy - [DEBUG] - Status Code: 200
+2025-01-13 12:51:49,247 - CRL_OCSP_Proxy - [DEBUG] - Reason: OK
+2025-01-13 12:51:49,247 - CRL_OCSP_Proxy - [DEBUG] - 
+Headers de respuesta:
+2025-01-13 12:51:49,247 - CRL_OCSP_Proxy - [DEBUG] -   Date: Mon, 13 Jan 2025 11:51:50 GMT
+2025-01-13 12:51:49,247 - CRL_OCSP_Proxy - [DEBUG] -   Content-Type: application/ocsp-response
+2025-01-13 12:51:49,247 - CRL_OCSP_Proxy - [DEBUG] -   Content-Length: 1916
+2025-01-13 12:51:49,249 - CRL_OCSP_Proxy - [DEBUG] -   Connection: keep-alive
+2025-01-13 12:51:49,249 - CRL_OCSP_Proxy - [DEBUG] -   x-amzn-RequestId: 263b133d-9c5a-4a6a-9822-aad1f0da1920
+2025-01-13 12:51:49,249 - CRL_OCSP_Proxy - [DEBUG] -   Access-Control-Allow-Origin: *
+2025-01-13 12:51:49,249 - CRL_OCSP_Proxy - [DEBUG] -   x-amz-apigw-id: EUytlGYaAi0EkKw=
+2025-01-13 12:51:49,249 - CRL_OCSP_Proxy - [DEBUG] -   X-Amzn-Trace-Id: Root=1-6784fe56-7865796a5c1e18e1523b1628;Parent=55fad354f8a3134d;Sampled=0;Lineage=1:e924009f:0
+2025-01-13 12:51:49,249 - CRL_OCSP_Proxy - [DEBUG] - Content Length: 1916 bytes
+2025-01-13 12:51:49,249 - CRL_OCSP_Proxy - [DEBUG] - 
+=== OCSP Response Details ===
+2025-01-13 12:51:49,250 - CRL_OCSP_Proxy - [DEBUG] - Response Status: successful
+2025-01-13 12:51:49,250 - CRL_OCSP_Proxy - [DEBUG] - Version: v1
+2025-01-13 12:51:49,250 - CRL_OCSP_Proxy - [DEBUG] - Responder ID: OrderedDict([('country_name', 'ES'), ('state_or_province_name', 'VALENCIA'), ('locality_name', 'BURJASSOT'), ('organization_name', 'xxxx'), ('serial_number', 'Axxx73396'), ('common_name', 'Servidor OCSP xxxxCA120 DE xxxx-ISTEC')])
+2025-01-13 12:51:49,251 - CRL_OCSP_Proxy - [DEBUG] - Produced At: 2025-01-13 11:51:50+00:00
+2025-01-13 12:51:49,251 - CRL_OCSP_Proxy - [DEBUG] - 
+Certificate Status: good
+2025-01-13 12:51:49,251 - CRL_OCSP_Proxy - [DEBUG] -   This Update: 2025-01-13 10:10:31+00:00
+2025-01-13 12:51:49,251 - CRL_OCSP_Proxy - [DEBUG] -   Next Update: 2025-01-16 10:10:31+00:00
+2025-01-13 12:51:58,827 - CRL_OCSP_Proxy - [DEBUG] - 
+======================================================================
+2025-01-13 12:51:58,827 - CRL_OCSP_Proxy - [DEBUG] - Nueva petición POST - 2025-01-13T12:51:58.827550
+2025-01-13 12:51:58,827 - CRL_OCSP_Proxy - [DEBUG] - Method: POST
+2025-01-13 12:51:58,827 - CRL_OCSP_Proxy - [DEBUG] - Path: /
+2025-01-13 12:51:58,827 - CRL_OCSP_Proxy - [DEBUG] - Protocol Version: HTTP/1.0
+2025-01-13 12:51:58,827 - CRL_OCSP_Proxy - [DEBUG] - Client Address: ('127.0.0.1', 54170)
+2025-01-13 12:51:58,827 - CRL_OCSP_Proxy - [DEBUG] - 
+Headers recibidos:
+2025-01-13 12:51:58,827 - CRL_OCSP_Proxy - [DEBUG] -   Accept: */*
+2025-01-13 12:51:58,827 - CRL_OCSP_Proxy - [DEBUG] -   Content-Type: application/ocsp-request
+2025-01-13 12:51:58,827 - CRL_OCSP_Proxy - [DEBUG] -   Content-Length: 155
+2025-01-13 12:51:58,827 - CRL_OCSP_Proxy - [DEBUG] -   Character-Encoding: binary
+2025-01-13 12:51:58,827 - CRL_OCSP_Proxy - [DEBUG] -   User-Agent: PPKHandler
+2025-01-13 12:51:58,827 - CRL_OCSP_Proxy - [DEBUG] -   Host: ocsp.xxxx.es
+2025-01-13 12:51:58,827 - CRL_OCSP_Proxy - [DEBUG] -   Connection: Keep-Alive
+2025-01-13 12:51:58,827 - CRL_OCSP_Proxy - [DEBUG] -   Cache-Control: no-cache
+2025-01-13 12:51:58,827 - CRL_OCSP_Proxy - [DEBUG] - 
+=== OCSP Request Details ===
+2025-01-13 12:51:58,827 - CRL_OCSP_Proxy - [DEBUG] - Version: v1
+2025-01-13 12:51:58,827 - CRL_OCSP_Proxy - [DEBUG] - 
+Requested Certificate:
+2025-01-13 12:51:58,827 - CRL_OCSP_Proxy - [DEBUG] -   Hash Algorithm: sha1
+2025-01-13 12:51:58,827 - CRL_OCSP_Proxy - [DEBUG] -   Issuer Name Hash: 4959446cba6569e93af75cddf7ca65b078f852f2
+2025-01-13 12:51:58,827 - CRL_OCSP_Proxy - [DEBUG] -   Issuer Key Hash: e8409b8efb663fc144d8a1dfd44a81420817cbe5
+2025-01-13 12:51:58,827 - CRL_OCSP_Proxy - [DEBUG] -   Serial Number: xxx293361980993820391764910620631686006
+2025-01-13 12:51:58,827 - CRL_OCSP_Proxy - [DEBUG] - 
+Request Extensions:
+2025-01-13 12:51:58,827 - CRL_OCSP_Proxy - [DEBUG] -   acceptable_responses: ['basic_ocsp_response']
+2025-01-13 12:51:58,827 - CRL_OCSP_Proxy - [DEBUG] -   nonce: b'u+\x8fC\xdc.\xf8w\xcf#"\xbe\xdd\n\xcdN'
+2025-01-13 12:51:58,827 - CRL_OCSP_Proxy - [DEBUG] - 
+Enviando petición a AWS Gateway:
+2025-01-13 12:51:58,827 - CRL_OCSP_Proxy - [DEBUG] - URL: https://XXX3qwi566.execute-api.eu-north-1.amazonaws.com/prod/ocsp
+2025-01-13 12:51:58,835 - urllib3.connectionpool - [DEBUG] - Starting new HTTPS connection (1): XXX3qwi566.execute-api.eu-north-1.amazonaws.com:443
+2025-01-13 12:51:59,305 - urllib3.connectionpool - [DEBUG] - https://XXX3qwi566.execute-api.eu-north-1.amazonaws.com:443 "POST /prod/ocsp HTTP/1.1" 200 1916
+2025-01-13 12:51:59,305 - CRL_OCSP_Proxy - [DEBUG] - 
+Detalles de la respuesta:
+2025-01-13 12:51:59,305 - CRL_OCSP_Proxy - [DEBUG] - Status Code: 200
+2025-01-13 12:51:59,305 - CRL_OCSP_Proxy - [DEBUG] - Reason: OK
+2025-01-13 12:51:59,305 - CRL_OCSP_Proxy - [DEBUG] - 
+Headers de respuesta:
+2025-01-13 12:51:59,306 - CRL_OCSP_Proxy - [DEBUG] -   Date: Mon, 13 Jan 2025 11:52:00 GMT
+2025-01-13 12:51:59,306 - CRL_OCSP_Proxy - [DEBUG] -   Content-Type: application/ocsp-response
+2025-01-13 12:51:59,306 - CRL_OCSP_Proxy - [DEBUG] -   Content-Length: 1916
+2025-01-13 12:51:59,306 - CRL_OCSP_Proxy - [DEBUG] -   Connection: keep-alive
+2025-01-13 12:51:59,306 - CRL_OCSP_Proxy - [DEBUG] -   x-amzn-RequestId: 114b13fa-dbe7-4df0-9531-46c769392a83
+2025-01-13 12:51:59,306 - CRL_OCSP_Proxy - [DEBUG] -   Access-Control-Allow-Origin: *
+2025-01-13 12:51:59,306 - CRL_OCSP_Proxy - [DEBUG] -   x-amz-apigw-id: EUyvIFEHgi0ESFw=
+2025-01-13 12:51:59,306 - CRL_OCSP_Proxy - [DEBUG] -   X-Amzn-Trace-Id: Root=1-6784fe60-34fd54cf74381e806069a3ea;Parent=71d4dc5b77d01b3a;Sampled=0;Lineage=1:e924009f:0
+2025-01-13 12:51:59,306 - CRL_OCSP_Proxy - [DEBUG] - Content Length: 1916 bytes
+2025-01-13 12:51:59,306 - CRL_OCSP_Proxy - [DEBUG] - 
+=== OCSP Response Details ===
+2025-01-13 12:51:59,306 - CRL_OCSP_Proxy - [DEBUG] - Response Status: successful
+2025-01-13 12:51:59,306 - CRL_OCSP_Proxy - [DEBUG] - Version: v1
+2025-01-13 12:51:59,306 - CRL_OCSP_Proxy - [DEBUG] - Responder ID: OrderedDict([('country_name', 'ES'), ('state_or_province_name', 'VALENCIA'), ('locality_name', 'BURJASSOT'), ('organization_name', 'xxxx'), ('serial_number', 'Axxx73396'), ('common_name', 'Servidor OCSP xxxxCA120 DE xxxx-ISTEC')])
+2025-01-13 12:51:59,309 - CRL_OCSP_Proxy - [DEBUG] - Produced At: 2025-01-13 11:52:00+00:00
+2025-01-13 12:51:59,309 - CRL_OCSP_Proxy - [DEBUG] - 
+Certificate Status: good
+2025-01-13 12:51:59,309 - CRL_OCSP_Proxy - [DEBUG] -   This Update: 2025-01-13 10:10:31+00:00
+2025-01-13 12:51:59,309 - CRL_OCSP_Proxy - [DEBUG] -   Next Update: 2025-01-16 10:10:31+00:00
+2025-01-13 12:52:08,040 - CRL_OCSP_Proxy - [DEBUG] - 
+======================================================================
+2025-01-13 12:52:08,040 - CRL_OCSP_Proxy - [DEBUG] - Nueva petición POST - 2025-01-13T12:52:08.040898
+2025-01-13 12:52:08,040 - CRL_OCSP_Proxy - [DEBUG] - Method: POST
+2025-01-13 12:52:08,040 - CRL_OCSP_Proxy - [DEBUG] - Path: /
+2025-01-13 12:52:08,040 - CRL_OCSP_Proxy - [DEBUG] - Protocol Version: HTTP/1.0
+2025-01-13 12:52:08,040 - CRL_OCSP_Proxy - [DEBUG] - Client Address: ('127.0.0.1', 54178)
+2025-01-13 12:52:08,040 - CRL_OCSP_Proxy - [DEBUG] - 
+Headers recibidos:
+2025-01-13 12:52:08,040 - CRL_OCSP_Proxy - [DEBUG] -   Accept: */*
+2025-01-13 12:52:08,040 - CRL_OCSP_Proxy - [DEBUG] -   Content-Type: application/ocsp-request
+2025-01-13 12:52:08,040 - CRL_OCSP_Proxy - [DEBUG] -   Content-Length: 155
+2025-01-13 12:52:08,040 - CRL_OCSP_Proxy - [DEBUG] -   Character-Encoding: binary
+2025-01-13 12:52:08,040 - CRL_OCSP_Proxy - [DEBUG] -   User-Agent: PPKHandler
+2025-01-13 12:52:08,040 - CRL_OCSP_Proxy - [DEBUG] -   Host: ocsp.xxxx.es
+2025-01-13 12:52:08,044 - CRL_OCSP_Proxy - [DEBUG] -   Connection: Keep-Alive
+2025-01-13 12:52:08,044 - CRL_OCSP_Proxy - [DEBUG] -   Cache-Control: no-cache
+2025-01-13 12:52:08,044 - CRL_OCSP_Proxy - [DEBUG] - 
+=== OCSP Request Details ===
+2025-01-13 12:52:08,044 - CRL_OCSP_Proxy - [DEBUG] - Version: v1
+2025-01-13 12:52:08,044 - CRL_OCSP_Proxy - [DEBUG] - 
+Requested Certificate:
+2025-01-13 12:52:08,044 - CRL_OCSP_Proxy - [DEBUG] -   Hash Algorithm: sha1
+2025-01-13 12:52:08,044 - CRL_OCSP_Proxy - [DEBUG] -   Issuer Name Hash: 4959446cba6569e93af75cddf7ca65b078f852f2
+2025-01-13 12:52:08,044 - CRL_OCSP_Proxy - [DEBUG] -   Issuer Key Hash: e8409b8efb663fc144d8a1dfd44a81420817cbe5
+2025-01-13 12:52:08,044 - CRL_OCSP_Proxy - [DEBUG] -   Serial Number: xxx293361980993820391764910620631686006
+2025-01-13 12:52:08,044 - CRL_OCSP_Proxy - [DEBUG] - 
+Request Extensions:
+2025-01-13 12:52:08,044 - CRL_OCSP_Proxy - [DEBUG] -   acceptable_responses: ['basic_ocsp_response']
+2025-01-13 12:52:08,044 - CRL_OCSP_Proxy - [DEBUG] -   nonce: b'\x7fe\x18\xa9,\x9c\xa8\xf9\x1e\xa1\xed\xf6)\xb7(\xb0'
+2025-01-13 12:52:08,044 - CRL_OCSP_Proxy - [DEBUG] - 
+Enviando petición a AWS Gateway:
+2025-01-13 12:52:08,044 - CRL_OCSP_Proxy - [DEBUG] - URL: https://XXX3qwi566.execute-api.eu-north-1.amazonaws.com/prod/ocsp
+2025-01-13 12:52:08,044 - urllib3.connectionpool - [DEBUG] - Starting new HTTPS connection (1): XXX3qwi566.execute-api.eu-north-1.amazonaws.com:443
+2025-01-13 12:52:08,409 - urllib3.connectionpool - [DEBUG] - https://XXX3qwi566.execute-api.eu-north-1.amazonaws.com:443 "POST /prod/ocsp HTTP/1.1" 200 1916
+2025-01-13 12:52:08,409 - CRL_OCSP_Proxy - [DEBUG] - 
+Detalles de la respuesta:
+2025-01-13 12:52:08,409 - CRL_OCSP_Proxy - [DEBUG] - Status Code: 200
+2025-01-13 12:52:08,412 - CRL_OCSP_Proxy - [DEBUG] - Reason: OK
+2025-01-13 12:52:08,412 - CRL_OCSP_Proxy - [DEBUG] - 
+Headers de respuesta:
+2025-01-13 12:52:08,412 - CRL_OCSP_Proxy - [DEBUG] -   Date: Mon, 13 Jan 2025 11:52:09 GMT
+2025-01-13 12:52:08,412 - CRL_OCSP_Proxy - [DEBUG] -   Content-Type: application/ocsp-response
+2025-01-13 12:52:08,412 - CRL_OCSP_Proxy - [DEBUG] -   Content-Length: 1916
+2025-01-13 12:52:08,412 - CRL_OCSP_Proxy - [DEBUG] -   Connection: keep-alive
+2025-01-13 12:52:08,412 - CRL_OCSP_Proxy - [DEBUG] -   x-amzn-RequestId: 22e62dbc-d357-4dee-8061-c7ecb4596c15
+2025-01-13 12:52:08,412 - CRL_OCSP_Proxy - [DEBUG] -   Access-Control-Allow-Origin: *
+2025-01-13 12:52:08,412 - CRL_OCSP_Proxy - [DEBUG] -   x-amz-apigw-id: EUywkErhgi0ELEw=
+2025-01-13 12:52:08,412 - CRL_OCSP_Proxy - [DEBUG] -   X-Amzn-Trace-Id: Root=1-6784fe69-560ed429314415d21ffc1fd9;Parent=3f27d786f41b7838;Sampled=0;Lineage=1:e924009f:0
+2025-01-13 12:52:08,412 - CRL_OCSP_Proxy - [DEBUG] - Content Length: 1916 bytes
+2025-01-13 12:52:08,412 - CRL_OCSP_Proxy - [DEBUG] - 
+=== OCSP Response Details ===
+2025-01-13 12:52:08,412 - CRL_OCSP_Proxy - [DEBUG] - Response Status: successful
+2025-01-13 12:52:08,414 - CRL_OCSP_Proxy - [DEBUG] - Version: v1
+2025-01-13 12:52:08,414 - CRL_OCSP_Proxy - [DEBUG] - Responder ID: OrderedDict([('country_name', 'ES'), ('state_or_province_name', 'VALENCIA'), ('locality_name', 'BURJASSOT'), ('organization_name', 'xxxx'), ('serial_number', 'Axxx73396'), ('common_name', 'Servidor OCSP xxxxCA120 DE xxxx-ISTEC')])
+2025-01-13 12:52:08,414 - CRL_OCSP_Proxy - [DEBUG] - Produced At: 2025-01-13 11:52:09+00:00
+2025-01-13 12:52:08,414 - CRL_OCSP_Proxy - [DEBUG] - 
+Certificate Status: good
+2025-01-13 12:52:08,414 - CRL_OCSP_Proxy - [DEBUG] -   This Update: 2025-01-13 10:10:31+00:00
+2025-01-13 12:52:08,416 - CRL_OCSP_Proxy - [DEBUG] -   Next Update: 2025-01-16 10:10:31+00:00
+2025-01-13 12:52:17,944 - CRL_OCSP_Proxy - [DEBUG] - 
+======================================================================
+2025-01-13 12:52:17,944 - CRL_OCSP_Proxy - [DEBUG] - Nueva petición POST - 2025-01-13T12:52:17.944297
+2025-01-13 12:52:17,944 - CRL_OCSP_Proxy - [DEBUG] - Method: POST
+2025-01-13 12:52:17,944 - CRL_OCSP_Proxy - [DEBUG] - Path: /
+2025-01-13 12:52:17,944 - CRL_OCSP_Proxy - [DEBUG] - Protocol Version: HTTP/1.0
+2025-01-13 12:52:17,944 - CRL_OCSP_Proxy - [DEBUG] - Client Address: ('127.0.0.1', 54184)
+2025-01-13 12:52:17,944 - CRL_OCSP_Proxy - [DEBUG] - 
+Headers recibidos:
+2025-01-13 12:52:17,944 - CRL_OCSP_Proxy - [DEBUG] -   Accept: */*
+2025-01-13 12:52:17,944 - CRL_OCSP_Proxy - [DEBUG] -   Content-Type: application/ocsp-request
+2025-01-13 12:52:17,944 - CRL_OCSP_Proxy - [DEBUG] -   Content-Length: 155
+2025-01-13 12:52:17,944 - CRL_OCSP_Proxy - [DEBUG] -   Character-Encoding: binary
+2025-01-13 12:52:17,947 - CRL_OCSP_Proxy - [DEBUG] -   User-Agent: PPKHandler
+2025-01-13 12:52:17,947 - CRL_OCSP_Proxy - [DEBUG] -   Host: ocsp.xxxx.es
+2025-01-13 12:52:17,947 - CRL_OCSP_Proxy - [DEBUG] -   Connection: Keep-Alive
+2025-01-13 12:52:17,947 - CRL_OCSP_Proxy - [DEBUG] -   Cache-Control: no-cache
+2025-01-13 12:52:17,947 - CRL_OCSP_Proxy - [DEBUG] - 
+=== OCSP Request Details ===
+2025-01-13 12:52:17,947 - CRL_OCSP_Proxy - [DEBUG] - Version: v1
+2025-01-13 12:52:17,947 - CRL_OCSP_Proxy - [DEBUG] - 
+Requested Certificate:
+2025-01-13 12:52:17,947 - CRL_OCSP_Proxy - [DEBUG] -   Hash Algorithm: sha1
+2025-01-13 12:52:17,947 - CRL_OCSP_Proxy - [DEBUG] -   Issuer Name Hash: 4959446cba6569e93af75cddf7ca65b078f852f2
+2025-01-13 12:52:17,947 - CRL_OCSP_Proxy - [DEBUG] -   Issuer Key Hash: e8409b8efb663fc144d8a1dfd44a81420817cbe5
+2025-01-13 12:52:17,947 - CRL_OCSP_Proxy - [DEBUG] -   Serial Number: xxx293361980993820391764910620631686006
+2025-01-13 12:52:17,947 - CRL_OCSP_Proxy - [DEBUG] - 
+Request Extensions:
+2025-01-13 12:52:17,947 - CRL_OCSP_Proxy - [DEBUG] -   acceptable_responses: ['basic_ocsp_response']
+2025-01-13 12:52:17,950 - CRL_OCSP_Proxy - [DEBUG] -   nonce: b'c|\x7f\x1b\xfb\xe1D\x0f^g\xbd{\xaf\x8e\xbc\xd4'
+2025-01-13 12:52:17,950 - CRL_OCSP_Proxy - [DEBUG] - 
+Enviando petición a AWS Gateway:
+2025-01-13 12:52:17,950 - CRL_OCSP_Proxy - [DEBUG] - URL: https://XXX3qwi566.execute-api.eu-north-1.amazonaws.com/prod/ocsp
+2025-01-13 12:52:17,950 - urllib3.connectionpool - [DEBUG] - Starting new HTTPS connection (1): XXX3qwi566.execute-api.eu-north-1.amazonaws.com:443
+2025-01-13 12:52:18,529 - urllib3.connectionpool - [DEBUG] - https://XXX3qwi566.execute-api.eu-north-1.amazonaws.com:443 "POST /prod/ocsp HTTP/1.1" 200 1916
+2025-01-13 12:52:18,529 - CRL_OCSP_Proxy - [DEBUG] - 
+Detalles de la respuesta:
+2025-01-13 12:52:18,529 - CRL_OCSP_Proxy - [DEBUG] - Status Code: 200
+2025-01-13 12:52:18,529 - CRL_OCSP_Proxy - [DEBUG] - Reason: OK
+2025-01-13 12:52:18,529 - CRL_OCSP_Proxy - [DEBUG] - 
+Headers de respuesta:
+2025-01-13 12:52:18,529 - CRL_OCSP_Proxy - [DEBUG] -   Date: Mon, 13 Jan 2025 11:52:19 GMT
+2025-01-13 12:52:18,529 - CRL_OCSP_Proxy - [DEBUG] -   Content-Type: application/ocsp-response
+2025-01-13 12:52:18,529 - CRL_OCSP_Proxy - [DEBUG] -   Content-Length: 1916
+2025-01-13 12:52:18,529 - CRL_OCSP_Proxy - [DEBUG] -   Connection: keep-alive
+2025-01-13 12:52:18,529 - CRL_OCSP_Proxy - [DEBUG] -   x-amzn-RequestId: c899fce3-cd0f-4898-b68b-adf002c30f6f
+2025-01-13 12:52:18,529 - CRL_OCSP_Proxy - [DEBUG] -   Access-Control-Allow-Origin: *
+2025-01-13 12:52:18,529 - CRL_OCSP_Proxy - [DEBUG] -   x-amz-apigw-id: EUyyIG1ogi0Evag=
+2025-01-13 12:52:18,529 - CRL_OCSP_Proxy - [DEBUG] -   X-Amzn-Trace-Id: Root=1-6784fe73-1d21620b21ee3e8868c8a47f;Parent=4619bd38918462ab;Sampled=0;Lineage=1:e924009f:0
+2025-01-13 12:52:18,529 - CRL_OCSP_Proxy - [DEBUG] - Content Length: 1916 bytes
+2025-01-13 12:52:18,529 - CRL_OCSP_Proxy - [DEBUG] - 
+=== OCSP Response Details ===
+2025-01-13 12:52:18,529 - CRL_OCSP_Proxy - [DEBUG] - Response Status: successful
+2025-01-13 12:52:18,529 - CRL_OCSP_Proxy - [DEBUG] - Version: v1
+2025-01-13 12:52:18,529 - CRL_OCSP_Proxy - [DEBUG] - Responder ID: OrderedDict([('country_name', 'ES'), ('state_or_province_name', 'VALENCIA'), ('locality_name', 'BURJASSOT'), ('organization_name', 'xxxx'), ('serial_number', 'Axxx73396'), ('common_name', 'Servidor OCSP xxxxCA120 DE xxxx-ISTEC')])
+2025-01-13 12:52:18,529 - CRL_OCSP_Proxy - [DEBUG] - Produced At: 2025-01-13 11:52:19+00:00
+2025-01-13 12:52:18,529 - CRL_OCSP_Proxy - [DEBUG] - 
+Certificate Status: good
+2025-01-13 12:52:18,529 - CRL_OCSP_Proxy - [DEBUG] -   This Update: 2025-01-13 10:10:31+00:00
+2025-01-13 12:52:18,529 - CRL_OCSP_Proxy - [DEBUG] -   Next Update: 2025-01-16 10:10:31+00:00
+2025-01-13 12:52:25,921 - CRL_OCSP_Proxy - [DEBUG] - 
+======================================================================
+2025-01-13 12:52:25,921 - CRL_OCSP_Proxy - [DEBUG] - Nueva petición POST - 2025-01-13T12:52:25.921621
+2025-01-13 12:52:25,921 - CRL_OCSP_Proxy - [DEBUG] - Method: POST
+2025-01-13 12:52:25,921 - CRL_OCSP_Proxy - [DEBUG] - Path: /
+2025-01-13 12:52:25,921 - CRL_OCSP_Proxy - [DEBUG] - Protocol Version: HTTP/1.0
+2025-01-13 12:52:25,921 - CRL_OCSP_Proxy - [DEBUG] - Client Address: ('127.0.0.1', 54193)
+2025-01-13 12:52:25,921 - CRL_OCSP_Proxy - [DEBUG] - 
+Headers recibidos:
+2025-01-13 12:52:25,929 - CRL_OCSP_Proxy - [DEBUG] -   Accept: */*
+2025-01-13 12:52:25,929 - CRL_OCSP_Proxy - [DEBUG] -   Content-Type: application/ocsp-request
+2025-01-13 12:52:25,929 - CRL_OCSP_Proxy - [DEBUG] -   Content-Length: 155
+2025-01-13 12:52:25,929 - CRL_OCSP_Proxy - [DEBUG] -   Character-Encoding: binary
+2025-01-13 12:52:25,929 - CRL_OCSP_Proxy - [DEBUG] -   User-Agent: PPKHandler
+2025-01-13 12:52:25,929 - CRL_OCSP_Proxy - [DEBUG] -   Host: ocsp.xxxx.es
+2025-01-13 12:52:25,929 - CRL_OCSP_Proxy - [DEBUG] -   Connection: Keep-Alive
+2025-01-13 12:52:25,929 - CRL_OCSP_Proxy - [DEBUG] -   Cache-Control: no-cache
+2025-01-13 12:52:25,929 - CRL_OCSP_Proxy - [DEBUG] - 
+=== OCSP Request Details ===
+2025-01-13 12:52:25,929 - CRL_OCSP_Proxy - [DEBUG] - Version: v1
+2025-01-13 12:52:25,929 - CRL_OCSP_Proxy - [DEBUG] - 
+Requested Certificate:
+2025-01-13 12:52:25,929 - CRL_OCSP_Proxy - [DEBUG] -   Hash Algorithm: sha1
+2025-01-13 12:52:25,929 - CRL_OCSP_Proxy - [DEBUG] -   Issuer Name Hash: 4959446cba6569e93af75cddf7ca65b078f852f2
+2025-01-13 12:52:25,929 - CRL_OCSP_Proxy - [DEBUG] -   Issuer Key Hash: e8409b8efb663fc144d8a1dfd44a81420817cbe5
+2025-01-13 12:52:25,929 - CRL_OCSP_Proxy - [DEBUG] -   Serial Number: xxx293361980993820391764910620631686006
+2025-01-13 12:52:25,929 - CRL_OCSP_Proxy - [DEBUG] - 
+Request Extensions:
+2025-01-13 12:52:25,929 - CRL_OCSP_Proxy - [DEBUG] -   acceptable_responses: ['basic_ocsp_response']
+2025-01-13 12:52:25,929 - CRL_OCSP_Proxy - [DEBUG] -   nonce: b'Q`\x92G\x92\xad\x83\xb8\xfaw\x98\xde\xb9\xe7r\xba'
+2025-01-13 12:52:25,929 - CRL_OCSP_Proxy - [DEBUG] - 
+Enviando petición a AWS Gateway:
+2025-01-13 12:52:25,929 - CRL_OCSP_Proxy - [DEBUG] - URL: https://XXX3qwi566.execute-api.eu-north-1.amazonaws.com/prod/ocsp
+2025-01-13 12:52:25,929 - urllib3.connectionpool - [DEBUG] - Starting new HTTPS connection (1): XXX3qwi566.execute-api.eu-north-1.amazonaws.com:443
+2025-01-13 12:52:26,229 - urllib3.connectionpool - [DEBUG] - https://XXX3qwi566.execute-api.eu-north-1.amazonaws.com:443 "POST /prod/ocsp HTTP/1.1" 200 1916
+2025-01-13 12:52:26,229 - CRL_OCSP_Proxy - [DEBUG] - 
+Detalles de la respuesta:
+2025-01-13 12:52:26,229 - CRL_OCSP_Proxy - [DEBUG] - Status Code: 200
+2025-01-13 12:52:26,229 - CRL_OCSP_Proxy - [DEBUG] - Reason: OK
+2025-01-13 12:52:26,229 - CRL_OCSP_Proxy - [DEBUG] - 
+Headers de respuesta:
+2025-01-13 12:52:26,229 - CRL_OCSP_Proxy - [DEBUG] -   Date: Mon, 13 Jan 2025 11:52:27 GMT
+2025-01-13 12:52:26,229 - CRL_OCSP_Proxy - [DEBUG] -   Content-Type: application/ocsp-response
+2025-01-13 12:52:26,229 - CRL_OCSP_Proxy - [DEBUG] -   Content-Length: 1916
+2025-01-13 12:52:26,229 - CRL_OCSP_Proxy - [DEBUG] -   Connection: keep-alive
+2025-01-13 12:52:26,229 - CRL_OCSP_Proxy - [DEBUG] -   x-amzn-RequestId: 8f9faa36-86ed-4925-be6c-f469f10c3602
+2025-01-13 12:52:26,229 - CRL_OCSP_Proxy - [DEBUG] -   Access-Control-Allow-Origin: *
+2025-01-13 12:52:26,229 - CRL_OCSP_Proxy - [DEBUG] -   x-amz-apigw-id: EUyzXEb1Ai0EgtQ=
+2025-01-13 12:52:26,229 - CRL_OCSP_Proxy - [DEBUG] -   X-Amzn-Trace-Id: Root=1-6784fe7b-0f8e6c7b717b392267ea10ce;Parent=3cc6e15dbb0b2c3e;Sampled=0;Lineage=1:e924009f:0
+2025-01-13 12:52:26,229 - CRL_OCSP_Proxy - [DEBUG] - Content Length: 1916 bytes
+2025-01-13 12:52:26,229 - CRL_OCSP_Proxy - [DEBUG] - 
+=== OCSP Response Details ===
+2025-01-13 12:52:26,229 - CRL_OCSP_Proxy - [DEBUG] - Response Status: successful
+2025-01-13 12:52:26,229 - CRL_OCSP_Proxy - [DEBUG] - Version: v1
+2025-01-13 12:52:26,229 - CRL_OCSP_Proxy - [DEBUG] - Responder ID: OrderedDict([('country_name', 'ES'), ('state_or_province_name', 'VALENCIA'), ('locality_name', 'BURJASSOT'), ('organization_name', 'xxxx'), ('serial_number', 'Axxx73396'), ('common_name', 'Servidor OCSP xxxxCA120 DE xxxx-ISTEC')])
+2025-01-13 12:52:26,229 - CRL_OCSP_Proxy - [DEBUG] - Produced At: 2025-01-13 11:52:27+00:00
+2025-01-13 12:52:26,229 - CRL_OCSP_Proxy - [DEBUG] - 
+Certificate Status: good
+2025-01-13 12:52:26,229 - CRL_OCSP_Proxy - [DEBUG] -   This Update: 2025-01-13 10:10:31+00:00
+2025-01-13 12:52:26,229 - CRL_OCSP_Proxy - [DEBUG] -   Next Update: 2025-01-16 10:10:31+00:00
+2025-01-13 12:52:35,248 - CRL_OCSP_Proxy - [DEBUG] - 
+======================================================================
+2025-01-13 12:52:35,248 - CRL_OCSP_Proxy - [DEBUG] - Nueva petición POST - 2025-01-13T12:52:35.248498
+2025-01-13 12:52:35,248 - CRL_OCSP_Proxy - [DEBUG] - Method: POST
+2025-01-13 12:52:35,248 - CRL_OCSP_Proxy - [DEBUG] - Path: /
+2025-01-13 12:52:35,248 - CRL_OCSP_Proxy - [DEBUG] - Protocol Version: HTTP/1.0
+2025-01-13 12:52:35,248 - CRL_OCSP_Proxy - [DEBUG] - Client Address: ('127.0.0.1', 54197)
+2025-01-13 12:52:35,248 - CRL_OCSP_Proxy - [DEBUG] - 
+Headers recibidos:
+2025-01-13 12:52:35,248 - CRL_OCSP_Proxy - [DEBUG] -   Accept: */*
+2025-01-13 12:52:35,248 - CRL_OCSP_Proxy - [DEBUG] -   Content-Type: application/ocsp-request
+2025-01-13 12:52:35,251 - CRL_OCSP_Proxy - [DEBUG] -   Content-Length: 155
+2025-01-13 12:52:35,251 - CRL_OCSP_Proxy - [DEBUG] -   Character-Encoding: binary
+2025-01-13 12:52:35,251 - CRL_OCSP_Proxy - [DEBUG] -   User-Agent: PPKHandler
+2025-01-13 12:52:35,251 - CRL_OCSP_Proxy - [DEBUG] -   Host: ocsp.xxxx.es
+2025-01-13 12:52:35,251 - CRL_OCSP_Proxy - [DEBUG] -   Connection: Keep-Alive
+2025-01-13 12:52:35,251 - CRL_OCSP_Proxy - [DEBUG] -   Cache-Control: no-cache
+2025-01-13 12:52:35,251 - CRL_OCSP_Proxy - [DEBUG] - 
+=== OCSP Request Details ===
+2025-01-13 12:52:35,251 - CRL_OCSP_Proxy - [DEBUG] - Version: v1
+2025-01-13 12:52:35,251 - CRL_OCSP_Proxy - [DEBUG] - 
+Requested Certificate:
+2025-01-13 12:52:35,251 - CRL_OCSP_Proxy - [DEBUG] -   Hash Algorithm: sha1
+2025-01-13 12:52:35,251 - CRL_OCSP_Proxy - [DEBUG] -   Issuer Name Hash: 4959446cba6569e93af75cddf7ca65b078f852f2
+2025-01-13 12:52:35,251 - CRL_OCSP_Proxy - [DEBUG] -   Issuer Key Hash: e8409b8efb663fc144d8a1dfd44a81420817cbe5
+2025-01-13 12:52:35,251 - CRL_OCSP_Proxy - [DEBUG] -   Serial Number: xxx293361980993820391764910620631686006
+2025-01-13 12:52:35,251 - CRL_OCSP_Proxy - [DEBUG] - 
+Request Extensions:
+2025-01-13 12:52:35,251 - CRL_OCSP_Proxy - [DEBUG] -   acceptable_responses: ['basic_ocsp_response']
+2025-01-13 12:52:35,251 - CRL_OCSP_Proxy - [DEBUG] -   nonce: b'xn6\xa4\x83}\xf6\xf7I\xea\x95\x89w\x8fF\xbd'
+2025-01-13 12:52:35,251 - CRL_OCSP_Proxy - [DEBUG] - 
+Enviando petición a AWS Gateway:
+2025-01-13 12:52:35,251 - CRL_OCSP_Proxy - [DEBUG] - URL: https://XXX3qwi566.execute-api.eu-north-1.amazonaws.com/prod/ocsp
+2025-01-13 12:52:35,256 - urllib3.connectionpool - [DEBUG] - Starting new HTTPS connection (1): XXX3qwi566.execute-api.eu-north-1.amazonaws.com:443
+2025-01-13 12:52:35,652 - urllib3.connectionpool - [DEBUG] - https://XXX3qwi566.execute-api.eu-north-1.amazonaws.com:443 "POST /prod/ocsp HTTP/1.1" 200 1916
+2025-01-13 12:52:35,652 - CRL_OCSP_Proxy - [DEBUG] - 
+Detalles de la respuesta:
+2025-01-13 12:52:35,652 - CRL_OCSP_Proxy - [DEBUG] - Status Code: 200
+2025-01-13 12:52:35,655 - CRL_OCSP_Proxy - [DEBUG] - Reason: OK
+2025-01-13 12:52:35,655 - CRL_OCSP_Proxy - [DEBUG] - 
+Headers de respuesta:
+2025-01-13 12:52:35,655 - CRL_OCSP_Proxy - [DEBUG] -   Date: Mon, 13 Jan 2025 11:52:37 GMT
+2025-01-13 12:52:35,655 - CRL_OCSP_Proxy - [DEBUG] -   Content-Type: application/ocsp-response
+2025-01-13 12:52:35,655 - CRL_OCSP_Proxy - [DEBUG] -   Content-Length: 1916
+2025-01-13 12:52:35,655 - CRL_OCSP_Proxy - [DEBUG] -   Connection: keep-alive
+2025-01-13 12:52:35,655 - CRL_OCSP_Proxy - [DEBUG] -   x-amzn-RequestId: 4cf544ef-96dc-4e8d-802e-d1a1e15553f0
+2025-01-13 12:52:35,655 - CRL_OCSP_Proxy - [DEBUG] -   Access-Control-Allow-Origin: *
+2025-01-13 12:52:35,655 - CRL_OCSP_Proxy - [DEBUG] -   x-amz-apigw-id: EUy01EGpgi0EaFg=
+2025-01-13 12:52:35,655 - CRL_OCSP_Proxy - [DEBUG] -   X-Amzn-Trace-Id: Root=1-6784fe84-7a344e22190b06b7224175ec;Parent=36ab0dc93fc5d16b;Sampled=0;Lineage=1:e924009f:0
+2025-01-13 12:52:35,655 - CRL_OCSP_Proxy - [DEBUG] - Content Length: 1916 bytes
+2025-01-13 12:52:35,657 - CRL_OCSP_Proxy - [DEBUG] - 
+=== OCSP Response Details ===
+2025-01-13 12:52:35,657 - CRL_OCSP_Proxy - [DEBUG] - Response Status: successful
+2025-01-13 12:52:35,657 - CRL_OCSP_Proxy - [DEBUG] - Version: v1
+2025-01-13 12:52:35,657 - CRL_OCSP_Proxy - [DEBUG] - Responder ID: OrderedDict([('country_name', 'ES'), ('state_or_province_name', 'VALENCIA'), ('locality_name', 'BURJASSOT'), ('organization_name', 'xxxx'), ('serial_number', 'Axxx73396'), ('common_name', 'Servidor OCSP xxxxCA120 DE xxxx-ISTEC')])
+2025-01-13 12:52:35,657 - CRL_OCSP_Proxy - [DEBUG] - Produced At: 2025-01-13 11:52:37+00:00
+2025-01-13 12:52:35,657 - CRL_OCSP_Proxy - [DEBUG] - 
+Certificate Status: good
+2025-01-13 12:52:35,657 - CRL_OCSP_Proxy - [DEBUG] -   This Update: 2025-01-13 10:10:31+00:00
+2025-01-13 12:52:35,657 - CRL_OCSP_Proxy - [DEBUG] -   Next Update: 2025-01-16 10:10:31+00:00
+2025-01-13 12:52:43,798 - CRL_OCSP_Proxy - [DEBUG] - 
+======================================================================
+2025-01-13 12:52:43,798 - CRL_OCSP_Proxy - [DEBUG] - Nueva petición POST - 2025-01-13T12:52:43.798138
+2025-01-13 12:52:43,798 - CRL_OCSP_Proxy - [DEBUG] - Method: POST
+2025-01-13 12:52:43,798 - CRL_OCSP_Proxy - [DEBUG] - Path: /
+2025-01-13 12:52:43,798 - CRL_OCSP_Proxy - [DEBUG] - Protocol Version: HTTP/1.0
+2025-01-13 12:52:43,798 - CRL_OCSP_Proxy - [DEBUG] - Client Address: ('127.0.0.1', 54202)
+2025-01-13 12:52:43,798 - CRL_OCSP_Proxy - [DEBUG] - 
+Headers recibidos:
+2025-01-13 12:52:43,798 - CRL_OCSP_Proxy - [DEBUG] -   Accept: */*
+2025-01-13 12:52:43,798 - CRL_OCSP_Proxy - [DEBUG] -   Content-Type: application/ocsp-request
+2025-01-13 12:52:43,798 - CRL_OCSP_Proxy - [DEBUG] -   Content-Length: 155
+2025-01-13 12:52:43,798 - CRL_OCSP_Proxy - [DEBUG] -   Character-Encoding: binary
+2025-01-13 12:52:43,798 - CRL_OCSP_Proxy - [DEBUG] -   User-Agent: PPKHandler
+2025-01-13 12:52:43,798 - CRL_OCSP_Proxy - [DEBUG] -   Host: ocsp.xxxx.es
+2025-01-13 12:52:43,798 - CRL_OCSP_Proxy - [DEBUG] -   Connection: Keep-Alive
+2025-01-13 12:52:43,798 - CRL_OCSP_Proxy - [DEBUG] -   Cache-Control: no-cache
+2025-01-13 12:52:43,798 - CRL_OCSP_Proxy - [DEBUG] - 
+=== OCSP Request Details ===
+2025-01-13 12:52:43,806 - CRL_OCSP_Proxy - [DEBUG] - Version: v1
+2025-01-13 12:52:43,806 - CRL_OCSP_Proxy - [DEBUG] - 
+Requested Certificate:
+2025-01-13 12:52:43,806 - CRL_OCSP_Proxy - [DEBUG] -   Hash Algorithm: sha1
+2025-01-13 12:52:43,806 - CRL_OCSP_Proxy - [DEBUG] -   Issuer Name Hash: 4959446cba6569e93af75cddf7ca65b078f852f2
+2025-01-13 12:52:43,806 - CRL_OCSP_Proxy - [DEBUG] -   Issuer Key Hash: e8409b8efb663fc144d8a1dfd44a81420817cbe5
+2025-01-13 12:52:43,806 - CRL_OCSP_Proxy - [DEBUG] -   Serial Number: xxx293361980993820391764910620631686006
+2025-01-13 12:52:43,806 - CRL_OCSP_Proxy - [DEBUG] - 
+Request Extensions:
+2025-01-13 12:52:43,806 - CRL_OCSP_Proxy - [DEBUG] -   acceptable_responses: ['basic_ocsp_response']
+2025-01-13 12:52:43,806 - CRL_OCSP_Proxy - [DEBUG] -   nonce: b'\x0e\xcfD\xb6\x12=\x11\xdf\xca(h\xb5\x1b\xf6;\x7f'
+2025-01-13 12:52:43,806 - CRL_OCSP_Proxy - [DEBUG] - 
+Enviando petición a AWS Gateway:
+2025-01-13 12:52:43,806 - CRL_OCSP_Proxy - [DEBUG] - URL: https://XXX3qwi566.execute-api.eu-north-1.amazonaws.com/prod/ocsp
+2025-01-13 12:52:43,806 - urllib3.connectionpool - [DEBUG] - Starting new HTTPS connection (1): XXX3qwi566.execute-api.eu-north-1.amazonaws.com:443
+2025-01-13 12:52:44,106 - urllib3.connectionpool - [DEBUG] - https://XXX3qwi566.execute-api.eu-north-1.amazonaws.com:443 "POST /prod/ocsp HTTP/1.1" 200 1916
+2025-01-13 12:52:44,106 - CRL_OCSP_Proxy - [DEBUG] - 
+Detalles de la respuesta:
+2025-01-13 12:52:44,106 - CRL_OCSP_Proxy - [DEBUG] - Status Code: 200
+2025-01-13 12:52:44,106 - CRL_OCSP_Proxy - [DEBUG] - Reason: OK
+2025-01-13 12:52:44,106 - CRL_OCSP_Proxy - [DEBUG] - 
+Headers de respuesta:
+2025-01-13 12:52:44,106 - CRL_OCSP_Proxy - [DEBUG] -   Date: Mon, 13 Jan 2025 11:52:45 GMT
+2025-01-13 12:52:44,106 - CRL_OCSP_Proxy - [DEBUG] -   Content-Type: application/ocsp-response
+2025-01-13 12:52:44,106 - CRL_OCSP_Proxy - [DEBUG] -   Content-Length: 1916
+2025-01-13 12:52:44,106 - CRL_OCSP_Proxy - [DEBUG] -   Connection: keep-alive
+2025-01-13 12:52:44,106 - CRL_OCSP_Proxy - [DEBUG] -   x-amzn-RequestId: 3a01cb14-71ac-43ae-905c-dbc7ed7971ec
+2025-01-13 12:52:44,106 - CRL_OCSP_Proxy - [DEBUG] -   Access-Control-Allow-Origin: *
+2025-01-13 12:52:44,106 - CRL_OCSP_Proxy - [DEBUG] -   x-amz-apigw-id: EUy2KHqbAi0EnGA=
+2025-01-13 12:52:44,106 - CRL_OCSP_Proxy - [DEBUG] -   X-Amzn-Trace-Id: Root=1-6784fe8d-3e51884105b3935e697fbf9e;Parent=1e0aa8d02c802ade;Sampled=0;Lineage=1:e924009f:0
+2025-01-13 12:52:44,106 - CRL_OCSP_Proxy - [DEBUG] - Content Length: 1916 bytes
+2025-01-13 12:52:44,106 - CRL_OCSP_Proxy - [DEBUG] - 
+=== OCSP Response Details ===
+2025-01-13 12:52:44,106 - CRL_OCSP_Proxy - [DEBUG] - Response Status: successful
+2025-01-13 12:52:44,106 - CRL_OCSP_Proxy - [DEBUG] - Version: v1
+2025-01-13 12:52:44,106 - CRL_OCSP_Proxy - [DEBUG] - Responder ID: OrderedDict([('country_name', 'ES'), ('state_or_province_name', 'VALENCIA'), ('locality_name', 'BURJASSOT'), ('organization_name', 'xxxx'), ('serial_number', 'Axxx73396'), ('common_name', 'Servidor OCSP xxxxCA120 DE xxxx-ISTEC')])
+2025-01-13 12:52:44,106 - CRL_OCSP_Proxy - [DEBUG] - Produced At: 2025-01-13 11:52:45+00:00
+2025-01-13 12:52:44,106 - CRL_OCSP_Proxy - [DEBUG] - 
+Certificate Status: good
+2025-01-13 12:52:44,106 - CRL_OCSP_Proxy - [DEBUG] -   This Update: 2025-01-13 10:10:31+00:00
+2025-01-13 12:52:44,106 - CRL_OCSP_Proxy - [DEBUG] -   Next Update: 2025-01-16 10:10:31+00:00
+2025-01-13 12:52:53,687 - CRL_OCSP_Proxy - [DEBUG] - 
+======================================================================
+2025-01-13 12:52:53,687 - CRL_OCSP_Proxy - [DEBUG] - Nueva petición POST - 2025-01-13T12:52:53.687242
+2025-01-13 12:52:53,687 - CRL_OCSP_Proxy - [DEBUG] - Method: POST
+2025-01-13 12:52:53,687 - CRL_OCSP_Proxy - [DEBUG] - Path: /
+2025-01-13 12:52:53,687 - CRL_OCSP_Proxy - [DEBUG] - Protocol Version: HTTP/1.0
+2025-01-13 12:52:53,687 - CRL_OCSP_Proxy - [DEBUG] - Client Address: ('127.0.0.1', 54206)
+2025-01-13 12:52:53,687 - CRL_OCSP_Proxy - [DEBUG] - 
+Headers recibidos:
+2025-01-13 12:52:53,687 - CRL_OCSP_Proxy - [DEBUG] -   Accept: */*
+2025-01-13 12:52:53,687 - CRL_OCSP_Proxy - [DEBUG] -   Content-Type: application/ocsp-request
+2025-01-13 12:52:53,694 - CRL_OCSP_Proxy - [DEBUG] -   Content-Length: 155
+2025-01-13 12:52:53,694 - CRL_OCSP_Proxy - [DEBUG] -   Character-Encoding: binary
+2025-01-13 12:52:53,694 - CRL_OCSP_Proxy - [DEBUG] -   User-Agent: PPKHandler
+2025-01-13 12:52:53,694 - CRL_OCSP_Proxy - [DEBUG] -   Host: ocsp.xxxx.es
+2025-01-13 12:52:53,694 - CRL_OCSP_Proxy - [DEBUG] -   Connection: Keep-Alive
+2025-01-13 12:52:53,694 - CRL_OCSP_Proxy - [DEBUG] -   Cache-Control: no-cache
+2025-01-13 12:52:53,694 - CRL_OCSP_Proxy - [DEBUG] - 
+=== OCSP Request Details ===
+2025-01-13 12:52:53,694 - CRL_OCSP_Proxy - [DEBUG] - Version: v1
+2025-01-13 12:52:53,694 - CRL_OCSP_Proxy - [DEBUG] - 
+Requested Certificate:
+2025-01-13 12:52:53,694 - CRL_OCSP_Proxy - [DEBUG] -   Hash Algorithm: sha1
+2025-01-13 12:52:53,694 - CRL_OCSP_Proxy - [DEBUG] -   Issuer Name Hash: 4959446cba6569e93af75cddf7ca65b078f852f2
+2025-01-13 12:52:53,694 - CRL_OCSP_Proxy - [DEBUG] -   Issuer Key Hash: e8409b8efb663fc144d8a1dfd44a81420817cbe5
+2025-01-13 12:52:53,694 - CRL_OCSP_Proxy - [DEBUG] -   Serial Number: xxx293361980993820391764910620631686006
+2025-01-13 12:52:53,694 - CRL_OCSP_Proxy - [DEBUG] - 
+Request Extensions:
+2025-01-13 12:52:53,694 - CRL_OCSP_Proxy - [DEBUG] -   acceptable_responses: ['basic_ocsp_response']
+2025-01-13 12:52:53,694 - CRL_OCSP_Proxy - [DEBUG] -   nonce: b',\xeb\xc8\x08k\xf3Zm\xf2O\x8b\x86\xdc\x03 \xe3'
+2025-01-13 12:52:53,694 - CRL_OCSP_Proxy - [DEBUG] - 
+Enviando petición a AWS Gateway:
+2025-01-13 12:52:53,694 - CRL_OCSP_Proxy - [DEBUG] - URL: https://XXX3qwi566.execute-api.eu-north-1.amazonaws.com/prod/ocsp
+2025-01-13 12:52:53,694 - urllib3.connectionpool - [DEBUG] - Starting new HTTPS connection (1): XXX3qwi566.execute-api.eu-north-1.amazonaws.com:443
+2025-01-13 12:52:54,078 - urllib3.connectionpool - [DEBUG] - https://XXX3qwi566.execute-api.eu-north-1.amazonaws.com:443 "POST /prod/ocsp HTTP/1.1" 200 1916
+2025-01-13 12:52:54,078 - CRL_OCSP_Proxy - [DEBUG] - 
+Detalles de la respuesta:
+2025-01-13 12:52:54,078 - CRL_OCSP_Proxy - [DEBUG] - Status Code: 200
+2025-01-13 12:52:54,078 - CRL_OCSP_Proxy - [DEBUG] - Reason: OK
+2025-01-13 12:52:54,078 - CRL_OCSP_Proxy - [DEBUG] - 
+Headers de respuesta:
+2025-01-13 12:52:54,078 - CRL_OCSP_Proxy - [DEBUG] -   Date: Mon, 13 Jan 2025 11:52:55 GMT
+2025-01-13 12:52:54,081 - CRL_OCSP_Proxy - [DEBUG] -   Content-Type: application/ocsp-response
+2025-01-13 12:52:54,081 - CRL_OCSP_Proxy - [DEBUG] -   Content-Length: 1916
+2025-01-13 12:52:54,081 - CRL_OCSP_Proxy - [DEBUG] -   Connection: keep-alive
+2025-01-13 12:52:54,081 - CRL_OCSP_Proxy - [DEBUG] -   x-amzn-RequestId: 7f2e1ceb-fdfe-42b7-9375-2fec2299ae37
+2025-01-13 12:52:54,081 - CRL_OCSP_Proxy - [DEBUG] -   Access-Control-Allow-Origin: *
+2025-01-13 12:52:54,081 - CRL_OCSP_Proxy - [DEBUG] -   x-amz-apigw-id: EUy3tFRRgi0EEjw=
+2025-01-13 12:52:54,081 - CRL_OCSP_Proxy - [DEBUG] -   X-Amzn-Trace-Id: Root=1-6784fe97-48570b9279bf7fa07eb38053;Parent=3f8345b18b98878d;Sampled=0;Lineage=1:e924009f:0
+2025-01-13 12:52:54,081 - CRL_OCSP_Proxy - [DEBUG] - Content Length: 1916 bytes
+2025-01-13 12:52:54,081 - CRL_OCSP_Proxy - [DEBUG] - 
+=== OCSP Response Details ===
+2025-01-13 12:52:54,081 - CRL_OCSP_Proxy - [DEBUG] - Response Status: successful
+2025-01-13 12:52:54,081 - CRL_OCSP_Proxy - [DEBUG] - Version: v1
+2025-01-13 12:52:54,081 - CRL_OCSP_Proxy - [DEBUG] - Responder ID: OrderedDict([('country_name', 'ES'), ('state_or_province_name', 'VALENCIA'), ('locality_name', 'BURJASSOT'), ('organization_name', 'xxxx'), ('serial_number', 'Axxx73396'), ('common_name', 'Servidor OCSP xxxxCA120 DE xxxx-ISTEC')])
+2025-01-13 12:52:54,081 - CRL_OCSP_Proxy - [DEBUG] - Produced At: 2025-01-13 11:52:55+00:00
+2025-01-13 12:52:54,081 - CRL_OCSP_Proxy - [DEBUG] - 
+Certificate Status: good
+2025-01-13 12:52:54,084 - CRL_OCSP_Proxy - [DEBUG] -   This Update: 2025-01-13 10:10:31+00:00
+2025-01-13 12:52:54,084 - CRL_OCSP_Proxy - [DEBUG] -   Next Update: 2025-01-16 10:10:31+00:00
+2025-01-13 13:00:20,925 - CRL_OCSP_Proxy - [DEBUG] - 
+======================================================================
+2025-01-13 13:00:20,925 - CRL_OCSP_Proxy - [DEBUG] - Nueva petición POST - 2025-01-13T13:00:20.925878
+2025-01-13 13:00:20,925 - CRL_OCSP_Proxy - [DEBUG] - Method: POST
+2025-01-13 13:00:20,928 - CRL_OCSP_Proxy - [DEBUG] - Path: /
+2025-01-13 13:00:20,928 - CRL_OCSP_Proxy - [DEBUG] - Protocol Version: HTTP/1.0
+2025-01-13 13:00:20,928 - CRL_OCSP_Proxy - [DEBUG] - Client Address: ('127.0.0.1', 54476)
+2025-01-13 13:00:20,928 - CRL_OCSP_Proxy - [DEBUG] - 
+Headers recibidos:
+2025-01-13 13:00:20,928 - CRL_OCSP_Proxy - [DEBUG] -   Accept: */*
+2025-01-13 13:00:20,928 - CRL_OCSP_Proxy - [DEBUG] -   Content-Type: application/ocsp-request
+2025-01-13 13:00:20,928 - CRL_OCSP_Proxy - [DEBUG] -   Content-Length: 155
+2025-01-13 13:00:20,928 - CRL_OCSP_Proxy - [DEBUG] -   Character-Encoding: binary
+2025-01-13 13:00:20,928 - CRL_OCSP_Proxy - [DEBUG] -   User-Agent: PPKHandler
+2025-01-13 13:00:20,928 - CRL_OCSP_Proxy - [DEBUG] -   Host: ocsp.xxxx.es
+2025-01-13 13:00:20,928 - CRL_OCSP_Proxy - [DEBUG] -   Connection: Keep-Alive
+2025-01-13 13:00:20,928 - CRL_OCSP_Proxy - [DEBUG] -   Cache-Control: no-cache
+2025-01-13 13:00:20,928 - CRL_OCSP_Proxy - [DEBUG] - 
+=== OCSP Request Details ===
+2025-01-13 13:00:20,928 - CRL_OCSP_Proxy - [DEBUG] - Version: v1
+2025-01-13 13:00:20,928 - CRL_OCSP_Proxy - [DEBUG] - 
+Requested Certificate:
+2025-01-13 13:00:20,928 - CRL_OCSP_Proxy - [DEBUG] -   Hash Algorithm: sha1
+2025-01-13 13:00:20,928 - CRL_OCSP_Proxy - [DEBUG] -   Issuer Name Hash: 4959446cba6569e93af75cddf7ca65b078f852f2
+2025-01-13 13:00:20,928 - CRL_OCSP_Proxy - [DEBUG] -   Issuer Key Hash: e8409b8efb663fc144d8a1dfd44a81420817cbe5
+2025-01-13 13:00:20,928 - CRL_OCSP_Proxy - [DEBUG] -   Serial Number: xxx293361980993820391764910620631686006
+2025-01-13 13:00:20,928 - CRL_OCSP_Proxy - [DEBUG] - 
+Request Extensions:
+2025-01-13 13:00:20,928 - CRL_OCSP_Proxy - [DEBUG] -   acceptable_responses: ['basic_ocsp_response']
+2025-01-13 13:00:20,928 - CRL_OCSP_Proxy - [DEBUG] -   nonce: b'\x8f\xa3\x9c&\x10v\xb0Q\x13\xfeI\xe4\xe7.Y\x84'
+2025-01-13 13:00:20,928 - CRL_OCSP_Proxy - [DEBUG] - 
+Enviando petición a AWS Gateway:
+2025-01-13 13:00:20,932 - CRL_OCSP_Proxy - [DEBUG] - URL: https://XXX3qwi566.execute-api.eu-north-1.amazonaws.com/prod/ocsp
+2025-01-13 13:00:20,933 - urllib3.connectionpool - [DEBUG] - Starting new HTTPS connection (1): XXX3qwi566.execute-api.eu-north-1.amazonaws.com:443
+2025-01-13 13:00:22,136 - urllib3.connectionpool - [DEBUG] - https://XXX3qwi566.execute-api.eu-north-1.amazonaws.com:443 "POST /prod/ocsp HTTP/1.1" 200 1916
+2025-01-13 13:00:22,136 - CRL_OCSP_Proxy - [DEBUG] - 
+Detalles de la respuesta:
+2025-01-13 13:00:22,136 - CRL_OCSP_Proxy - [DEBUG] - Status Code: 200
+2025-01-13 13:00:22,136 - CRL_OCSP_Proxy - [DEBUG] - Reason: OK
+2025-01-13 13:00:22,136 - CRL_OCSP_Proxy - [DEBUG] - 
+Headers de respuesta:
+2025-01-13 13:00:22,136 - CRL_OCSP_Proxy - [DEBUG] -   Date: Mon, 13 Jan 2025 12:00:23 GMT
+2025-01-13 13:00:22,136 - CRL_OCSP_Proxy - [DEBUG] -   Content-Type: application/ocsp-response
+2025-01-13 13:00:22,136 - CRL_OCSP_Proxy - [DEBUG] -   Content-Length: 1916
+2025-01-13 13:00:22,136 - CRL_OCSP_Proxy - [DEBUG] -   Connection: keep-alive
+2025-01-13 13:00:22,136 - CRL_OCSP_Proxy - [DEBUG] -   x-amzn-RequestId: 9962993d-48a4-4fd0-a9fd-c61a508e4265
+2025-01-13 13:00:22,136 - CRL_OCSP_Proxy - [DEBUG] -   Access-Control-Allow-Origin: *
+2025-01-13 13:00:22,142 - CRL_OCSP_Proxy - [DEBUG] -   x-amz-apigw-id: EUz9mFnDAi0EpAA=
+2025-01-13 13:00:22,142 - CRL_OCSP_Proxy - [DEBUG] -   X-Amzn-Trace-Id: Root=1-67850056-68f9e61845f4342745a765a6;Parent=6335683503e96b0b;Sampled=0;Lineage=1:e924009f:0
+2025-01-13 13:00:22,142 - CRL_OCSP_Proxy - [DEBUG] - Content Length: 1916 bytes
+2025-01-13 13:00:22,142 - CRL_OCSP_Proxy - [DEBUG] - 
+=== OCSP Response Details ===
+2025-01-13 13:00:22,142 - CRL_OCSP_Proxy - [DEBUG] - Response Status: successful
+2025-01-13 13:00:22,142 - CRL_OCSP_Proxy - [DEBUG] - Version: v1
+2025-01-13 13:00:22,142 - CRL_OCSP_Proxy - [DEBUG] - Responder ID: OrderedDict([('country_name', 'ES'), ('state_or_province_name', 'VALENCIA'), ('locality_name', 'BURJASSOT'), ('organization_name', 'xxxx'), ('serial_number', 'Axxx73396'), ('common_name', 'Servidor OCSP xxxxCA120 DE xxxx-ISTEC')])
+2025-01-13 13:00:22,142 - CRL_OCSP_Proxy - [DEBUG] - Produced At: 2025-01-13 12:00:23+00:00
+2025-01-13 13:00:22,142 - CRL_OCSP_Proxy - [DEBUG] - 
+Certificate Status: good
+2025-01-13 13:00:22,142 - CRL_OCSP_Proxy - [DEBUG] -   This Update: 2025-01-13 10:10:31+00:00
+2025-01-13 13:00:22,142 - CRL_OCSP_Proxy - [DEBUG] -   Next Update: 2025-01-16 10:10:31+00:00
+2025-01-13 13:11:45,459 - CRL_OCSP_Proxy - [DEBUG] - 
+======================================================================
+2025-01-13 13:11:45,459 - CRL_OCSP_Proxy - [DEBUG] - Nueva petición POST - 2025-01-13T13:11:45.459751
+2025-01-13 13:11:45,459 - CRL_OCSP_Proxy - [DEBUG] - Method: POST
+2025-01-13 13:11:45,459 - CRL_OCSP_Proxy - [DEBUG] - Path: /
+2025-01-13 13:11:45,459 - CRL_OCSP_Proxy - [DEBUG] - Protocol Version: HTTP/1.0
+2025-01-13 13:11:45,459 - CRL_OCSP_Proxy - [DEBUG] - Client Address: ('127.0.0.1', 54796)
+2025-01-13 13:11:45,459 - CRL_OCSP_Proxy - [DEBUG] - 
+Headers recibidos:
+2025-01-13 13:11:45,459 - CRL_OCSP_Proxy - [DEBUG] -   Accept: */*
+2025-01-13 13:11:45,459 - CRL_OCSP_Proxy - [DEBUG] -   Content-Type: application/ocsp-request
+2025-01-13 13:11:45,459 - CRL_OCSP_Proxy - [DEBUG] -   Content-Length: 155
+2025-01-13 13:11:45,459 - CRL_OCSP_Proxy - [DEBUG] -   Character-Encoding: binary
+2025-01-13 13:11:45,459 - CRL_OCSP_Proxy - [DEBUG] -   User-Agent: PPKHandler
+2025-01-13 13:11:45,459 - CRL_OCSP_Proxy - [DEBUG] -   Host: ocsp.xxxx.es
+2025-01-13 13:11:45,459 - CRL_OCSP_Proxy - [DEBUG] -   Connection: Keep-Alive
+2025-01-13 13:11:45,459 - CRL_OCSP_Proxy - [DEBUG] -   Cache-Control: no-cache
+2025-01-13 13:11:45,459 - CRL_OCSP_Proxy - [DEBUG] - 
+=== OCSP Request Details ===
+2025-01-13 13:11:45,459 - CRL_OCSP_Proxy - [DEBUG] - Version: v1
+2025-01-13 13:11:45,459 - CRL_OCSP_Proxy - [DEBUG] - 
+Requested Certificate:
+2025-01-13 13:11:45,459 - CRL_OCSP_Proxy - [DEBUG] -   Hash Algorithm: sha1
+2025-01-13 13:11:45,459 - CRL_OCSP_Proxy - [DEBUG] -   Issuer Name Hash: 4959446cba6569e93af75cddf7ca65b078f852f2
+2025-01-13 13:11:45,459 - CRL_OCSP_Proxy - [DEBUG] -   Issuer Key Hash: e8409b8efb663fc144d8a1dfd44a81420817cbe5
+2025-01-13 13:11:45,459 - CRL_OCSP_Proxy - [DEBUG] -   Serial Number: xxx293361980993820391764910620631686006
+2025-01-13 13:11:45,459 - CRL_OCSP_Proxy - [DEBUG] - 
+Request Extensions:
+2025-01-13 13:11:45,459 - CRL_OCSP_Proxy - [DEBUG] -   acceptable_responses: ['basic_ocsp_response']
+2025-01-13 13:11:45,459 - CRL_OCSP_Proxy - [DEBUG] -   nonce: b"\xb2\xa5\xff\x8f,\x12\xfb'\xde\xe3\x00\x12]\xa3\x07l"
+2025-01-13 13:11:45,459 - CRL_OCSP_Proxy - [DEBUG] - 
+Enviando petición a AWS Gateway:
+2025-01-13 13:11:45,459 - CRL_OCSP_Proxy - [DEBUG] - URL: https://XXX3qwi566.execute-api.eu-north-1.amazonaws.com/prod/ocsp
+2025-01-13 13:11:45,465 - urllib3.connectionpool - [DEBUG] - Starting new HTTPS connection (1): XXX3qwi566.execute-api.eu-north-1.amazonaws.com:443
+2025-01-13 13:11:46,525 - urllib3.connectionpool - [DEBUG] - https://XXX3qwi566.execute-api.eu-north-1.amazonaws.com:443 "POST /prod/ocsp HTTP/1.1" 200 1916
+2025-01-13 13:11:46,536 - CRL_OCSP_Proxy - [DEBUG] - 
+Detalles de la respuesta:
+2025-01-13 13:11:46,536 - CRL_OCSP_Proxy - [DEBUG] - Status Code: 200
+2025-01-13 13:11:46,536 - CRL_OCSP_Proxy - [DEBUG] - Reason: OK
+2025-01-13 13:11:46,536 - CRL_OCSP_Proxy - [DEBUG] - 
+Headers de respuesta:
+2025-01-13 13:11:46,536 - CRL_OCSP_Proxy - [DEBUG] -   Date: Mon, 13 Jan 2025 12:11:47 GMT
+2025-01-13 13:11:46,536 - CRL_OCSP_Proxy - [DEBUG] -   Content-Type: application/ocsp-response
+2025-01-13 13:11:46,536 - CRL_OCSP_Proxy - [DEBUG] -   Content-Length: 1916
+2025-01-13 13:11:46,536 - CRL_OCSP_Proxy - [DEBUG] -   Connection: keep-alive
+2025-01-13 13:11:46,538 - CRL_OCSP_Proxy - [DEBUG] -   x-amzn-RequestId: 45cee802-bd11-4ed0-9c9d-305fa1163021
+2025-01-13 13:11:46,538 - CRL_OCSP_Proxy - [DEBUG] -   Access-Control-Allow-Origin: *
+2025-01-13 13:11:46,538 - CRL_OCSP_Proxy - [DEBUG] -   x-amz-apigw-id: EU1ojGn8Ai0EdDQ=
+2025-01-13 13:11:46,538 - CRL_OCSP_Proxy - [DEBUG] -   X-Amzn-Trace-Id: Root=1-67850303-194562650627056d1fe9dc08;Parent=258cf233015331da;Sampled=0;Lineage=1:e924009f:0
+2025-01-13 13:11:46,538 - CRL_OCSP_Proxy - [DEBUG] - Content Length: 1916 bytes
+2025-01-13 13:11:46,538 - CRL_OCSP_Proxy - [DEBUG] - 
+=== OCSP Response Details ===
+2025-01-13 13:11:46,538 - CRL_OCSP_Proxy - [DEBUG] - Response Status: successful
+2025-01-13 13:11:46,539 - CRL_OCSP_Proxy - [DEBUG] - Version: v1
+2025-01-13 13:11:46,539 - CRL_OCSP_Proxy - [DEBUG] - Responder ID: OrderedDict([('country_name', 'ES'), ('state_or_province_name', 'VALENCIA'), ('locality_name', 'BURJASSOT'), ('organization_name', 'xxxx'), ('serial_number', 'Axxx73396'), ('common_name', 'Servidor OCSP xxxxCA120 DE xxxx-ISTEC')])
+2025-01-13 13:11:46,539 - CRL_OCSP_Proxy - [DEBUG] - Produced At: 2025-01-13 12:11:47+00:00
+2025-01-13 13:11:46,540 - CRL_OCSP_Proxy - [DEBUG] - 
+Certificate Status: good
+2025-01-13 13:11:46,540 - CRL_OCSP_Proxy - [DEBUG] -   This Update: 2025-01-13 10:10:31+00:00
+2025-01-13 13:11:46,540 - CRL_OCSP_Proxy - [DEBUG] -   Next Update: 2025-01-16 10:10:31+00:00
+2025-01-13 13:44:00,780 - CRL_OCSP_Proxy - [DEBUG] - 
+======================================================================
+2025-01-13 13:44:00,780 - CRL_OCSP_Proxy - [DEBUG] - Nueva petición POST - 2025-01-13T13:44:00.780007
+2025-01-13 13:44:00,780 - CRL_OCSP_Proxy - [DEBUG] - Method: POST
+2025-01-13 13:44:00,780 - CRL_OCSP_Proxy - [DEBUG] - Path: /
+2025-01-13 13:44:00,780 - CRL_OCSP_Proxy - [DEBUG] - Protocol Version: HTTP/1.0
+2025-01-13 13:44:00,780 - CRL_OCSP_Proxy - [DEBUG] - Client Address: ('127.0.0.1', 55591)
+2025-01-13 13:44:00,780 - CRL_OCSP_Proxy - [DEBUG] - 
+Headers recibidos:
+2025-01-13 13:44:00,780 - CRL_OCSP_Proxy - [DEBUG] -   Accept: */*
+2025-01-13 13:44:00,780 - CRL_OCSP_Proxy - [DEBUG] -   Content-Type: application/ocsp-request
+2025-01-13 13:44:00,782 - CRL_OCSP_Proxy - [DEBUG] -   Content-Length: 155
+2025-01-13 13:44:00,782 - CRL_OCSP_Proxy - [DEBUG] -   Character-Encoding: binary
+2025-01-13 13:44:00,782 - CRL_OCSP_Proxy - [DEBUG] -   User-Agent: PPKHandler
+2025-01-13 13:44:00,782 - CRL_OCSP_Proxy - [DEBUG] -   Host: ocsp.xxxx.es
+2025-01-13 13:44:00,782 - CRL_OCSP_Proxy - [DEBUG] -   Connection: Keep-Alive
+2025-01-13 13:44:00,782 - CRL_OCSP_Proxy - [DEBUG] -   Cache-Control: no-cache
+2025-01-13 13:44:00,782 - CRL_OCSP_Proxy - [DEBUG] - 
+=== OCSP Request Details ===
+2025-01-13 13:44:00,782 - CRL_OCSP_Proxy - [DEBUG] - Version: v1
+2025-01-13 13:44:00,782 - CRL_OCSP_Proxy - [DEBUG] - 
+Requested Certificate:
+2025-01-13 13:44:00,782 - CRL_OCSP_Proxy - [DEBUG] -   Hash Algorithm: sha1
+2025-01-13 13:44:00,782 - CRL_OCSP_Proxy - [DEBUG] -   Issuer Name Hash: 4959446cba6569e93af75cddf7ca65b078f852f2
+2025-01-13 13:44:00,784 - CRL_OCSP_Proxy - [DEBUG] -   Issuer Key Hash: e8409b8efb663fc144d8a1dfd44a81420817cbe5
+2025-01-13 13:44:00,784 - CRL_OCSP_Proxy - [DEBUG] -   Serial Number: xxx293361980993820391764910620631686006
+2025-01-13 13:44:00,784 - CRL_OCSP_Proxy - [DEBUG] - 
+Request Extensions:
+2025-01-13 13:44:00,784 - CRL_OCSP_Proxy - [DEBUG] -   acceptable_responses: ['basic_ocsp_response']
+2025-01-13 13:44:00,784 - CRL_OCSP_Proxy - [DEBUG] -   nonce: b'\x83-\xf2\x9e\x0e\x9fy\\\x13\xc7\x1e2\xd0g%\xc4'
+2025-01-13 13:44:00,784 - CRL_OCSP_Proxy - [DEBUG] - 
+Enviando petición a AWS Gateway:
+2025-01-13 13:44:00,784 - CRL_OCSP_Proxy - [DEBUG] - URL: https://XXX3qwi566.execute-api.eu-north-1.amazonaws.com/prod/ocsp
+2025-01-13 13:44:00,784 - urllib3.connectionpool - [DEBUG] - Starting new HTTPS connection (1): XXX3qwi566.execute-api.eu-north-1.amazonaws.com:443
+2025-01-13 13:44:02,199 - urllib3.connectionpool - [DEBUG] - https://XXX3qwi566.execute-api.eu-north-1.amazonaws.com:443 "POST /prod/ocsp HTTP/1.1" 200 1916
+2025-01-13 13:44:02,199 - CRL_OCSP_Proxy - [DEBUG] - 
+Detalles de la respuesta:
+2025-01-13 13:44:02,199 - CRL_OCSP_Proxy - [DEBUG] - Status Code: 200
+2025-01-13 13:44:02,199 - CRL_OCSP_Proxy - [DEBUG] - Reason: OK
+2025-01-13 13:44:02,199 - CRL_OCSP_Proxy - [DEBUG] - 
+Headers de respuesta:
+2025-01-13 13:44:02,199 - CRL_OCSP_Proxy - [DEBUG] -   Date: Mon, 13 Jan 2025 12:44:03 GMT
+2025-01-13 13:44:02,199 - CRL_OCSP_Proxy - [DEBUG] -   Content-Type: application/ocsp-response
+2025-01-13 13:44:02,199 - CRL_OCSP_Proxy - [DEBUG] -   Content-Length: 1916
+2025-01-13 13:44:02,199 - CRL_OCSP_Proxy - [DEBUG] -   Connection: keep-alive
+2025-01-13 13:44:02,199 - CRL_OCSP_Proxy - [DEBUG] -   x-amzn-RequestId: 36711f3f-a42c-41d2-9237-b40cf1fde6ea
+2025-01-13 13:44:02,199 - CRL_OCSP_Proxy - [DEBUG] -   Access-Control-Allow-Origin: *
+2025-01-13 13:44:02,199 - CRL_OCSP_Proxy - [DEBUG] -   x-amz-apigw-id: EU6W8Erqgi0Et6g=
+2025-01-13 13:44:02,199 - CRL_OCSP_Proxy - [DEBUG] -   X-Amzn-Trace-Id: Root=1-67850a92-305615db3501382e332282cc;Parent=1ca036df0b0fdcef;Sampled=0;Lineage=1:e924009f:0
+2025-01-13 13:44:02,199 - CRL_OCSP_Proxy - [DEBUG] - Content Length: 1916 bytes
+2025-01-13 13:44:02,199 - CRL_OCSP_Proxy - [DEBUG] - 
+=== OCSP Response Details ===
+2025-01-13 13:44:02,199 - CRL_OCSP_Proxy - [DEBUG] - Response Status: successful
+2025-01-13 13:44:02,199 - CRL_OCSP_Proxy - [DEBUG] - Version: v1
+2025-01-13 13:44:02,203 - CRL_OCSP_Proxy - [DEBUG] - Responder ID: OrderedDict([('country_name', 'ES'), ('state_or_province_name', 'VALENCIA'), ('locality_name', 'BURJASSOT'), ('organization_name', 'xxxx'), ('serial_number', 'Axxx73396'), ('common_name', 'Servidor OCSP xxxxCA120 DE xxxx-ISTEC')])
+2025-01-13 13:44:02,203 - CRL_OCSP_Proxy - [DEBUG] - Produced At: 2025-01-13 12:44:03+00:00
+2025-01-13 13:44:02,203 - CRL_OCSP_Proxy - [DEBUG] - 
+Certificate Status: good
+2025-01-13 13:44:02,203 - CRL_OCSP_Proxy - [DEBUG] -   This Update: 2025-01-13 10:10:31+00:00
+2025-01-13 13:44:02,203 - CRL_OCSP_Proxy - [DEBUG] -   Next Update: 2025-01-16 10:10:31+00:00
+2025-01-13 13:44:15,005 - CRL_OCSP_Proxy - [DEBUG] - 
+======================================================================
+2025-01-13 13:44:15,005 - CRL_OCSP_Proxy - [DEBUG] - Nueva petición POST - 2025-01-13T13:44:15.005977
+2025-01-13 13:44:15,005 - CRL_OCSP_Proxy - [DEBUG] - Method: POST
+2025-01-13 13:44:15,005 - CRL_OCSP_Proxy - [DEBUG] - Path: /
+2025-01-13 13:44:15,005 - CRL_OCSP_Proxy - [DEBUG] - Protocol Version: HTTP/1.0
+2025-01-13 13:44:15,005 - CRL_OCSP_Proxy - [DEBUG] - Client Address: ('127.0.0.1', 55598)
+2025-01-13 13:44:15,005 - CRL_OCSP_Proxy - [DEBUG] - 
+Headers recibidos:
+2025-01-13 13:44:15,005 - CRL_OCSP_Proxy - [DEBUG] -   Accept: */*
+2025-01-13 13:44:15,005 - CRL_OCSP_Proxy - [DEBUG] -   Content-Type: application/ocsp-request
+2025-01-13 13:44:15,005 - CRL_OCSP_Proxy - [DEBUG] -   Content-Length: 155
+2025-01-13 13:44:15,005 - CRL_OCSP_Proxy - [DEBUG] -   Character-Encoding: binary
+2025-01-13 13:44:15,005 - CRL_OCSP_Proxy - [DEBUG] -   User-Agent: PPKHandler
+2025-01-13 13:44:15,005 - CRL_OCSP_Proxy - [DEBUG] -   Host: ocsp.xxxx.es
+2025-01-13 13:44:15,005 - CRL_OCSP_Proxy - [DEBUG] -   Connection: Keep-Alive
+2025-01-13 13:44:15,005 - CRL_OCSP_Proxy - [DEBUG] -   Cache-Control: no-cache
+2025-01-13 13:44:15,005 - CRL_OCSP_Proxy - [DEBUG] - 
+=== OCSP Request Details ===
+2025-01-13 13:44:15,005 - CRL_OCSP_Proxy - [DEBUG] - Version: v1
+2025-01-13 13:44:15,005 - CRL_OCSP_Proxy - [DEBUG] - 
+Requested Certificate:
+2025-01-13 13:44:15,005 - CRL_OCSP_Proxy - [DEBUG] -   Hash Algorithm: sha1
+2025-01-13 13:44:15,005 - CRL_OCSP_Proxy - [DEBUG] -   Issuer Name Hash: 4959446cba6569e93af75cddf7ca65b078f852f2
+2025-01-13 13:44:15,005 - CRL_OCSP_Proxy - [DEBUG] -   Issuer Key Hash: e8409b8efb663fc144d8a1dfd44a81420817cbe5
+2025-01-13 13:44:15,005 - CRL_OCSP_Proxy - [DEBUG] -   Serial Number: xxx293361980993820391764910620631686006
+2025-01-13 13:44:15,005 - CRL_OCSP_Proxy - [DEBUG] - 
+Request Extensions:
+2025-01-13 13:44:15,005 - CRL_OCSP_Proxy - [DEBUG] -   acceptable_responses: ['basic_ocsp_response']
+2025-01-13 13:44:15,005 - CRL_OCSP_Proxy - [DEBUG] -   nonce: b'1\x15\xdc\xc5o!\xc6\x1e!\xce\xa4\x18\xfe\xaa\xcd\xf0'
+2025-01-13 13:44:15,005 - CRL_OCSP_Proxy - [DEBUG] - 
+Enviando petición a AWS Gateway:
+2025-01-13 13:44:15,005 - CRL_OCSP_Proxy - [DEBUG] - URL: https://XXX3qwi566.execute-api.eu-north-1.amazonaws.com/prod/ocsp
+2025-01-13 13:44:15,013 - urllib3.connectionpool - [DEBUG] - Starting new HTTPS connection (1): XXX3qwi566.execute-api.eu-north-1.amazonaws.com:443
+2025-01-13 13:44:15,419 - urllib3.connectionpool - [DEBUG] - https://XXX3qwi566.execute-api.eu-north-1.amazonaws.com:443 "POST /prod/ocsp HTTP/1.1" 200 1916
+2025-01-13 13:44:15,419 - CRL_OCSP_Proxy - [DEBUG] - 
+Detalles de la respuesta:
+2025-01-13 13:44:15,425 - CRL_OCSP_Proxy - [DEBUG] - Status Code: 200
+2025-01-13 13:44:15,425 - CRL_OCSP_Proxy - [DEBUG] - Reason: OK
+2025-01-13 13:44:15,425 - CRL_OCSP_Proxy - [DEBUG] - 
+Headers de respuesta:
+2025-01-13 13:44:15,425 - CRL_OCSP_Proxy - [DEBUG] -   Date: Mon, 13 Jan 2025 12:44:16 GMT
+2025-01-13 13:44:15,425 - CRL_OCSP_Proxy - [DEBUG] -   Content-Type: application/ocsp-response
+2025-01-13 13:44:15,425 - CRL_OCSP_Proxy - [DEBUG] -   Content-Length: 1916
+2025-01-13 13:44:15,425 - CRL_OCSP_Proxy - [DEBUG] -   Connection: keep-alive
+2025-01-13 13:44:15,425 - CRL_OCSP_Proxy - [DEBUG] -   x-amzn-RequestId: 694980f8-34e6-44c5-88cb-63a0bd663620
+2025-01-13 13:44:15,425 - CRL_OCSP_Proxy - [DEBUG] -   Access-Control-Allow-Origin: *
+2025-01-13 13:44:15,425 - CRL_OCSP_Proxy - [DEBUG] -   x-amz-apigw-id: EU6ZKHmSAi0EoIQ=
+2025-01-13 13:44:15,425 - CRL_OCSP_Proxy - [DEBUG] -   X-Amzn-Trace-Id: Root=1-67850aa0-1fe06a23001345386ebff3ae;Parent=1f5c90e0d12a78d5;Sampled=0;Lineage=1:e924009f:0
+2025-01-13 13:44:15,425 - CRL_OCSP_Proxy - [DEBUG] - Content Length: 1916 bytes
+2025-01-13 13:44:15,425 - CRL_OCSP_Proxy - [DEBUG] - 
+=== OCSP Response Details ===
+2025-01-13 13:44:15,427 - CRL_OCSP_Proxy - [DEBUG] - Response Status: successful
+2025-01-13 13:44:15,427 - CRL_OCSP_Proxy - [DEBUG] - Version: v1
+2025-01-13 13:44:15,428 - CRL_OCSP_Proxy - [DEBUG] - Responder ID: OrderedDict([('country_name', 'ES'), ('state_or_province_name', 'VALENCIA'), ('locality_name', 'BURJASSOT'), ('organization_name', 'xxxx'), ('serial_number', 'Axxx73396'), ('common_name', 'Servidor OCSP xxxxCA120 DE xxxx-ISTEC')])
+2025-01-13 13:44:15,428 - CRL_OCSP_Proxy - [DEBUG] - Produced At: 2025-01-13 12:44:16+00:00
+2025-01-13 13:44:15,428 - CRL_OCSP_Proxy - [DEBUG] - 
+Certificate Status: good
+2025-01-13 13:44:15,428 - CRL_OCSP_Proxy - [DEBUG] -   This Update: 2025-01-13 10:10:31+00:00
+2025-01-13 13:44:15,428 - CRL_OCSP_Proxy - [DEBUG] -   Next Update: 2025-01-16 10:10:31+00:00
+2025-01-13 13:50:15,988 - CRL_OCSP_Proxy - [DEBUG] - 
+======================================================================
+2025-01-13 13:50:15,988 - CRL_OCSP_Proxy - [DEBUG] - Nueva petición POST - 2025-01-13T13:50:15.988878
+2025-01-13 13:50:15,988 - CRL_OCSP_Proxy - [DEBUG] - Method: POST
+2025-01-13 13:50:15,988 - CRL_OCSP_Proxy - [DEBUG] - Path: /
+2025-01-13 13:50:15,988 - CRL_OCSP_Proxy - [DEBUG] - Protocol Version: HTTP/1.0
+2025-01-13 13:50:15,988 - CRL_OCSP_Proxy - [DEBUG] - Client Address: ('127.0.0.1', 55859)
+2025-01-13 13:50:15,988 - CRL_OCSP_Proxy - [DEBUG] - 
+Headers recibidos:
+2025-01-13 13:50:15,988 - CRL_OCSP_Proxy - [DEBUG] -   Accept: */*
+2025-01-13 13:50:15,988 - CRL_OCSP_Proxy - [DEBUG] -   Content-Type: application/ocsp-request
+2025-01-13 13:50:15,988 - CRL_OCSP_Proxy - [DEBUG] -   Content-Length: 155
+2025-01-13 13:50:15,988 - CRL_OCSP_Proxy - [DEBUG] -   Character-Encoding: binary
+2025-01-13 13:50:15,988 - CRL_OCSP_Proxy - [DEBUG] -   User-Agent: PPKHandler
+2025-01-13 13:50:15,988 - CRL_OCSP_Proxy - [DEBUG] -   Host: ocsp.xxxx.es
+2025-01-13 13:50:15,988 - CRL_OCSP_Proxy - [DEBUG] -   Connection: Keep-Alive
+2025-01-13 13:50:15,988 - CRL_OCSP_Proxy - [DEBUG] -   Cache-Control: no-cache
+2025-01-13 13:50:15,988 - CRL_OCSP_Proxy - [DEBUG] - 
+=== OCSP Request Details ===
+2025-01-13 13:50:15,988 - CRL_OCSP_Proxy - [DEBUG] - Version: v1
+2025-01-13 13:50:15,988 - CRL_OCSP_Proxy - [DEBUG] - 
+Requested Certificate:
+2025-01-13 13:50:15,988 - CRL_OCSP_Proxy - [DEBUG] -   Hash Algorithm: sha1
+2025-01-13 13:50:15,988 - CRL_OCSP_Proxy - [DEBUG] -   Issuer Name Hash: 4959446cba6569e93af75cddf7ca65b078f852f2
+2025-01-13 13:50:15,988 - CRL_OCSP_Proxy - [DEBUG] -   Issuer Key Hash: e8409b8efb663fc144d8a1dfd44a81420817cbe5
+2025-01-13 13:50:15,988 - CRL_OCSP_Proxy - [DEBUG] -   Serial Number: xxx293361980993820391764910620631686006
+2025-01-13 13:50:15,988 - CRL_OCSP_Proxy - [DEBUG] - 
+Request Extensions:
+2025-01-13 13:50:15,988 - CRL_OCSP_Proxy - [DEBUG] -   acceptable_responses: ['basic_ocsp_response']
+2025-01-13 13:50:15,993 - CRL_OCSP_Proxy - [DEBUG] -   nonce: b'\x05\x8e#G5\xea\x8e&\x0e\xd4\xae\xb6\x17=\xfb&'
+2025-01-13 13:50:15,993 - CRL_OCSP_Proxy - [DEBUG] - 
+Enviando petición a AWS Gateway:
+2025-01-13 13:50:15,993 - CRL_OCSP_Proxy - [DEBUG] - URL: https://XXX3qwi566.execute-api.eu-north-1.amazonaws.com/prod/ocsp
+2025-01-13 13:50:15,995 - urllib3.connectionpool - [DEBUG] - Starting new HTTPS connection (1): XXX3qwi566.execute-api.eu-north-1.amazonaws.com:443
+2025-01-13 13:50:17,376 - urllib3.connectionpool - [DEBUG] - https://XXX3qwi566.execute-api.eu-north-1.amazonaws.com:443 "POST /prod/ocsp HTTP/1.1" 200 1916
+2025-01-13 13:50:17,376 - CRL_OCSP_Proxy - [DEBUG] - 
+Detalles de la respuesta:
+2025-01-13 13:50:17,382 - CRL_OCSP_Proxy - [DEBUG] - Status Code: 200
+2025-01-13 13:50:17,382 - CRL_OCSP_Proxy - [DEBUG] - Reason: OK
+2025-01-13 13:50:17,382 - CRL_OCSP_Proxy - [DEBUG] - 
+Headers de respuesta:
+2025-01-13 13:50:17,382 - CRL_OCSP_Proxy - [DEBUG] -   Date: Mon, 13 Jan 2025 12:50:18 GMT
+2025-01-13 13:50:17,382 - CRL_OCSP_Proxy - [DEBUG] -   Content-Type: application/ocsp-response
+2025-01-13 13:50:17,382 - CRL_OCSP_Proxy - [DEBUG] -   Content-Length: 1916
+2025-01-13 13:50:17,382 - CRL_OCSP_Proxy - [DEBUG] -   Connection: keep-alive
+2025-01-13 13:50:17,382 - CRL_OCSP_Proxy - [DEBUG] -   x-amzn-RequestId: 160dc469-2bf3-4380-9b8a-7dbe498cb2be
+2025-01-13 13:50:17,382 - CRL_OCSP_Proxy - [DEBUG] -   Access-Control-Allow-Origin: *
+2025-01-13 13:50:17,382 - CRL_OCSP_Proxy - [DEBUG] -   x-amz-apigw-id: EU7RlGY9gi0Einw=
+2025-01-13 13:50:17,382 - CRL_OCSP_Proxy - [DEBUG] -   X-Amzn-Trace-Id: Root=1-67850c09-5470e74b674bffeb573da349;Parent=2385977a39b5174f;Sampled=0;Lineage=1:e924009f:0
+2025-01-13 13:50:17,382 - CRL_OCSP_Proxy - [DEBUG] - Content Length: 1916 bytes
+2025-01-13 13:50:17,382 - CRL_OCSP_Proxy - [DEBUG] - 
+=== OCSP Response Details ===
+2025-01-13 13:50:17,382 - CRL_OCSP_Proxy - [DEBUG] - Response Status: successful
+2025-01-13 13:50:17,382 - CRL_OCSP_Proxy - [DEBUG] - Version: v1
+2025-01-13 13:50:17,384 - CRL_OCSP_Proxy - [DEBUG] - Responder ID: OrderedDict([('country_name', 'ES'), ('state_or_province_name', 'VALENCIA'), ('locality_name', 'BURJASSOT'), ('organization_name', 'xxxx'), ('serial_number', 'Axxx73396'), ('common_name', 'Servidor OCSP xxxxCA120 DE xxxx-ISTEC')])
+2025-01-13 13:50:17,384 - CRL_OCSP_Proxy - [DEBUG] - Produced At: 2025-01-13 12:50:18+00:00
+2025-01-13 13:50:17,384 - CRL_OCSP_Proxy - [DEBUG] - 
+Certificate Status: good
+2025-01-13 13:50:17,384 - CRL_OCSP_Proxy - [DEBUG] -   This Update: 2025-01-13 10:10:31+00:00
+2025-01-13 13:50:17,384 - CRL_OCSP_Proxy - [DEBUG] -   Next Update: 2025-01-16 10:10:31+00:00
+2025-01-13 13:50:25,154 - CRL_OCSP_Proxy - [DEBUG] - 
+======================================================================
+2025-01-13 13:50:25,154 - CRL_OCSP_Proxy - [DEBUG] - Nueva petición POST - 2025-01-13T13:50:25.154857
+2025-01-13 13:50:25,154 - CRL_OCSP_Proxy - [DEBUG] - Method: POST
+2025-01-13 13:50:25,154 - CRL_OCSP_Proxy - [DEBUG] - Path: /
+2025-01-13 13:50:25,157 - CRL_OCSP_Proxy - [DEBUG] - Protocol Version: HTTP/1.0
+2025-01-13 13:50:25,157 - CRL_OCSP_Proxy - [DEBUG] - Client Address: ('127.0.0.1', 55871)
+2025-01-13 13:50:25,157 - CRL_OCSP_Proxy - [DEBUG] - 
+Headers recibidos:
+2025-01-13 13:50:25,157 - CRL_OCSP_Proxy - [DEBUG] -   Accept: */*
+2025-01-13 13:50:25,157 - CRL_OCSP_Proxy - [DEBUG] -   Content-Type: application/ocsp-request
+2025-01-13 13:50:25,157 - CRL_OCSP_Proxy - [DEBUG] -   Content-Length: 155
+2025-01-13 13:50:25,157 - CRL_OCSP_Proxy - [DEBUG] -   Character-Encoding: binary
+2025-01-13 13:50:25,157 - CRL_OCSP_Proxy - [DEBUG] -   User-Agent: PPKHandler
+2025-01-13 13:50:25,157 - CRL_OCSP_Proxy - [DEBUG] -   Host: ocsp.xxxx.es
+2025-01-13 13:50:25,157 - CRL_OCSP_Proxy - [DEBUG] -   Connection: Keep-Alive
+2025-01-13 13:50:25,157 - CRL_OCSP_Proxy - [DEBUG] -   Cache-Control: no-cache
+2025-01-13 13:50:25,157 - CRL_OCSP_Proxy - [DEBUG] - 
+=== OCSP Request Details ===
+2025-01-13 13:50:25,157 - CRL_OCSP_Proxy - [DEBUG] - Version: v1
+2025-01-13 13:50:25,157 - CRL_OCSP_Proxy - [DEBUG] - 
+Requested Certificate:
+2025-01-13 13:50:25,157 - CRL_OCSP_Proxy - [DEBUG] -   Hash Algorithm: sha1
+2025-01-13 13:50:25,157 - CRL_OCSP_Proxy - [DEBUG] -   Issuer Name Hash: 4959446cba6569e93af75cddf7ca65b078f852f2
+2025-01-13 13:50:25,157 - CRL_OCSP_Proxy - [DEBUG] -   Issuer Key Hash: e8409b8efb663fc144d8a1dfd44a81420817cbe5
+2025-01-13 13:50:25,157 - CRL_OCSP_Proxy - [DEBUG] -   Serial Number: xxx293361980993820391764910620631686006
+2025-01-13 13:50:25,157 - CRL_OCSP_Proxy - [DEBUG] - 
+Request Extensions:
+2025-01-13 13:50:25,157 - CRL_OCSP_Proxy - [DEBUG] -   acceptable_responses: ['basic_ocsp_response']
+2025-01-13 13:50:25,157 - CRL_OCSP_Proxy - [DEBUG] -   nonce: b'\xfa\x991\\9\xa3\xc8\xd6\xd2\xd2\xd6l\xb1,\x93\xa9'
+2025-01-13 13:50:25,157 - CRL_OCSP_Proxy - [DEBUG] - 
+Enviando petición a AWS Gateway:
+2025-01-13 13:50:25,157 - CRL_OCSP_Proxy - [DEBUG] - URL: https://XXX3qwi566.execute-api.eu-north-1.amazonaws.com/prod/ocsp
+2025-01-13 13:50:25,162 - urllib3.connectionpool - [DEBUG] - Starting new HTTPS connection (1): XXX3qwi566.execute-api.eu-north-1.amazonaws.com:443
+2025-01-13 13:50:25,563 - urllib3.connectionpool - [DEBUG] - https://XXX3qwi566.execute-api.eu-north-1.amazonaws.com:443 "POST /prod/ocsp HTTP/1.1" 200 1916
+2025-01-13 13:50:25,565 - CRL_OCSP_Proxy - [DEBUG] - 
+Detalles de la respuesta:
+2025-01-13 13:50:25,565 - CRL_OCSP_Proxy - [DEBUG] - Status Code: 200
+2025-01-13 13:50:25,565 - CRL_OCSP_Proxy - [DEBUG] - Reason: OK
+2025-01-13 13:50:25,565 - CRL_OCSP_Proxy - [DEBUG] - 
+Headers de respuesta:
+2025-01-13 13:50:25,566 - CRL_OCSP_Proxy - [DEBUG] -   Date: Mon, 13 Jan 2025 12:50:27 GMT
+2025-01-13 13:50:25,566 - CRL_OCSP_Proxy - [DEBUG] -   Content-Type: application/ocsp-response
+2025-01-13 13:50:25,566 - CRL_OCSP_Proxy - [DEBUG] -   Content-Length: 1916
+2025-01-13 13:50:25,566 - CRL_OCSP_Proxy - [DEBUG] -   Connection: keep-alive
+2025-01-13 13:50:25,566 - CRL_OCSP_Proxy - [DEBUG] -   x-amzn-RequestId: 3e15003c-f991-4a4b-9f7a-06249418ba2b
+2025-01-13 13:50:25,566 - CRL_OCSP_Proxy - [DEBUG] -   Access-Control-Allow-Origin: *
+2025-01-13 13:50:25,566 - CRL_OCSP_Proxy - [DEBUG] -   x-amz-apigw-id: EU7TAHNrAi0EnrQ=
+2025-01-13 13:50:25,566 - CRL_OCSP_Proxy - [DEBUG] -   X-Amzn-Trace-Id: Root=1-67850c12-0fafc92a04545a7262f8976b;Parent=11290a6a848b3619;Sampled=0;Lineage=1:e924009f:0
+2025-01-13 13:50:25,566 - CRL_OCSP_Proxy - [DEBUG] - Content Length: 1916 bytes
+2025-01-13 13:50:25,566 - CRL_OCSP_Proxy - [DEBUG] - 
+=== OCSP Response Details ===
+2025-01-13 13:50:25,566 - CRL_OCSP_Proxy - [DEBUG] - Response Status: successful
+2025-01-13 13:50:25,566 - CRL_OCSP_Proxy - [DEBUG] - Version: v1
+2025-01-13 13:50:25,568 - CRL_OCSP_Proxy - [DEBUG] - Responder ID: OrderedDict([('country_name', 'ES'), ('state_or_province_name', 'VALENCIA'), ('locality_name', 'BURJASSOT'), ('organization_name', 'xxxx'), ('serial_number', 'Axxx73396'), ('common_name', 'Servidor OCSP xxxxCA120 DE xxxx-ISTEC')])
+2025-01-13 13:50:25,568 - CRL_OCSP_Proxy - [DEBUG] - Produced At: 2025-01-13 12:50:26+00:00
+2025-01-13 13:50:25,568 - CRL_OCSP_Proxy - [DEBUG] - 
+Certificate Status: good
+2025-01-13 13:50:25,568 - CRL_OCSP_Proxy - [DEBUG] -   This Update: 2025-01-13 10:10:31+00:00
+2025-01-13 13:50:25,568 - CRL_OCSP_Proxy - [DEBUG] -   Next Update: 2025-01-16 10:10:31+00:00
+2025-01-13 13:50:33,192 - CRL_OCSP_Proxy - [DEBUG] - 
+======================================================================
+2025-01-13 13:50:33,192 - CRL_OCSP_Proxy - [DEBUG] - Nueva petición POST - 2025-01-13T13:50:33.192940
+2025-01-13 13:50:33,192 - CRL_OCSP_Proxy - [DEBUG] - Method: POST
+2025-01-13 13:50:33,192 - CRL_OCSP_Proxy - [DEBUG] - Path: /
+2025-01-13 13:50:33,192 - CRL_OCSP_Proxy - [DEBUG] - Protocol Version: HTTP/1.0
+2025-01-13 13:50:33,192 - CRL_OCSP_Proxy - [DEBUG] - Client Address: ('127.0.0.1', 55875)
+2025-01-13 13:50:33,192 - CRL_OCSP_Proxy - [DEBUG] - 
+Headers recibidos:
+2025-01-13 13:50:33,192 - CRL_OCSP_Proxy - [DEBUG] -   Accept: */*
+2025-01-13 13:50:33,192 - CRL_OCSP_Proxy - [DEBUG] -   Content-Type: application/ocsp-request
+2025-01-13 13:50:33,192 - CRL_OCSP_Proxy - [DEBUG] -   Content-Length: 155
+2025-01-13 13:50:33,192 - CRL_OCSP_Proxy - [DEBUG] -   Character-Encoding: binary
+2025-01-13 13:50:33,192 - CRL_OCSP_Proxy - [DEBUG] -   User-Agent: PPKHandler
+2025-01-13 13:50:33,192 - CRL_OCSP_Proxy - [DEBUG] -   Host: ocsp.xxxx.es
+2025-01-13 13:50:33,192 - CRL_OCSP_Proxy - [DEBUG] -   Connection: Keep-Alive
+2025-01-13 13:50:33,192 - CRL_OCSP_Proxy - [DEBUG] -   Cache-Control: no-cache
+2025-01-13 13:50:33,192 - CRL_OCSP_Proxy - [DEBUG] - 
+=== OCSP Request Details ===
+2025-01-13 13:50:33,192 - CRL_OCSP_Proxy - [DEBUG] - Version: v1
+2025-01-13 13:50:33,192 - CRL_OCSP_Proxy - [DEBUG] - 
+Requested Certificate:
+2025-01-13 13:50:33,192 - CRL_OCSP_Proxy - [DEBUG] -   Hash Algorithm: sha1
+2025-01-13 13:50:33,192 - CRL_OCSP_Proxy - [DEBUG] -   Issuer Name Hash: 4959446cba6569e93af75cddf7ca65b078f852f2
+2025-01-13 13:50:33,192 - CRL_OCSP_Proxy - [DEBUG] -   Issuer Key Hash: e8409b8efb663fc144d8a1dfd44a81420817cbe5
+2025-01-13 13:50:33,192 - CRL_OCSP_Proxy - [DEBUG] -   Serial Number: xxx293361980993820391764910620631686006
+2025-01-13 13:50:33,192 - CRL_OCSP_Proxy - [DEBUG] - 
+Request Extensions:
+2025-01-13 13:50:33,192 - CRL_OCSP_Proxy - [DEBUG] -   acceptable_responses: ['basic_ocsp_response']
+2025-01-13 13:50:33,192 - CRL_OCSP_Proxy - [DEBUG] -   nonce: b'FF\xc4\xd8B<!D\xf8Uq\xb8W \x03\x8a'
+2025-01-13 13:50:33,192 - CRL_OCSP_Proxy - [DEBUG] - 
+Enviando petición a AWS Gateway:
+2025-01-13 13:50:33,192 - CRL_OCSP_Proxy - [DEBUG] - URL: https://XXX3qwi566.execute-api.eu-north-1.amazonaws.com/prod/ocsp
+2025-01-13 13:50:33,192 - urllib3.connectionpool - [DEBUG] - Starting new HTTPS connection (1): XXX3qwi566.execute-api.eu-north-1.amazonaws.com:443
+2025-01-13 13:50:33,621 - urllib3.connectionpool - [DEBUG] - https://XXX3qwi566.execute-api.eu-north-1.amazonaws.com:443 "POST /prod/ocsp HTTP/1.1" 200 1916
+2025-01-13 13:50:33,621 - CRL_OCSP_Proxy - [DEBUG] - 
+Detalles de la respuesta:
+2025-01-13 13:50:33,627 - CRL_OCSP_Proxy - [DEBUG] - Status Code: 200
+2025-01-13 13:50:33,627 - CRL_OCSP_Proxy - [DEBUG] - Reason: OK
+2025-01-13 13:50:33,627 - CRL_OCSP_Proxy - [DEBUG] - 
+Headers de respuesta:
+2025-01-13 13:50:33,627 - CRL_OCSP_Proxy - [DEBUG] -   Date: Mon, 13 Jan 2025 12:50:35 GMT
+2025-01-13 13:50:33,627 - CRL_OCSP_Proxy - [DEBUG] -   Content-Type: application/ocsp-response
+2025-01-13 13:50:33,627 - CRL_OCSP_Proxy - [DEBUG] -   Content-Length: 1916
+2025-01-13 13:50:33,627 - CRL_OCSP_Proxy - [DEBUG] -   Connection: keep-alive
+2025-01-13 13:50:33,627 - CRL_OCSP_Proxy - [DEBUG] -   x-amzn-RequestId: 9ae1bfef-9512-43ac-9aba-e1b79ab9885d
+2025-01-13 13:50:33,627 - CRL_OCSP_Proxy - [DEBUG] -   Access-Control-Allow-Origin: *
+2025-01-13 13:50:33,627 - CRL_OCSP_Proxy - [DEBUG] -   x-amz-apigw-id: EU7UQGrEAi0EWKQ=
+2025-01-13 13:50:33,627 - CRL_OCSP_Proxy - [DEBUG] -   X-Amzn-Trace-Id: Root=1-67850c1a-02a30f6e00730c261b470416;Parent=08a44cb0614d04d4;Sampled=0;Lineage=1:e924009f:0
+2025-01-13 13:50:33,627 - CRL_OCSP_Proxy - [DEBUG] - Content Length: 1916 bytes
+2025-01-13 13:50:33,627 - CRL_OCSP_Proxy - [DEBUG] - 
+=== OCSP Response Details ===
+2025-01-13 13:50:33,627 - CRL_OCSP_Proxy - [DEBUG] - Response Status: successful
+2025-01-13 13:50:33,627 - CRL_OCSP_Proxy - [DEBUG] - Version: v1
+2025-01-13 13:50:33,627 - CRL_OCSP_Proxy - [DEBUG] - Responder ID: OrderedDict([('country_name', 'ES'), ('state_or_province_name', 'VALENCIA'), ('locality_name', 'BURJASSOT'), ('organization_name', 'xxxx'), ('serial_number', 'Axxx73396'), ('common_name', 'Servidor OCSP xxxxCA120 DE xxxx-ISTEC')])
+2025-01-13 13:50:33,627 - CRL_OCSP_Proxy - [DEBUG] - Produced At: 2025-01-13 12:50:35+00:00
+2025-01-13 13:50:33,630 - CRL_OCSP_Proxy - [DEBUG] - 
+Certificate Status: good
+2025-01-13 13:50:33,630 - CRL_OCSP_Proxy - [DEBUG] -   This Update: 2025-01-13 10:10:31+00:00
+2025-01-13 13:50:33,630 - CRL_OCSP_Proxy - [DEBUG] -   Next Update: 2025-01-16 10:10:31+00:00
+2025-01-13 13:50:40,758 - CRL_OCSP_Proxy - [DEBUG] - 
+======================================================================
+2025-01-13 13:50:40,758 - CRL_OCSP_Proxy - [DEBUG] - Nueva petición POST - 2025-01-13T13:50:40.758683
+2025-01-13 13:50:40,758 - CRL_OCSP_Proxy - [DEBUG] - Method: POST
+2025-01-13 13:50:40,758 - CRL_OCSP_Proxy - [DEBUG] - Path: /
+2025-01-13 13:50:40,758 - CRL_OCSP_Proxy - [DEBUG] - Protocol Version: HTTP/1.0
+2025-01-13 13:50:40,758 - CRL_OCSP_Proxy - [DEBUG] - Client Address: ('127.0.0.1', 55883)
+2025-01-13 13:50:40,758 - CRL_OCSP_Proxy - [DEBUG] - 
+Headers recibidos:
+2025-01-13 13:50:40,758 - CRL_OCSP_Proxy - [DEBUG] -   Accept: */*
+2025-01-13 13:50:40,760 - CRL_OCSP_Proxy - [DEBUG] -   Content-Type: application/ocsp-request
+2025-01-13 13:50:40,760 - CRL_OCSP_Proxy - [DEBUG] -   Content-Length: 155
+2025-01-13 13:50:40,760 - CRL_OCSP_Proxy - [DEBUG] -   Character-Encoding: binary
+2025-01-13 13:50:40,760 - CRL_OCSP_Proxy - [DEBUG] -   User-Agent: PPKHandler
+2025-01-13 13:50:40,760 - CRL_OCSP_Proxy - [DEBUG] -   Host: ocsp.xxxx.es
+2025-01-13 13:50:40,760 - CRL_OCSP_Proxy - [DEBUG] -   Connection: Keep-Alive
+2025-01-13 13:50:40,760 - CRL_OCSP_Proxy - [DEBUG] -   Cache-Control: no-cache
+2025-01-13 13:50:40,760 - CRL_OCSP_Proxy - [DEBUG] - 
+=== OCSP Request Details ===
+2025-01-13 13:50:40,760 - CRL_OCSP_Proxy - [DEBUG] - Version: v1
+2025-01-13 13:50:40,760 - CRL_OCSP_Proxy - [DEBUG] - 
+Requested Certificate:
+2025-01-13 13:50:40,760 - CRL_OCSP_Proxy - [DEBUG] -   Hash Algorithm: sha1
+2025-01-13 13:50:40,760 - CRL_OCSP_Proxy - [DEBUG] -   Issuer Name Hash: 4959446cba6569e93af75cddf7ca65b078f852f2
+2025-01-13 13:50:40,760 - CRL_OCSP_Proxy - [DEBUG] -   Issuer Key Hash: e8409b8efb663fc144d8a1dfd44a81420817cbe5
+2025-01-13 13:50:40,760 - CRL_OCSP_Proxy - [DEBUG] -   Serial Number: xxx293361980993820391764910620631686006
+2025-01-13 13:50:40,763 - CRL_OCSP_Proxy - [DEBUG] - 
+Request Extensions:
+2025-01-13 13:50:40,763 - CRL_OCSP_Proxy - [DEBUG] -   acceptable_responses: ['basic_ocsp_response']
+2025-01-13 13:50:40,763 - CRL_OCSP_Proxy - [DEBUG] -   nonce: b'\x0c\xac\xe5V\x91\xc9]\xaf\xae\x9b\x9b\x02\xb7\xcbNg'
+2025-01-13 13:50:40,763 - CRL_OCSP_Proxy - [DEBUG] - 
+Enviando petición a AWS Gateway:
+2025-01-13 13:50:40,763 - CRL_OCSP_Proxy - [DEBUG] - URL: https://XXX3qwi566.execute-api.eu-north-1.amazonaws.com/prod/ocsp
+2025-01-13 13:50:40,763 - urllib3.connectionpool - [DEBUG] - Starting new HTTPS connection (1): XXX3qwi566.execute-api.eu-north-1.amazonaws.com:443
+2025-01-13 13:50:41,063 - urllib3.connectionpool - [DEBUG] - https://XXX3qwi566.execute-api.eu-north-1.amazonaws.com:443 "POST /prod/ocsp HTTP/1.1" 200 1916
+2025-01-13 13:50:41,063 - CRL_OCSP_Proxy - [DEBUG] - 
+Detalles de la respuesta:
+2025-01-13 13:50:41,063 - CRL_OCSP_Proxy - [DEBUG] - Status Code: 200
+2025-01-13 13:50:41,068 - CRL_OCSP_Proxy - [DEBUG] - Reason: OK
+2025-01-13 13:50:41,068 - CRL_OCSP_Proxy - [DEBUG] - 
+Headers de respuesta:
+2025-01-13 13:50:41,068 - CRL_OCSP_Proxy - [DEBUG] -   Date: Mon, 13 Jan 2025 12:50:42 GMT
+2025-01-13 13:50:41,068 - CRL_OCSP_Proxy - [DEBUG] -   Content-Type: application/ocsp-response
+2025-01-13 13:50:41,068 - CRL_OCSP_Proxy - [DEBUG] -   Content-Length: 1916
+2025-01-13 13:50:41,068 - CRL_OCSP_Proxy - [DEBUG] -   Connection: keep-alive
+2025-01-13 13:50:41,068 - CRL_OCSP_Proxy - [DEBUG] -   x-amzn-RequestId: 042bda17-5061-448a-8973-8c7af6ed513b
+2025-01-13 13:50:41,068 - CRL_OCSP_Proxy - [DEBUG] -   Access-Control-Allow-Origin: *
+2025-01-13 13:50:41,068 - CRL_OCSP_Proxy - [DEBUG] -   x-amz-apigw-id: EU7VcG7AAi0ED3g=
+2025-01-13 13:50:41,068 - CRL_OCSP_Proxy - [DEBUG] -   X-Amzn-Trace-Id: Root=1-67850c22-6f564a79402811c4758f9fbb;Parent=7de18973b683009e;Sampled=0;Lineage=1:e924009f:0
+2025-01-13 13:50:41,068 - CRL_OCSP_Proxy - [DEBUG] - Content Length: 1916 bytes
+2025-01-13 13:50:41,068 - CRL_OCSP_Proxy - [DEBUG] - 
+=== OCSP Response Details ===
+2025-01-13 13:50:41,068 - CRL_OCSP_Proxy - [DEBUG] - Response Status: successful
+2025-01-13 13:50:41,068 - CRL_OCSP_Proxy - [DEBUG] - Version: v1
+2025-01-13 13:50:41,070 - CRL_OCSP_Proxy - [DEBUG] - Responder ID: OrderedDict([('country_name', 'ES'), ('state_or_province_name', 'VALENCIA'), ('locality_name', 'BURJASSOT'), ('organization_name', 'xxxx'), ('serial_number', 'Axxx73396'), ('common_name', 'Servidor OCSP xxxxCA120 DE xxxx-ISTEC')])
+2025-01-13 13:50:41,071 - CRL_OCSP_Proxy - [DEBUG] - Produced At: 2025-01-13 12:50:42+00:00
+2025-01-13 13:50:41,071 - CRL_OCSP_Proxy - [DEBUG] - 
+Certificate Status: good
+2025-01-13 13:50:41,071 - CRL_OCSP_Proxy - [DEBUG] -   This Update: 2025-01-13 10:10:31+00:00
+2025-01-13 13:50:41,071 - CRL_OCSP_Proxy - [DEBUG] -   Next Update: 2025-01-16 10:10:31+00:00
+2025-01-13 13:50:48,580 - CRL_OCSP_Proxy - [DEBUG] - 
+======================================================================
+2025-01-13 13:50:48,580 - CRL_OCSP_Proxy - [DEBUG] - Nueva petición POST - 2025-01-13T13:50:48.580920
+2025-01-13 13:50:48,581 - CRL_OCSP_Proxy - [DEBUG] - Method: POST
+2025-01-13 13:50:48,581 - CRL_OCSP_Proxy - [DEBUG] - Path: /
+2025-01-13 13:50:48,581 - CRL_OCSP_Proxy - [DEBUG] - Protocol Version: HTTP/1.0
+2025-01-13 13:50:48,581 - CRL_OCSP_Proxy - [DEBUG] - Client Address: ('127.0.0.1', 55888)
+2025-01-13 13:50:48,581 - CRL_OCSP_Proxy - [DEBUG] - 
+Headers recibidos:
+2025-01-13 13:50:48,581 - CRL_OCSP_Proxy - [DEBUG] -   Accept: */*
+2025-01-13 13:50:48,581 - CRL_OCSP_Proxy - [DEBUG] -   Content-Type: application/ocsp-request
+2025-01-13 13:50:48,581 - CRL_OCSP_Proxy - [DEBUG] -   Content-Length: 155
+2025-01-13 13:50:48,581 - CRL_OCSP_Proxy - [DEBUG] -   Character-Encoding: binary
+2025-01-13 13:50:48,581 - CRL_OCSP_Proxy - [DEBUG] -   User-Agent: PPKHandler
+2025-01-13 13:50:48,581 - CRL_OCSP_Proxy - [DEBUG] -   Host: ocsp.xxxx.es
+2025-01-13 13:50:48,581 - CRL_OCSP_Proxy - [DEBUG] -   Connection: Keep-Alive
+2025-01-13 13:50:48,581 - CRL_OCSP_Proxy - [DEBUG] -   Cache-Control: no-cache
+2025-01-13 13:50:48,581 - CRL_OCSP_Proxy - [DEBUG] - 
+=== OCSP Request Details ===
+2025-01-13 13:50:48,581 - CRL_OCSP_Proxy - [DEBUG] - Version: v1
+2025-01-13 13:50:48,584 - CRL_OCSP_Proxy - [DEBUG] - 
+Requested Certificate:
+2025-01-13 13:50:48,584 - CRL_OCSP_Proxy - [DEBUG] -   Hash Algorithm: sha1
+2025-01-13 13:50:48,584 - CRL_OCSP_Proxy - [DEBUG] -   Issuer Name Hash: 4959446cba6569e93af75cddf7ca65b078f852f2
+2025-01-13 13:50:48,584 - CRL_OCSP_Proxy - [DEBUG] -   Issuer Key Hash: e8409b8efb663fc144d8a1dfd44a81420817cbe5
+2025-01-13 13:50:48,584 - CRL_OCSP_Proxy - [DEBUG] -   Serial Number: xxx293361980993820391764910620631686006
+2025-01-13 13:50:48,584 - CRL_OCSP_Proxy - [DEBUG] - 
+Request Extensions:
+2025-01-13 13:50:48,584 - CRL_OCSP_Proxy - [DEBUG] -   acceptable_responses: ['basic_ocsp_response']
+2025-01-13 13:50:48,584 - CRL_OCSP_Proxy - [DEBUG] -   nonce: b'\xc1\x9d\xd9\xaa\xef\x84<\xa5e)\xccV\xb27\x01\xf5'
+2025-01-13 13:50:48,584 - CRL_OCSP_Proxy - [DEBUG] - 
+Enviando petición a AWS Gateway:
+2025-01-13 13:50:48,584 - CRL_OCSP_Proxy - [DEBUG] - URL: https://XXX3qwi566.execute-api.eu-north-1.amazonaws.com/prod/ocsp
+2025-01-13 13:50:48,584 - urllib3.connectionpool - [DEBUG] - Starting new HTTPS connection (1): XXX3qwi566.execute-api.eu-north-1.amazonaws.com:443
+2025-01-13 13:50:49,168 - urllib3.connectionpool - [DEBUG] - https://XXX3qwi566.execute-api.eu-north-1.amazonaws.com:443 "POST /prod/ocsp HTTP/1.1" 200 1916
+2025-01-13 13:50:49,168 - CRL_OCSP_Proxy - [DEBUG] - 
+Detalles de la respuesta:
+2025-01-13 13:50:49,168 - CRL_OCSP_Proxy - [DEBUG] - Status Code: 200
+2025-01-13 13:50:49,168 - CRL_OCSP_Proxy - [DEBUG] - Reason: OK
+2025-01-13 13:50:49,168 - CRL_OCSP_Proxy - [DEBUG] - 
+Headers de respuesta:
+2025-01-13 13:50:49,168 - CRL_OCSP_Proxy - [DEBUG] -   Date: Mon, 13 Jan 2025 12:50:50 GMT
+2025-01-13 13:50:49,168 - CRL_OCSP_Proxy - [DEBUG] -   Content-Type: application/ocsp-response
+2025-01-13 13:50:49,168 - CRL_OCSP_Proxy - [DEBUG] -   Content-Length: 1916
+2025-01-13 13:50:49,168 - CRL_OCSP_Proxy - [DEBUG] -   Connection: keep-alive
+2025-01-13 13:50:49,168 - CRL_OCSP_Proxy - [DEBUG] -   x-amzn-RequestId: 07d68ae0-194e-4850-b0ff-d7324e60f5dc
+2025-01-13 13:50:49,168 - CRL_OCSP_Proxy - [DEBUG] -   Access-Control-Allow-Origin: *
+2025-01-13 13:50:49,168 - CRL_OCSP_Proxy - [DEBUG] -   x-amz-apigw-id: EU7WqHlJAi0Ej5w=
+2025-01-13 13:50:49,168 - CRL_OCSP_Proxy - [DEBUG] -   X-Amzn-Trace-Id: Root=1-67850c2a-155992c02fefa37b42126cb8;Parent=7a21e89acacf1ad5;Sampled=0;Lineage=1:e924009f:0
+2025-01-13 13:50:49,168 - CRL_OCSP_Proxy - [DEBUG] - Content Length: 1916 bytes
+2025-01-13 13:50:49,168 - CRL_OCSP_Proxy - [DEBUG] - 
+=== OCSP Response Details ===
+2025-01-13 13:50:49,168 - CRL_OCSP_Proxy - [DEBUG] - Response Status: successful
+2025-01-13 13:50:49,168 - CRL_OCSP_Proxy - [DEBUG] - Version: v1
+2025-01-13 13:50:49,168 - CRL_OCSP_Proxy - [DEBUG] - Responder ID: OrderedDict([('country_name', 'ES'), ('state_or_province_name', 'VALENCIA'), ('locality_name', 'BURJASSOT'), ('organization_name', 'xxxx'), ('serial_number', 'Axxx73396'), ('common_name', 'Servidor OCSP xxxxCA120 DE xxxx-ISTEC')])
+2025-01-13 13:50:49,168 - CRL_OCSP_Proxy - [DEBUG] - Produced At: 2025-01-13 12:50:50+00:00
+2025-01-13 13:50:49,168 - CRL_OCSP_Proxy - [DEBUG] - 
+Certificate Status: good
+2025-01-13 13:50:49,168 - CRL_OCSP_Proxy - [DEBUG] -   This Update: 2025-01-13 10:10:31+00:00
+2025-01-13 13:50:49,178 - CRL_OCSP_Proxy - [DEBUG] -   Next Update: 2025-01-16 10:10:31+00:00
+2025-01-13 13:50:56,489 - CRL_OCSP_Proxy - [DEBUG] - 
+======================================================================
+2025-01-13 13:50:56,489 - CRL_OCSP_Proxy - [DEBUG] - Nueva petición POST - 2025-01-13T13:50:56.489626
+2025-01-13 13:50:56,489 - CRL_OCSP_Proxy - [DEBUG] - Method: POST
+2025-01-13 13:50:56,489 - CRL_OCSP_Proxy - [DEBUG] - Path: /
+2025-01-13 13:50:56,489 - CRL_OCSP_Proxy - [DEBUG] - Protocol Version: HTTP/1.0
+2025-01-13 13:50:56,489 - CRL_OCSP_Proxy - [DEBUG] - Client Address: ('127.0.0.1', 55890)
+2025-01-13 13:50:56,489 - CRL_OCSP_Proxy - [DEBUG] - 
+Headers recibidos:
+2025-01-13 13:50:56,489 - CRL_OCSP_Proxy - [DEBUG] -   Accept: */*
+2025-01-13 13:50:56,489 - CRL_OCSP_Proxy - [DEBUG] -   Content-Type: application/ocsp-request
+2025-01-13 13:50:56,491 - CRL_OCSP_Proxy - [DEBUG] -   Content-Length: 155
+2025-01-13 13:50:56,491 - CRL_OCSP_Proxy - [DEBUG] -   Character-Encoding: binary
+2025-01-13 13:50:56,491 - CRL_OCSP_Proxy - [DEBUG] -   User-Agent: PPKHandler
+2025-01-13 13:50:56,491 - CRL_OCSP_Proxy - [DEBUG] -   Host: ocsp.xxxx.es
+2025-01-13 13:50:56,491 - CRL_OCSP_Proxy - [DEBUG] -   Connection: Keep-Alive
+2025-01-13 13:50:56,491 - CRL_OCSP_Proxy - [DEBUG] -   Cache-Control: no-cache
+2025-01-13 13:50:56,491 - CRL_OCSP_Proxy - [DEBUG] - 
+=== OCSP Request Details ===
+2025-01-13 13:50:56,491 - CRL_OCSP_Proxy - [DEBUG] - Version: v1
+2025-01-13 13:50:56,491 - CRL_OCSP_Proxy - [DEBUG] - 
+Requested Certificate:
+2025-01-13 13:50:56,491 - CRL_OCSP_Proxy - [DEBUG] -   Hash Algorithm: sha1
+2025-01-13 13:50:56,493 - CRL_OCSP_Proxy - [DEBUG] -   Issuer Name Hash: 4959446cba6569e93af75cddf7ca65b078f852f2
+2025-01-13 13:50:56,493 - CRL_OCSP_Proxy - [DEBUG] -   Issuer Key Hash: e8409b8efb663fc144d8a1dfd44a81420817cbe5
+2025-01-13 13:50:56,493 - CRL_OCSP_Proxy - [DEBUG] -   Serial Number: xxx293361980993820391764910620631686006
+2025-01-13 13:50:56,493 - CRL_OCSP_Proxy - [DEBUG] - 
+Request Extensions:
+2025-01-13 13:50:56,493 - CRL_OCSP_Proxy - [DEBUG] -   acceptable_responses: ['basic_ocsp_response']
+2025-01-13 13:50:56,493 - CRL_OCSP_Proxy - [DEBUG] -   nonce: b'M*-\x0c\x97&\xe4\xa4<\x88\x04vK5:N'
+2025-01-13 13:50:56,493 - CRL_OCSP_Proxy - [DEBUG] - 
+Enviando petición a AWS Gateway:
+2025-01-13 13:50:56,493 - CRL_OCSP_Proxy - [DEBUG] - URL: https://XXX3qwi566.execute-api.eu-north-1.amazonaws.com/prod/ocsp
+2025-01-13 13:50:56,493 - urllib3.connectionpool - [DEBUG] - Starting new HTTPS connection (1): XXX3qwi566.execute-api.eu-north-1.amazonaws.com:443
+2025-01-13 13:50:56,805 - urllib3.connectionpool - [DEBUG] - https://XXX3qwi566.execute-api.eu-north-1.amazonaws.com:443 "POST /prod/ocsp HTTP/1.1" 200 1916
+2025-01-13 13:50:56,805 - CRL_OCSP_Proxy - [DEBUG] - 
+Detalles de la respuesta:
+2025-01-13 13:50:56,805 - CRL_OCSP_Proxy - [DEBUG] - Status Code: 200
+2025-01-13 13:50:56,811 - CRL_OCSP_Proxy - [DEBUG] - Reason: OK
+2025-01-13 13:50:56,811 - CRL_OCSP_Proxy - [DEBUG] - 
+Headers de respuesta:
+2025-01-13 13:50:56,811 - CRL_OCSP_Proxy - [DEBUG] -   Date: Mon, 13 Jan 2025 12:50:58 GMT
+2025-01-13 13:50:56,811 - CRL_OCSP_Proxy - [DEBUG] -   Content-Type: application/ocsp-response
+2025-01-13 13:50:56,811 - CRL_OCSP_Proxy - [DEBUG] -   Content-Length: 1916
+2025-01-13 13:50:56,811 - CRL_OCSP_Proxy - [DEBUG] -   Connection: keep-alive
+2025-01-13 13:50:56,811 - CRL_OCSP_Proxy - [DEBUG] -   x-amzn-RequestId: 73fd5ab2-53b2-4069-986f-b5f2af935507
+2025-01-13 13:50:56,811 - CRL_OCSP_Proxy - [DEBUG] -   Access-Control-Allow-Origin: *
+2025-01-13 13:50:56,811 - CRL_OCSP_Proxy - [DEBUG] -   x-amz-apigw-id: EU7X5EnPAi0EPGA=
+2025-01-13 13:50:56,811 - CRL_OCSP_Proxy - [DEBUG] -   X-Amzn-Trace-Id: Root=1-67850c32-0f5ebc6c255818a57edfb64f;Parent=6d1e12e9093e8b0f;Sampled=0;Lineage=1:e924009f:0
+2025-01-13 13:50:56,811 - CRL_OCSP_Proxy - [DEBUG] - Content Length: 1916 bytes
+2025-01-13 13:50:56,811 - CRL_OCSP_Proxy - [DEBUG] - 
+=== OCSP Response Details ===
+2025-01-13 13:50:56,811 - CRL_OCSP_Proxy - [DEBUG] - Response Status: successful
+2025-01-13 13:50:56,811 - CRL_OCSP_Proxy - [DEBUG] - Version: v1
+2025-01-13 13:50:56,811 - CRL_OCSP_Proxy - [DEBUG] - Responder ID: OrderedDict([('country_name', 'ES'), ('state_or_province_name', 'VALENCIA'), ('locality_name', 'BURJASSOT'), ('organization_name', 'xxxx'), ('serial_number', 'Axxx73396'), ('common_name', 'Servidor OCSP xxxxCA120 DE xxxx-ISTEC')])
+2025-01-13 13:50:56,811 - CRL_OCSP_Proxy - [DEBUG] - Produced At: 2025-01-13 12:50:58+00:00
+2025-01-13 13:50:56,811 - CRL_OCSP_Proxy - [DEBUG] - 
+Certificate Status: good
+2025-01-13 13:50:56,811 - CRL_OCSP_Proxy - [DEBUG] -   This Update: 2025-01-13 10:10:31+00:00
+2025-01-13 13:50:56,811 - CRL_OCSP_Proxy - [DEBUG] -   Next Update: 2025-01-16 10:10:31+00:00
+2025-01-13 13:51:03,213 - CRL_OCSP_Proxy - [DEBUG] - 
+======================================================================
+2025-01-13 13:51:03,214 - CRL_OCSP_Proxy - [DEBUG] - Nueva petición POST - 2025-01-13T13:51:03.213473
+2025-01-13 13:51:03,214 - CRL_OCSP_Proxy - [DEBUG] - Method: POST
+2025-01-13 13:51:03,214 - CRL_OCSP_Proxy - [DEBUG] - Path: /
+2025-01-13 13:51:03,214 - CRL_OCSP_Proxy - [DEBUG] - Protocol Version: HTTP/1.0
+2025-01-13 13:51:03,214 - CRL_OCSP_Proxy - [DEBUG] - Client Address: ('127.0.0.1', 55895)
+2025-01-13 13:51:03,214 - CRL_OCSP_Proxy - [DEBUG] - 
+Headers recibidos:
+2025-01-13 13:51:03,214 - CRL_OCSP_Proxy - [DEBUG] -   Accept: */*
+2025-01-13 13:51:03,214 - CRL_OCSP_Proxy - [DEBUG] -   Content-Type: application/ocsp-request
+2025-01-13 13:51:03,214 - CRL_OCSP_Proxy - [DEBUG] -   Content-Length: 155
+2025-01-13 13:51:03,216 - CRL_OCSP_Proxy - [DEBUG] -   Character-Encoding: binary
+2025-01-13 13:51:03,216 - CRL_OCSP_Proxy - [DEBUG] -   User-Agent: PPKHandler
+2025-01-13 13:51:03,216 - CRL_OCSP_Proxy - [DEBUG] -   Host: ocsp.xxxx.es
+2025-01-13 13:51:03,216 - CRL_OCSP_Proxy - [DEBUG] -   Connection: Keep-Alive
+2025-01-13 13:51:03,216 - CRL_OCSP_Proxy - [DEBUG] -   Cache-Control: no-cache
+2025-01-13 13:51:03,216 - CRL_OCSP_Proxy - [DEBUG] - 
+=== OCSP Request Details ===
+2025-01-13 13:51:03,216 - CRL_OCSP_Proxy - [DEBUG] - Version: v1
+2025-01-13 13:51:03,216 - CRL_OCSP_Proxy - [DEBUG] - 
+Requested Certificate:
+2025-01-13 13:51:03,216 - CRL_OCSP_Proxy - [DEBUG] -   Hash Algorithm: sha1
+2025-01-13 13:51:03,216 - CRL_OCSP_Proxy - [DEBUG] -   Issuer Name Hash: 4959446cba6569e93af75cddf7ca65b078f852f2
+2025-01-13 13:51:03,218 - CRL_OCSP_Proxy - [DEBUG] -   Issuer Key Hash: e8409b8efb663fc144d8a1dfd44a81420817cbe5
+2025-01-13 13:51:03,218 - CRL_OCSP_Proxy - [DEBUG] -   Serial Number: xxx293361980993820391764910620631686006
+2025-01-13 13:51:03,218 - CRL_OCSP_Proxy - [DEBUG] - 
+Request Extensions:
+2025-01-13 13:51:03,218 - CRL_OCSP_Proxy - [DEBUG] -   acceptable_responses: ['basic_ocsp_response']
+2025-01-13 13:51:03,218 - CRL_OCSP_Proxy - [DEBUG] -   nonce: b'\xb8\xae\xedh\xc42\xe3\xcdI87W\xa0\xe1\x86\xae'
+2025-01-13 13:51:03,218 - CRL_OCSP_Proxy - [DEBUG] - 
+Enviando petición a AWS Gateway:
+2025-01-13 13:51:03,218 - CRL_OCSP_Proxy - [DEBUG] - URL: https://XXX3qwi566.execute-api.eu-north-1.amazonaws.com/prod/ocsp
+2025-01-13 13:51:03,218 - urllib3.connectionpool - [DEBUG] - Starting new HTTPS connection (1): XXX3qwi566.execute-api.eu-north-1.amazonaws.com:443
+2025-01-13 13:51:03,830 - urllib3.connectionpool - [DEBUG] - https://XXX3qwi566.execute-api.eu-north-1.amazonaws.com:443 "POST /prod/ocsp HTTP/1.1" 200 1916
+2025-01-13 13:51:03,830 - CRL_OCSP_Proxy - [DEBUG] - 
+Detalles de la respuesta:
+2025-01-13 13:51:03,830 - CRL_OCSP_Proxy - [DEBUG] - Status Code: 200
+2025-01-13 13:51:03,830 - CRL_OCSP_Proxy - [DEBUG] - Reason: OK
+2025-01-13 13:51:03,830 - CRL_OCSP_Proxy - [DEBUG] - 
+Headers de respuesta:
+2025-01-13 13:51:03,830 - CRL_OCSP_Proxy - [DEBUG] -   Date: Mon, 13 Jan 2025 12:51:05 GMT
+2025-01-13 13:51:03,830 - CRL_OCSP_Proxy - [DEBUG] -   Content-Type: application/ocsp-response
+2025-01-13 13:51:03,830 - CRL_OCSP_Proxy - [DEBUG] -   Content-Length: 1916
+2025-01-13 13:51:03,830 - CRL_OCSP_Proxy - [DEBUG] -   Connection: keep-alive
+2025-01-13 13:51:03,830 - CRL_OCSP_Proxy - [DEBUG] -   x-amzn-RequestId: 7b7dd477-6a11-4880-862d-17917536ec82
+2025-01-13 13:51:03,830 - CRL_OCSP_Proxy - [DEBUG] -   Access-Control-Allow-Origin: *
+2025-01-13 13:51:03,830 - CRL_OCSP_Proxy - [DEBUG] -   x-amz-apigw-id: EU7Y8H7Ygi0EIQQ=
+2025-01-13 13:51:03,830 - CRL_OCSP_Proxy - [DEBUG] -   X-Amzn-Trace-Id: Root=1-67850c38-55c4d7db615ebc844fad5594;Parent=06bf07c474d707d5;Sampled=0;Lineage=1:e924009f:0
+2025-01-13 13:51:03,830 - CRL_OCSP_Proxy - [DEBUG] - Content Length: 1916 bytes
+2025-01-13 13:51:03,830 - CRL_OCSP_Proxy - [DEBUG] - 
+=== OCSP Response Details ===
+2025-01-13 13:51:03,830 - CRL_OCSP_Proxy - [DEBUG] - Response Status: successful
+2025-01-13 13:51:03,830 - CRL_OCSP_Proxy - [DEBUG] - Version: v1
+2025-01-13 13:51:03,833 - CRL_OCSP_Proxy - [DEBUG] - Responder ID: OrderedDict([('country_name', 'ES'), ('state_or_province_name', 'VALENCIA'), ('locality_name', 'BURJASSOT'), ('organization_name', 'xxxx'), ('serial_number', 'Axxx73396'), ('common_name', 'Servidor OCSP xxxxCA120 DE xxxx-ISTEC')])
+2025-01-13 13:51:03,833 - CRL_OCSP_Proxy - [DEBUG] - Produced At: 2025-01-13 12:51:05+00:00
+2025-01-13 13:51:03,833 - CRL_OCSP_Proxy - [DEBUG] - 
+Certificate Status: good
+2025-01-13 13:51:03,834 - CRL_OCSP_Proxy - [DEBUG] -   This Update: 2025-01-13 10:10:31+00:00
+2025-01-13 13:51:03,834 - CRL_OCSP_Proxy - [DEBUG] -   Next Update: 2025-01-16 10:10:31+00:00
+2025-01-13 13:51:11,408 - CRL_OCSP_Proxy - [DEBUG] - 
+======================================================================
+2025-01-13 13:51:11,408 - CRL_OCSP_Proxy - [DEBUG] - Nueva petición POST - 2025-01-13T13:51:11.408282
+2025-01-13 13:51:11,408 - CRL_OCSP_Proxy - [DEBUG] - Method: POST
+2025-01-13 13:51:11,408 - CRL_OCSP_Proxy - [DEBUG] - Path: /
+2025-01-13 13:51:11,408 - CRL_OCSP_Proxy - [DEBUG] - Protocol Version: HTTP/1.0
+2025-01-13 13:51:11,408 - CRL_OCSP_Proxy - [DEBUG] - Client Address: ('127.0.0.1', 55897)
+2025-01-13 13:51:11,408 - CRL_OCSP_Proxy - [DEBUG] - 
+Headers recibidos:
+2025-01-13 13:51:11,408 - CRL_OCSP_Proxy - [DEBUG] -   Accept: */*
+2025-01-13 13:51:11,411 - CRL_OCSP_Proxy - [DEBUG] -   Content-Type: application/ocsp-request
+2025-01-13 13:51:11,411 - CRL_OCSP_Proxy - [DEBUG] -   Content-Length: 155
+2025-01-13 13:51:11,411 - CRL_OCSP_Proxy - [DEBUG] -   Character-Encoding: binary
+2025-01-13 13:51:11,411 - CRL_OCSP_Proxy - [DEBUG] -   User-Agent: PPKHandler
+2025-01-13 13:51:11,411 - CRL_OCSP_Proxy - [DEBUG] -   Host: ocsp.xxxx.es
+2025-01-13 13:51:11,411 - CRL_OCSP_Proxy - [DEBUG] -   Connection: Keep-Alive
+2025-01-13 13:51:11,411 - CRL_OCSP_Proxy - [DEBUG] -   Cache-Control: no-cache
+2025-01-13 13:51:11,411 - CRL_OCSP_Proxy - [DEBUG] - 
+=== OCSP Request Details ===
+2025-01-13 13:51:11,411 - CRL_OCSP_Proxy - [DEBUG] - Version: v1
+2025-01-13 13:51:11,411 - CRL_OCSP_Proxy - [DEBUG] - 
+Requested Certificate:
+2025-01-13 13:51:11,411 - CRL_OCSP_Proxy - [DEBUG] -   Hash Algorithm: sha1
+2025-01-13 13:51:11,411 - CRL_OCSP_Proxy - [DEBUG] -   Issuer Name Hash: 4959446cba6569e93af75cddf7ca65b078f852f2
+2025-01-13 13:51:11,411 - CRL_OCSP_Proxy - [DEBUG] -   Issuer Key Hash: e8409b8efb663fc144d8a1dfd44a81420817cbe5
+2025-01-13 13:51:11,411 - CRL_OCSP_Proxy - [DEBUG] -   Serial Number: xxx293361980993820391764910620631686006
+2025-01-13 13:51:11,411 - CRL_OCSP_Proxy - [DEBUG] - 
+Request Extensions:
+2025-01-13 13:51:11,411 - CRL_OCSP_Proxy - [DEBUG] -   acceptable_responses: ['basic_ocsp_response']
+2025-01-13 13:51:11,411 - CRL_OCSP_Proxy - [DEBUG] -   nonce: b'\x85\x0b\xf9\xea\xda\xca\xf1\x0e|\xe7W@K\xfc\x8a7'
+2025-01-13 13:51:11,411 - CRL_OCSP_Proxy - [DEBUG] - 
+Enviando petición a AWS Gateway:
+2025-01-13 13:51:11,411 - CRL_OCSP_Proxy - [DEBUG] - URL: https://XXX3qwi566.execute-api.eu-north-1.amazonaws.com/prod/ocsp
+2025-01-13 13:51:11,411 - urllib3.connectionpool - [DEBUG] - Starting new HTTPS connection (1): XXX3qwi566.execute-api.eu-north-1.amazonaws.com:443
+2025-01-13 13:51:11,762 - urllib3.connectionpool - [DEBUG] - https://XXX3qwi566.execute-api.eu-north-1.amazonaws.com:443 "POST /prod/ocsp HTTP/1.1" 200 1916
+2025-01-13 13:51:11,770 - CRL_OCSP_Proxy - [DEBUG] - 
+Detalles de la respuesta:
+2025-01-13 13:51:11,771 - CRL_OCSP_Proxy - [DEBUG] - Status Code: 200
+2025-01-13 13:51:11,771 - CRL_OCSP_Proxy - [DEBUG] - Reason: OK
+2025-01-13 13:51:11,771 - CRL_OCSP_Proxy - [DEBUG] - 
+Headers de respuesta:
+2025-01-13 13:51:11,771 - CRL_OCSP_Proxy - [DEBUG] -   Date: Mon, 13 Jan 2025 12:51:13 GMT
+2025-01-13 13:51:11,771 - CRL_OCSP_Proxy - [DEBUG] -   Content-Type: application/ocsp-response
+2025-01-13 13:51:11,771 - CRL_OCSP_Proxy - [DEBUG] -   Content-Length: 1916
+2025-01-13 13:51:11,771 - CRL_OCSP_Proxy - [DEBUG] -   Connection: keep-alive
+2025-01-13 13:51:11,771 - CRL_OCSP_Proxy - [DEBUG] -   x-amzn-RequestId: a3b5e300-1d4c-4b72-b3ec-2d4014241733
+2025-01-13 13:51:11,772 - CRL_OCSP_Proxy - [DEBUG] -   Access-Control-Allow-Origin: *
+2025-01-13 13:51:11,772 - CRL_OCSP_Proxy - [DEBUG] -   x-amz-apigw-id: EU7aPEpFAi0EOWQ=
+2025-01-13 13:51:11,772 - CRL_OCSP_Proxy - [DEBUG] -   X-Amzn-Trace-Id: Root=1-67850c41-6b3037864cb82afa02d2c36b;Parent=54ee4094da8e4965;Sampled=0;Lineage=1:e924009f:0
+2025-01-13 13:51:11,772 - CRL_OCSP_Proxy - [DEBUG] - Content Length: 1916 bytes
+2025-01-13 13:51:11,772 - CRL_OCSP_Proxy - [DEBUG] - 
+=== OCSP Response Details ===
+2025-01-13 13:51:11,772 - CRL_OCSP_Proxy - [DEBUG] - Response Status: successful
+2025-01-13 13:51:11,772 - CRL_OCSP_Proxy - [DEBUG] - Version: v1
+2025-01-13 13:51:11,772 - CRL_OCSP_Proxy - [DEBUG] - Responder ID: OrderedDict([('country_name', 'ES'), ('state_or_province_name', 'VALENCIA'), ('locality_name', 'BURJASSOT'), ('organization_name', 'xxxx'), ('serial_number', 'Axxx73396'), ('common_name', 'Servidor OCSP xxxxCA120 DE xxxx-ISTEC')])
+2025-01-13 13:51:11,774 - CRL_OCSP_Proxy - [DEBUG] - Produced At: 2025-01-13 12:51:13+00:00
+2025-01-13 13:51:11,774 - CRL_OCSP_Proxy - [DEBUG] - 
+Certificate Status: good
+2025-01-13 13:51:11,774 - CRL_OCSP_Proxy - [DEBUG] -   This Update: 2025-01-13 10:10:31+00:00
+2025-01-13 13:51:11,774 - CRL_OCSP_Proxy - [DEBUG] -   Next Update: 2025-01-16 10:10:31+00:00
+2025-01-13 13:51:18,992 - CRL_OCSP_Proxy - [DEBUG] - 
+======================================================================
+2025-01-13 13:51:18,992 - CRL_OCSP_Proxy - [DEBUG] - Nueva petición POST - 2025-01-13T13:51:18.992354
+2025-01-13 13:51:18,992 - CRL_OCSP_Proxy - [DEBUG] - Method: POST
+2025-01-13 13:51:18,992 - CRL_OCSP_Proxy - [DEBUG] - Path: /
+2025-01-13 13:51:18,992 - CRL_OCSP_Proxy - [DEBUG] - Protocol Version: HTTP/1.0
+2025-01-13 13:51:18,992 - CRL_OCSP_Proxy - [DEBUG] - Client Address: ('127.0.0.1', 55903)
+2025-01-13 13:51:18,992 - CRL_OCSP_Proxy - [DEBUG] - 
+Headers recibidos:
+2025-01-13 13:51:18,992 - CRL_OCSP_Proxy - [DEBUG] -   Accept: */*
+2025-01-13 13:51:18,992 - CRL_OCSP_Proxy - [DEBUG] -   Content-Type: application/ocsp-request
+2025-01-13 13:51:18,992 - CRL_OCSP_Proxy - [DEBUG] -   Content-Length: 155
+2025-01-13 13:51:18,992 - CRL_OCSP_Proxy - [DEBUG] -   Character-Encoding: binary
+2025-01-13 13:51:18,992 - CRL_OCSP_Proxy - [DEBUG] -   User-Agent: PPKHandler
+2025-01-13 13:51:18,992 - CRL_OCSP_Proxy - [DEBUG] -   Host: ocsp.xxxx.es
+2025-01-13 13:51:18,992 - CRL_OCSP_Proxy - [DEBUG] -   Connection: Keep-Alive
+2025-01-13 13:51:18,992 - CRL_OCSP_Proxy - [DEBUG] -   Cache-Control: no-cache
+2025-01-13 13:51:18,992 - CRL_OCSP_Proxy - [DEBUG] - 
+=== OCSP Request Details ===
+2025-01-13 13:51:18,992 - CRL_OCSP_Proxy - [DEBUG] - Version: v1
+2025-01-13 13:51:18,992 - CRL_OCSP_Proxy - [DEBUG] - 
+Requested Certificate:
+2025-01-13 13:51:18,992 - CRL_OCSP_Proxy - [DEBUG] -   Hash Algorithm: sha1
+2025-01-13 13:51:18,992 - CRL_OCSP_Proxy - [DEBUG] -   Issuer Name Hash: 4959446cba6569e93af75cddf7ca65b078f852f2
+2025-01-13 13:51:18,992 - CRL_OCSP_Proxy - [DEBUG] -   Issuer Key Hash: e8409b8efb663fc144d8a1dfd44a81420817cbe5
+2025-01-13 13:51:18,992 - CRL_OCSP_Proxy - [DEBUG] -   Serial Number: xxx293361980993820391764910620631686006
+2025-01-13 13:51:18,992 - CRL_OCSP_Proxy - [DEBUG] - 
+Request Extensions:
+2025-01-13 13:51:18,992 - CRL_OCSP_Proxy - [DEBUG] -   acceptable_responses: ['basic_ocsp_response']
+2025-01-13 13:51:18,992 - CRL_OCSP_Proxy - [DEBUG] -   nonce: b'\xc7\xdd\xaa\xba(\xdd\x1b\n\xa5]\x0c\xea$,"\x07'
+2025-01-13 13:51:18,992 - CRL_OCSP_Proxy - [DEBUG] - 
+Enviando petición a AWS Gateway:
+2025-01-13 13:51:18,997 - CRL_OCSP_Proxy - [DEBUG] - URL: https://XXX3qwi566.execute-api.eu-north-1.amazonaws.com/prod/ocsp
+2025-01-13 13:51:18,997 - urllib3.connectionpool - [DEBUG] - Starting new HTTPS connection (1): XXX3qwi566.execute-api.eu-north-1.amazonaws.com:443
+2025-01-13 13:51:19,602 - urllib3.connectionpool - [DEBUG] - https://XXX3qwi566.execute-api.eu-north-1.amazonaws.com:443 "POST /prod/ocsp HTTP/1.1" 200 1916
+2025-01-13 13:51:19,602 - CRL_OCSP_Proxy - [DEBUG] - 
+Detalles de la respuesta:
+2025-01-13 13:51:19,605 - CRL_OCSP_Proxy - [DEBUG] - Status Code: 200
+2025-01-13 13:51:19,605 - CRL_OCSP_Proxy - [DEBUG] - Reason: OK
+2025-01-13 13:51:19,605 - CRL_OCSP_Proxy - [DEBUG] - 
+Headers de respuesta:
+2025-01-13 13:51:19,605 - CRL_OCSP_Proxy - [DEBUG] -   Date: Mon, 13 Jan 2025 12:51:21 GMT
+2025-01-13 13:51:19,605 - CRL_OCSP_Proxy - [DEBUG] -   Content-Type: application/ocsp-response
+2025-01-13 13:51:19,605 - CRL_OCSP_Proxy - [DEBUG] -   Content-Length: 1916
+2025-01-13 13:51:19,605 - CRL_OCSP_Proxy - [DEBUG] -   Connection: keep-alive
+2025-01-13 13:51:19,605 - CRL_OCSP_Proxy - [DEBUG] -   x-amzn-RequestId: 679d8a8b-79e5-498c-9dfb-40061e22dbc4
+2025-01-13 13:51:19,605 - CRL_OCSP_Proxy - [DEBUG] -   Access-Control-Allow-Origin: *
+2025-01-13 13:51:19,607 - CRL_OCSP_Proxy - [DEBUG] -   x-amz-apigw-id: EU7bbHoaAi0ElXQ=
+2025-01-13 13:51:19,607 - CRL_OCSP_Proxy - [DEBUG] -   X-Amzn-Trace-Id: Root=1-67850c48-08f02f6f6109ba3736e8e383;Parent=6397cd6b895d2579;Sampled=0;Lineage=1:e924009f:0
+2025-01-13 13:51:19,607 - CRL_OCSP_Proxy - [DEBUG] - Content Length: 1916 bytes
+2025-01-13 13:51:19,607 - CRL_OCSP_Proxy - [DEBUG] - 
+=== OCSP Response Details ===
+2025-01-13 13:51:19,607 - CRL_OCSP_Proxy - [DEBUG] - Response Status: successful
+2025-01-13 13:51:19,607 - CRL_OCSP_Proxy - [DEBUG] - Version: v1
+2025-01-13 13:51:19,607 - CRL_OCSP_Proxy - [DEBUG] - Responder ID: OrderedDict([('country_name', 'ES'), ('state_or_province_name', 'VALENCIA'), ('locality_name', 'BURJASSOT'), ('organization_name', 'xxxx'), ('serial_number', 'Axxx73396'), ('common_name', 'Servidor OCSP xxxxCA120 DE xxxx-ISTEC')])
+2025-01-13 13:51:19,609 - CRL_OCSP_Proxy - [DEBUG] - Produced At: 2025-01-13 12:51:21+00:00
+2025-01-13 13:51:19,609 - CRL_OCSP_Proxy - [DEBUG] - 
+Certificate Status: good
+2025-01-13 13:51:19,609 - CRL_OCSP_Proxy - [DEBUG] -   This Update: 2025-01-13 10:10:31+00:00
+2025-01-13 13:51:19,609 - CRL_OCSP_Proxy - [DEBUG] -   Next Update: 2025-01-16 10:10:31+00:00
+2025-01-13 13:51:27,366 - CRL_OCSP_Proxy - [DEBUG] - 
+======================================================================
+2025-01-13 13:51:27,366 - CRL_OCSP_Proxy - [DEBUG] - Nueva petición POST - 2025-01-13T13:51:27.366033
+2025-01-13 13:51:27,366 - CRL_OCSP_Proxy - [DEBUG] - Method: POST
+2025-01-13 13:51:27,366 - CRL_OCSP_Proxy - [DEBUG] - Path: /
+2025-01-13 13:51:27,366 - CRL_OCSP_Proxy - [DEBUG] - Protocol Version: HTTP/1.0
+2025-01-13 13:51:27,366 - CRL_OCSP_Proxy - [DEBUG] - Client Address: ('127.0.0.1', 55912)
+2025-01-13 13:51:27,366 - CRL_OCSP_Proxy - [DEBUG] - 
+Headers recibidos:
+2025-01-13 13:51:27,366 - CRL_OCSP_Proxy - [DEBUG] -   Accept: */*
+2025-01-13 13:51:27,366 - CRL_OCSP_Proxy - [DEBUG] -   Content-Type: application/ocsp-request
+2025-01-13 13:51:27,366 - CRL_OCSP_Proxy - [DEBUG] -   Content-Length: 155
+2025-01-13 13:51:27,366 - CRL_OCSP_Proxy - [DEBUG] -   Character-Encoding: binary
+2025-01-13 13:51:27,366 - CRL_OCSP_Proxy - [DEBUG] -   User-Agent: PPKHandler
+2025-01-13 13:51:27,366 - CRL_OCSP_Proxy - [DEBUG] -   Host: ocsp.xxxx.es
+2025-01-13 13:51:27,366 - CRL_OCSP_Proxy - [DEBUG] -   Connection: Keep-Alive
+2025-01-13 13:51:27,366 - CRL_OCSP_Proxy - [DEBUG] -   Cache-Control: no-cache
+2025-01-13 13:51:27,366 - CRL_OCSP_Proxy - [DEBUG] - 
+=== OCSP Request Details ===
+2025-01-13 13:51:27,366 - CRL_OCSP_Proxy - [DEBUG] - Version: v1
+2025-01-13 13:51:27,366 - CRL_OCSP_Proxy - [DEBUG] - 
+Requested Certificate:
+2025-01-13 13:51:27,366 - CRL_OCSP_Proxy - [DEBUG] -   Hash Algorithm: sha1
+2025-01-13 13:51:27,366 - CRL_OCSP_Proxy - [DEBUG] -   Issuer Name Hash: 4959446cba6569e93af75cddf7ca65b078f852f2
+2025-01-13 13:51:27,366 - CRL_OCSP_Proxy - [DEBUG] -   Issuer Key Hash: e8409b8efb663fc144d8a1dfd44a81420817cbe5
+2025-01-13 13:51:27,369 - CRL_OCSP_Proxy - [DEBUG] -   Serial Number: xxx293361980993820391764910620631686006
+2025-01-13 13:51:27,369 - CRL_OCSP_Proxy - [DEBUG] - 
+Request Extensions:
+2025-01-13 13:51:27,369 - CRL_OCSP_Proxy - [DEBUG] -   acceptable_responses: ['basic_ocsp_response']
+2025-01-13 13:51:27,369 - CRL_OCSP_Proxy - [DEBUG] -   nonce: b'5\x85\xb2\xb0\x88U\xb0\xae\xe6\xc8<\xf3\x11\xdd\x07\xbe'
+2025-01-13 13:51:27,369 - CRL_OCSP_Proxy - [DEBUG] - 
+Enviando petición a AWS Gateway:
+2025-01-13 13:51:27,369 - CRL_OCSP_Proxy - [DEBUG] - URL: https://XXX3qwi566.execute-api.eu-north-1.amazonaws.com/prod/ocsp
+2025-01-13 13:51:27,370 - urllib3.connectionpool - [DEBUG] - Starting new HTTPS connection (1): XXX3qwi566.execute-api.eu-north-1.amazonaws.com:443
+2025-01-13 13:51:27,700 - urllib3.connectionpool - [DEBUG] - https://XXX3qwi566.execute-api.eu-north-1.amazonaws.com:443 "POST /prod/ocsp HTTP/1.1" 200 1916
+2025-01-13 13:51:27,700 - CRL_OCSP_Proxy - [DEBUG] - 
+Detalles de la respuesta:
+2025-01-13 13:51:27,700 - CRL_OCSP_Proxy - [DEBUG] - Status Code: 200
+2025-01-13 13:51:27,700 - CRL_OCSP_Proxy - [DEBUG] - Reason: OK
+2025-01-13 13:51:27,700 - CRL_OCSP_Proxy - [DEBUG] - 
+Headers de respuesta:
+2025-01-13 13:51:27,700 - CRL_OCSP_Proxy - [DEBUG] -   Date: Mon, 13 Jan 2025 12:51:29 GMT
+2025-01-13 13:51:27,700 - CRL_OCSP_Proxy - [DEBUG] -   Content-Type: application/ocsp-response
+2025-01-13 13:51:27,700 - CRL_OCSP_Proxy - [DEBUG] -   Content-Length: 1916
+2025-01-13 13:51:27,705 - CRL_OCSP_Proxy - [DEBUG] -   Connection: keep-alive
+2025-01-13 13:51:27,705 - CRL_OCSP_Proxy - [DEBUG] -   x-amzn-RequestId: 96df4e2a-e8b7-49f2-a573-e71fd282f871
+2025-01-13 13:51:27,705 - CRL_OCSP_Proxy - [DEBUG] -   Access-Control-Allow-Origin: *
+2025-01-13 13:51:27,705 - CRL_OCSP_Proxy - [DEBUG] -   x-amz-apigw-id: EU7cuGSNgi0EVnQ=
+2025-01-13 13:51:27,705 - CRL_OCSP_Proxy - [DEBUG] -   X-Amzn-Trace-Id: Root=1-67850c51-733b106c18a20bce44656ed7;Parent=2edc9d3f30649c26;Sampled=0;Lineage=1:e924009f:0
+2025-01-13 13:51:27,705 - CRL_OCSP_Proxy - [DEBUG] - Content Length: 1916 bytes
+2025-01-13 13:51:27,705 - CRL_OCSP_Proxy - [DEBUG] - 
+=== OCSP Response Details ===
+2025-01-13 13:51:27,706 - CRL_OCSP_Proxy - [DEBUG] - Response Status: successful
+2025-01-13 13:51:27,706 - CRL_OCSP_Proxy - [DEBUG] - Version: v1
+2025-01-13 13:51:27,707 - CRL_OCSP_Proxy - [DEBUG] - Responder ID: OrderedDict([('country_name', 'ES'), ('state_or_province_name', 'VALENCIA'), ('locality_name', 'BURJASSOT'), ('organization_name', 'xxxx'), ('serial_number', 'Axxx73396'), ('common_name', 'Servidor OCSP xxxxCA120 DE xxxx-ISTEC')])
+2025-01-13 13:51:27,707 - CRL_OCSP_Proxy - [DEBUG] - Produced At: 2025-01-13 12:51:29+00:00
+2025-01-13 13:51:27,707 - CRL_OCSP_Proxy - [DEBUG] - 
+Certificate Status: good
+2025-01-13 13:51:27,707 - CRL_OCSP_Proxy - [DEBUG] -   This Update: 2025-01-13 10:10:31+00:00
+2025-01-13 13:51:27,707 - CRL_OCSP_Proxy - [DEBUG] -   Next Update: 2025-01-16 10:10:31+00:00
+2025-01-13 13:51:34,082 - CRL_OCSP_Proxy - [DEBUG] - 
+======================================================================
+2025-01-13 13:51:34,082 - CRL_OCSP_Proxy - [DEBUG] - Nueva petición POST - 2025-01-13T13:51:34.082283
+2025-01-13 13:51:34,082 - CRL_OCSP_Proxy - [DEBUG] - Method: POST
+2025-01-13 13:51:34,082 - CRL_OCSP_Proxy - [DEBUG] - Path: /
+2025-01-13 13:51:34,082 - CRL_OCSP_Proxy - [DEBUG] - Protocol Version: HTTP/1.0
+2025-01-13 13:51:34,082 - CRL_OCSP_Proxy - [DEBUG] - Client Address: ('127.0.0.1', 55916)
+2025-01-13 13:51:34,082 - CRL_OCSP_Proxy - [DEBUG] - 
+Headers recibidos:
+2025-01-13 13:51:34,082 - CRL_OCSP_Proxy - [DEBUG] -   Accept: */*
+2025-01-13 13:51:34,082 - CRL_OCSP_Proxy - [DEBUG] -   Content-Type: application/ocsp-request
+2025-01-13 13:51:34,082 - CRL_OCSP_Proxy - [DEBUG] -   Content-Length: 155
+2025-01-13 13:51:34,082 - CRL_OCSP_Proxy - [DEBUG] -   Character-Encoding: binary
+2025-01-13 13:51:34,082 - CRL_OCSP_Proxy - [DEBUG] -   User-Agent: PPKHandler
+2025-01-13 13:51:34,082 - CRL_OCSP_Proxy - [DEBUG] -   Host: ocsp.xxxx.es
+2025-01-13 13:51:34,082 - CRL_OCSP_Proxy - [DEBUG] -   Connection: Keep-Alive
+2025-01-13 13:51:34,082 - CRL_OCSP_Proxy - [DEBUG] -   Cache-Control: no-cache
+2025-01-13 13:51:34,082 - CRL_OCSP_Proxy - [DEBUG] - 
+=== OCSP Request Details ===
+2025-01-13 13:51:34,082 - CRL_OCSP_Proxy - [DEBUG] - Version: v1
+2025-01-13 13:51:34,085 - CRL_OCSP_Proxy - [DEBUG] - 
+Requested Certificate:
+2025-01-13 13:51:34,085 - CRL_OCSP_Proxy - [DEBUG] -   Hash Algorithm: sha1
+2025-01-13 13:51:34,085 - CRL_OCSP_Proxy - [DEBUG] -   Issuer Name Hash: 4959446cba6569e93af75cddf7ca65b078f852f2
+2025-01-13 13:51:34,085 - CRL_OCSP_Proxy - [DEBUG] -   Issuer Key Hash: e8409b8efb663fc144d8a1dfd44a81420817cbe5
+2025-01-13 13:51:34,085 - CRL_OCSP_Proxy - [DEBUG] -   Serial Number: xxx293361980993820391764910620631686006
+2025-01-13 13:51:34,085 - CRL_OCSP_Proxy - [DEBUG] - 
+Request Extensions:
+2025-01-13 13:51:34,085 - CRL_OCSP_Proxy - [DEBUG] -   acceptable_responses: ['basic_ocsp_response']
+2025-01-13 13:51:34,085 - CRL_OCSP_Proxy - [DEBUG] -   nonce: b'\x92>\xc5\x8es\xfb\xca\xb2\x93T\xd8\x0b\x86\x87\x965'
+2025-01-13 13:51:34,085 - CRL_OCSP_Proxy - [DEBUG] - 
+Enviando petición a AWS Gateway:
+2025-01-13 13:51:34,085 - CRL_OCSP_Proxy - [DEBUG] - URL: https://XXX3qwi566.execute-api.eu-north-1.amazonaws.com/prod/ocsp
+2025-01-13 13:51:34,088 - urllib3.connectionpool - [DEBUG] - Starting new HTTPS connection (1): XXX3qwi566.execute-api.eu-north-1.amazonaws.com:443
+2025-01-13 13:51:34,612 - urllib3.connectionpool - [DEBUG] - https://XXX3qwi566.execute-api.eu-north-1.amazonaws.com:443 "POST /prod/ocsp HTTP/1.1" 200 1916
+2025-01-13 13:51:34,613 - CRL_OCSP_Proxy - [DEBUG] - 
+Detalles de la respuesta:
+2025-01-13 13:51:34,613 - CRL_OCSP_Proxy - [DEBUG] - Status Code: 200
+2025-01-13 13:51:34,613 - CRL_OCSP_Proxy - [DEBUG] - Reason: OK
+2025-01-13 13:51:34,613 - CRL_OCSP_Proxy - [DEBUG] - 
+Headers de respuesta:
+2025-01-13 13:51:34,613 - CRL_OCSP_Proxy - [DEBUG] -   Date: Mon, 13 Jan 2025 12:51:36 GMT
+2025-01-13 13:51:34,613 - CRL_OCSP_Proxy - [DEBUG] -   Content-Type: application/ocsp-response
+2025-01-13 13:51:34,613 - CRL_OCSP_Proxy - [DEBUG] -   Content-Length: 1916
+2025-01-13 13:51:34,613 - CRL_OCSP_Proxy - [DEBUG] -   Connection: keep-alive
+2025-01-13 13:51:34,613 - CRL_OCSP_Proxy - [DEBUG] -   x-amzn-RequestId: b5feefce-d652-46e5-90ea-9f2b6f3fe082
+2025-01-13 13:51:34,613 - CRL_OCSP_Proxy - [DEBUG] -   Access-Control-Allow-Origin: *
+2025-01-13 13:51:34,613 - CRL_OCSP_Proxy - [DEBUG] -   x-amz-apigw-id: EU7dxEj3Ai0Erjg=
+2025-01-13 13:51:34,613 - CRL_OCSP_Proxy - [DEBUG] -   X-Amzn-Trace-Id: Root=1-67850c57-2c8725607ee1dea424f3a02f;Parent=59eebd830bce2364;Sampled=0;Lineage=1:e924009f:0
+2025-01-13 13:51:34,613 - CRL_OCSP_Proxy - [DEBUG] - Content Length: 1916 bytes
+2025-01-13 13:51:34,613 - CRL_OCSP_Proxy - [DEBUG] - 
+=== OCSP Response Details ===
+2025-01-13 13:51:34,613 - CRL_OCSP_Proxy - [DEBUG] - Response Status: successful
+2025-01-13 13:51:34,613 - CRL_OCSP_Proxy - [DEBUG] - Version: v1
+2025-01-13 13:51:34,613 - CRL_OCSP_Proxy - [DEBUG] - Responder ID: OrderedDict([('country_name', 'ES'), ('state_or_province_name', 'VALENCIA'), ('locality_name', 'BURJASSOT'), ('organization_name', 'xxxx'), ('serial_number', 'Axxx73396'), ('common_name', 'Servidor OCSP xxxxCA120 DE xxxx-ISTEC')])
+2025-01-13 13:51:34,613 - CRL_OCSP_Proxy - [DEBUG] - Produced At: 2025-01-13 12:51:36+00:00
+2025-01-13 13:51:34,613 - CRL_OCSP_Proxy - [DEBUG] - 
+Certificate Status: good
+2025-01-13 13:51:34,613 - CRL_OCSP_Proxy - [DEBUG] -   This Update: 2025-01-13 10:10:31+00:00
+2025-01-13 13:51:34,613 - CRL_OCSP_Proxy - [DEBUG] -   Next Update: 2025-01-16 10:10:31+00:00
+2025-01-13 13:51:51,120 - CRL_OCSP_Proxy - [DEBUG] - 
+======================================================================
+2025-01-13 13:51:51,120 - CRL_OCSP_Proxy - [DEBUG] - Nueva petición POST - 2025-01-13T13:51:51.120386
+2025-01-13 13:51:51,120 - CRL_OCSP_Proxy - [DEBUG] - Method: POST
+2025-01-13 13:51:51,120 - CRL_OCSP_Proxy - [DEBUG] - Path: /
+2025-01-13 13:51:51,120 - CRL_OCSP_Proxy - [DEBUG] - Protocol Version: HTTP/1.0
+2025-01-13 13:51:51,120 - CRL_OCSP_Proxy - [DEBUG] - Client Address: ('127.0.0.1', 55933)
+2025-01-13 13:51:51,120 - CRL_OCSP_Proxy - [DEBUG] - 
+Headers recibidos:
+2025-01-13 13:51:51,120 - CRL_OCSP_Proxy - [DEBUG] -   Accept: */*
+2025-01-13 13:51:51,120 - CRL_OCSP_Proxy - [DEBUG] -   Content-Type: application/ocsp-request
+2025-01-13 13:51:51,120 - CRL_OCSP_Proxy - [DEBUG] -   Content-Length: 155
+2025-01-13 13:51:51,120 - CRL_OCSP_Proxy - [DEBUG] -   Character-Encoding: binary
+2025-01-13 13:51:51,120 - CRL_OCSP_Proxy - [DEBUG] -   User-Agent: PPKHandler
+2025-01-13 13:51:51,120 - CRL_OCSP_Proxy - [DEBUG] -   Host: ocsp.xxxx.es
+2025-01-13 13:51:51,120 - CRL_OCSP_Proxy - [DEBUG] -   Connection: Keep-Alive
+2025-01-13 13:51:51,120 - CRL_OCSP_Proxy - [DEBUG] -   Cache-Control: no-cache
+2025-01-13 13:51:51,120 - CRL_OCSP_Proxy - [DEBUG] - 
+=== OCSP Request Details ===
+2025-01-13 13:51:51,120 - CRL_OCSP_Proxy - [DEBUG] - Version: v1
+2025-01-13 13:51:51,120 - CRL_OCSP_Proxy - [DEBUG] - 
+Requested Certificate:
+2025-01-13 13:51:51,125 - CRL_OCSP_Proxy - [DEBUG] -   Hash Algorithm: sha1
+2025-01-13 13:51:51,125 - CRL_OCSP_Proxy - [DEBUG] -   Issuer Name Hash: 4959446cba6569e93af75cddf7ca65b078f852f2
+2025-01-13 13:51:51,125 - CRL_OCSP_Proxy - [DEBUG] -   Issuer Key Hash: e8409b8efb663fc144d8a1dfd44a81420817cbe5
+2025-01-13 13:51:51,125 - CRL_OCSP_Proxy - [DEBUG] -   Serial Number: xxx293361980993820391764910620631686006
+2025-01-13 13:51:51,125 - CRL_OCSP_Proxy - [DEBUG] - 
+Request Extensions:
+2025-01-13 13:51:51,125 - CRL_OCSP_Proxy - [DEBUG] -   acceptable_responses: ['basic_ocsp_response']
+2025-01-13 13:51:51,125 - CRL_OCSP_Proxy - [DEBUG] -   nonce: b"\xef\x84\xd9\xd6\x1f\x9dc\xc7>\xbc(\x8a/\xd0'p"
+2025-01-13 13:51:51,125 - CRL_OCSP_Proxy - [DEBUG] - 
+Enviando petición a AWS Gateway:
+2025-01-13 13:51:51,127 - CRL_OCSP_Proxy - [DEBUG] - URL: https://XXX3qwi566.execute-api.eu-north-1.amazonaws.com/prod/ocsp
+2025-01-13 13:51:51,128 - urllib3.connectionpool - [DEBUG] - Starting new HTTPS connection (1): XXX3qwi566.execute-api.eu-north-1.amazonaws.com:443
+2025-01-13 13:51:51,560 - urllib3.connectionpool - [DEBUG] - https://XXX3qwi566.execute-api.eu-north-1.amazonaws.com:443 "POST /prod/ocsp HTTP/1.1" 200 1916
+2025-01-13 13:51:51,560 - CRL_OCSP_Proxy - [DEBUG] - 
+Detalles de la respuesta:
+2025-01-13 13:51:51,560 - CRL_OCSP_Proxy - [DEBUG] - Status Code: 200
+2025-01-13 13:51:51,560 - CRL_OCSP_Proxy - [DEBUG] - Reason: OK
+2025-01-13 13:51:51,562 - CRL_OCSP_Proxy - [DEBUG] - 
+Headers de respuesta:
+2025-01-13 13:51:51,562 - CRL_OCSP_Proxy - [DEBUG] -   Date: Mon, 13 Jan 2025 12:51:53 GMT
+2025-01-13 13:51:51,562 - CRL_OCSP_Proxy - [DEBUG] -   Content-Type: application/ocsp-response
+2025-01-13 13:51:51,562 - CRL_OCSP_Proxy - [DEBUG] -   Content-Length: 1916
+2025-01-13 13:51:51,562 - CRL_OCSP_Proxy - [DEBUG] -   Connection: keep-alive
+2025-01-13 13:51:51,562 - CRL_OCSP_Proxy - [DEBUG] -   x-amzn-RequestId: a6c9fb85-267a-4bf7-8ca3-1697cd26efb4
+2025-01-13 13:51:51,562 - CRL_OCSP_Proxy - [DEBUG] -   Access-Control-Allow-Origin: *
+2025-01-13 13:51:51,562 - CRL_OCSP_Proxy - [DEBUG] -   x-amz-apigw-id: EU7gcFHXgi0EXpg=
+2025-01-13 13:51:51,562 - CRL_OCSP_Proxy - [DEBUG] -   X-Amzn-Trace-Id: Root=1-67850c68-69c50f6d0a3d1e6950bf2763;Parent=48002a7f6abea5b2;Sampled=0;Lineage=1:e924009f:0
+2025-01-13 13:51:51,562 - CRL_OCSP_Proxy - [DEBUG] - Content Length: 1916 bytes
+2025-01-13 13:51:51,562 - CRL_OCSP_Proxy - [DEBUG] - 
+=== OCSP Response Details ===
+2025-01-13 13:51:51,562 - CRL_OCSP_Proxy - [DEBUG] - Response Status: successful
+2025-01-13 13:51:51,562 - CRL_OCSP_Proxy - [DEBUG] - Version: v1
+2025-01-13 13:51:51,562 - CRL_OCSP_Proxy - [DEBUG] - Responder ID: OrderedDict([('country_name', 'ES'), ('state_or_province_name', 'VALENCIA'), ('locality_name', 'BURJASSOT'), ('organization_name', 'xxxx'), ('serial_number', 'Axxx73396'), ('common_name', 'Servidor OCSP xxxxCA120 DE xxxx-ISTEC')])
+2025-01-13 13:51:51,562 - CRL_OCSP_Proxy - [DEBUG] - Produced At: 2025-01-13 12:51:52+00:00
+2025-01-13 13:51:51,562 - CRL_OCSP_Proxy - [DEBUG] - 
+Certificate Status: good
+2025-01-13 13:51:51,562 - CRL_OCSP_Proxy - [DEBUG] -   This Update: 2025-01-13 10:10:31+00:00
+2025-01-13 13:51:51,562 - CRL_OCSP_Proxy - [DEBUG] -   Next Update: 2025-01-16 10:10:31+00:00
