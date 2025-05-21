@@ -1,0 +1,244 @@
+timestamp,message
+1736766548888,"{""time"":""2025-01-13T11:09:08.888Z"",""type"":""platform.initStart"",""record"":{""initializationType"":""on-demand"",""phase"":""init"",""runtimeVersion"":""python:3.10.v46"",""runtimeVersionArn"":""arn:aws:lambda:eu-north-1::runtime:732ad977322a3d3b48316f22772d490c5a1f1898f80a758b6a1de53725c9e97d"",""functionName"":""cert6-OCSP-OCSPProxyFunction-XXX6d7bZ5vwu"",""functionVersion"":""$LATEST""}}"
+1736766549224,"{""timestamp"": ""2025-01-13T11:09:09Z"", ""level"": ""INFO"", ""message"": ""Initialized HTTP client for region eu-west-1"", ""logger"": ""root"", ""requestId"": """"}
+"
+1736766549224,"{""timestamp"": ""2025-01-13T11:09:09Z"", ""level"": ""INFO"", ""message"": ""Initialized HTTP client for region eu-central-1"", ""logger"": ""root"", ""requestId"": """"}
+"
+1736766549224,"{""timestamp"": ""2025-01-13T11:09:09Z"", ""level"": ""INFO"", ""message"": ""Initialized HTTP client for region us-east-1"", ""logger"": ""root"", ""requestId"": """"}
+"
+1736766549224,"{""timestamp"": ""2025-01-13T11:09:09Z"", ""level"": ""INFO"", ""message"": ""Initialized HTTP client for region us-west-2"", ""logger"": ""root"", ""requestId"": """"}
+"
+1736766549224,"{""timestamp"": ""2025-01-13T11:09:09Z"", ""level"": ""INFO"", ""message"": ""Initialized HTTP client for region ap-southeast-1"", ""logger"": ""root"", ""requestId"": """"}
+"
+1736766549227,"{""time"":""2025-01-13T11:09:09.227Z"",""type"":""platform.start"",""record"":{""requestId"":""77e57160-b8c7-45f7-aae3-741dc427008e"",""version"":""$LATEST""}}"
+1736766549228,"{""timestamp"": ""2025-01-13T11:09:09Z"", ""level"": ""INFO"", ""message"": ""Received OCSP request of size 155 bytes from 193.145.230.x"", ""logger"": ""root"", ""requestId"": ""77e57160-b8c7-45f7-aae3-741dc427008e""}
+"
+1736766550153,"{""timestamp"": ""2025-01-13T11:09:10Z"", ""level"": ""INFO"", ""message"": ""{\""timestamp\"": \""2025-01-13T11:09:09.228449\"", \""source_client_ip\"": \""193.145.230.x\"", \""lambda_ip\"": \""169.254.66.x\"", \""destination_host\"": \""ocsp.xxxx.es\"", \""destination_ip\"": \""195.77.23.39\"", \""source_region\"": \""eu-north-1\"", \""destination_region\"": \""us-east-1\"", \""method\"": \""POST\"", \""request_url\"": \""http://ocsp.xxxx.es\""}"", ""logger"": ""network.connections"", ""requestId"": ""77e57160-b8c7-45f7-aae3-741dc427008e""}
+"
+1736766550280,"{""timestamp"": ""2025-01-13T11:09:10Z"", ""level"": ""INFO"", ""message"": ""Request through us-east-1 successful with status 200"", ""logger"": ""root"", ""requestId"": ""77e57160-b8c7-45f7-aae3-741dc427008e""}
+"
+1736766550283,"{""time"":""2025-01-13T11:09:10.283Z"",""type"":""platform.report"",""record"":{""requestId"":""77e57160-b8c7-45f7-aae3-741dc427008e"",""metrics"":{""durationMs"":1055.509,""billedDurationMs"":1056,""memorySizeMB"":256,""maxMemoryUsedMB"":55,""initDurationMs"":338.367},""status"":""success""}}"
+1736766562884,"{""time"":""2025-01-13T11:09:22.884Z"",""type"":""platform.start"",""record"":{""requestId"":""f89ff26d-f49d-46b0-8eab-b4ca4220ccd7"",""version"":""$LATEST""}}"
+1736766562885,"{""timestamp"": ""2025-01-13T11:09:22Z"", ""level"": ""INFO"", ""message"": ""Received OCSP request of size 155 bytes from 193.145.230.x"", ""logger"": ""root"", ""requestId"": ""f89ff26d-f49d-46b0-8eab-b4ca4220ccd7""}
+"
+1736766562886,"{""timestamp"": ""2025-01-13T11:09:22Z"", ""level"": ""INFO"", ""message"": ""{\""timestamp\"": \""2025-01-13T11:09:22.885548\"", \""source_client_ip\"": \""193.145.230.x\"", \""lambda_ip\"": \""169.254.66.x\"", \""destination_host\"": \""ocsp.xxxx.es\"", \""destination_ip\"": \""213.162.193.244\"", \""source_region\"": \""eu-north-1\"", \""destination_region\"": \""us-east-1\"", \""method\"": \""POST\"", \""request_url\"": \""http://ocsp.xxxx.es\""}"", ""logger"": ""network.connections"", ""requestId"": ""f89ff26d-f49d-46b0-8eab-b4ca4220ccd7""}
+"
+1736766562954,"{""timestamp"": ""2025-01-13T11:09:22Z"", ""level"": ""INFO"", ""message"": ""Request through us-east-1 successful with status 200"", ""logger"": ""root"", ""requestId"": ""f89ff26d-f49d-46b0-8eab-b4ca4220ccd7""}
+"
+1736766562956,"{""time"":""2025-01-13T11:09:22.956Z"",""type"":""platform.report"",""record"":{""requestId"":""f89ff26d-f49d-46b0-8eab-b4ca4220ccd7"",""metrics"":{""durationMs"":71.053,""billedDurationMs"":72,""memorySizeMB"":256,""maxMemoryUsedMB"":55},""status"":""success""}}"
+1736766799297,"{""time"":""2025-01-13T11:13:19.297Z"",""type"":""platform.start"",""record"":{""requestId"":""fc38e4a0-9b86-4f85-a60e-b8ff1f619f05"",""version"":""$LATEST""}}"
+1736766799297,"{""timestamp"": ""2025-01-13T11:13:19Z"", ""level"": ""INFO"", ""message"": ""Received OCSP request of size 155 bytes from 193.145.230.x"", ""logger"": ""root"", ""requestId"": ""fc38e4a0-9b86-4f85-a60e-b8ff1f619f05""}
+"
+1736766799474,"{""timestamp"": ""2025-01-13T11:13:19Z"", ""level"": ""INFO"", ""message"": ""{\""timestamp\"": \""2025-01-13T11:13:19.297993\"", \""source_client_ip\"": \""193.145.230.x\"", \""lambda_ip\"": \""169.254.66.x\"", \""destination_host\"": \""ocsp.xxxx.es\"", \""destination_ip\"": \""195.77.23.41\"", \""source_region\"": \""eu-north-1\"", \""destination_region\"": \""us-west-2\"", \""method\"": \""POST\"", \""request_url\"": \""http://ocsp.xxxx.es\""}"", ""logger"": ""network.connections"", ""requestId"": ""fc38e4a0-9b86-4f85-a60e-b8ff1f619f05""}
+"
+1736766799598,"{""timestamp"": ""2025-01-13T11:13:19Z"", ""level"": ""INFO"", ""message"": ""Request through us-west-2 successful with status 200"", ""logger"": ""root"", ""requestId"": ""fc38e4a0-9b86-4f85-a60e-b8ff1f619f05""}
+"
+1736766799599,"{""time"":""2025-01-13T11:13:19.599Z"",""type"":""platform.report"",""record"":{""requestId"":""fc38e4a0-9b86-4f85-a60e-b8ff1f619f05"",""metrics"":{""durationMs"":302.319,""billedDurationMs"":303,""memorySizeMB"":256,""maxMemoryUsedMB"":55},""status"":""success""}}"
+1736766808430,"{""time"":""2025-01-13T11:13:28.430Z"",""type"":""platform.start"",""record"":{""requestId"":""36cceae1-919f-412b-91a9-eb5a1c8bce6b"",""version"":""$LATEST""}}"
+1736766808431,"{""timestamp"": ""2025-01-13T11:13:28Z"", ""level"": ""INFO"", ""message"": ""Received OCSP request of size 155 bytes from 193.145.230.x"", ""logger"": ""root"", ""requestId"": ""36cceae1-919f-412b-91a9-eb5a1c8bce6b""}
+"
+1736766808431,"{""timestamp"": ""2025-01-13T11:13:28Z"", ""level"": ""INFO"", ""message"": ""{\""timestamp\"": \""2025-01-13T11:13:28.431498\"", \""source_client_ip\"": \""193.145.230.x\"", \""lambda_ip\"": \""169.254.66.x\"", \""destination_host\"": \""ocsp.xxxx.es\"", \""destination_ip\"": \""195.77.23.39\"", \""source_region\"": \""eu-north-1\"", \""destination_region\"": \""us-west-2\"", \""method\"": \""POST\"", \""request_url\"": \""http://ocsp.xxxx.es\""}"", ""logger"": ""network.connections"", ""requestId"": ""36cceae1-919f-412b-91a9-eb5a1c8bce6b""}
+"
+1736766808499,"{""timestamp"": ""2025-01-13T11:13:28Z"", ""level"": ""INFO"", ""message"": ""Request through us-west-2 successful with status 200"", ""logger"": ""root"", ""requestId"": ""36cceae1-919f-412b-91a9-eb5a1c8bce6b""}
+"
+1736766808500,"{""time"":""2025-01-13T11:13:28.500Z"",""type"":""platform.report"",""record"":{""requestId"":""36cceae1-919f-412b-91a9-eb5a1c8bce6b"",""metrics"":{""durationMs"":69.483,""billedDurationMs"":70,""memorySizeMB"":256,""maxMemoryUsedMB"":55},""status"":""success""}}"
+1736766817835,"{""time"":""2025-01-13T11:13:37.835Z"",""type"":""platform.start"",""record"":{""requestId"":""d4a43de5-7e33-450f-8c04-42bb3b4778d3"",""version"":""$LATEST""}}"
+1736766817836,"{""timestamp"": ""2025-01-13T11:13:37Z"", ""level"": ""INFO"", ""message"": ""Received OCSP request of size 155 bytes from 193.145.230.x"", ""logger"": ""root"", ""requestId"": ""d4a43de5-7e33-450f-8c04-42bb3b4778d3""}
+"
+1736766817836,"{""timestamp"": ""2025-01-13T11:13:37Z"", ""level"": ""INFO"", ""message"": ""{\""timestamp\"": \""2025-01-13T11:13:37.836231\"", \""source_client_ip\"": \""193.145.230.x\"", \""lambda_ip\"": \""169.254.66.x\"", \""destination_host\"": \""ocsp.xxxx.es\"", \""destination_ip\"": \""213.162.193.244\"", \""source_region\"": \""eu-north-1\"", \""destination_region\"": \""us-west-2\"", \""method\"": \""POST\"", \""request_url\"": \""http://ocsp.xxxx.es\""}"", ""logger"": ""network.connections"", ""requestId"": ""d4a43de5-7e33-450f-8c04-42bb3b4778d3""}
+"
+1736766817905,"{""timestamp"": ""2025-01-13T11:13:37Z"", ""level"": ""INFO"", ""message"": ""Request through us-west-2 successful with status 200"", ""logger"": ""root"", ""requestId"": ""d4a43de5-7e33-450f-8c04-42bb3b4778d3""}
+"
+1736766817906,"{""time"":""2025-01-13T11:13:37.906Z"",""type"":""platform.report"",""record"":{""requestId"":""d4a43de5-7e33-450f-8c04-42bb3b4778d3"",""metrics"":{""durationMs"":71.194,""billedDurationMs"":72,""memorySizeMB"":256,""maxMemoryUsedMB"":55},""status"":""success""}}"
+1736766826651,"{""time"":""2025-01-13T11:13:46.651Z"",""type"":""platform.start"",""record"":{""requestId"":""c210ef20-5eb3-4524-9fa7-1292e637d10a"",""version"":""$LATEST""}}"
+1736766826651,"{""timestamp"": ""2025-01-13T11:13:46Z"", ""level"": ""INFO"", ""message"": ""Received OCSP request of size 155 bytes from 193.145.230.x"", ""logger"": ""root"", ""requestId"": ""c210ef20-5eb3-4524-9fa7-1292e637d10a""}
+"
+1736766826652,"{""timestamp"": ""2025-01-13T11:13:46Z"", ""level"": ""INFO"", ""message"": ""{\""timestamp\"": \""2025-01-13T11:13:46.651735\"", \""source_client_ip\"": \""193.145.230.x\"", \""lambda_ip\"": \""169.254.66.x\"", \""destination_host\"": \""ocsp.xxxx.es\"", \""destination_ip\"": \""195.77.23.41\"", \""source_region\"": \""eu-north-1\"", \""destination_region\"": \""us-west-2\"", \""method\"": \""POST\"", \""request_url\"": \""http://ocsp.xxxx.es\""}"", ""logger"": ""network.connections"", ""requestId"": ""c210ef20-5eb3-4524-9fa7-1292e637d10a""}
+"
+1736766826720,"{""timestamp"": ""2025-01-13T11:13:46Z"", ""level"": ""INFO"", ""message"": ""Request through us-west-2 successful with status 200"", ""logger"": ""root"", ""requestId"": ""c210ef20-5eb3-4524-9fa7-1292e637d10a""}
+"
+1736766826721,"{""time"":""2025-01-13T11:13:46.721Z"",""type"":""platform.report"",""record"":{""requestId"":""c210ef20-5eb3-4524-9fa7-1292e637d10a"",""metrics"":{""durationMs"":70.06,""billedDurationMs"":71,""memorySizeMB"":256,""maxMemoryUsedMB"":55},""status"":""success""}}"
+1736766834674,"{""time"":""2025-01-13T11:13:54.674Z"",""type"":""platform.start"",""record"":{""requestId"":""300986c0-8a80-44f4-857d-22093a58bb02"",""version"":""$LATEST""}}"
+1736766834675,"{""timestamp"": ""2025-01-13T11:13:54Z"", ""level"": ""INFO"", ""message"": ""Received OCSP request of size 155 bytes from 193.145.230.x"", ""logger"": ""root"", ""requestId"": ""300986c0-8a80-44f4-857d-22093a58bb02""}
+"
+1736766834726,"{""timestamp"": ""2025-01-13T11:13:54Z"", ""level"": ""INFO"", ""message"": ""{\""timestamp\"": \""2025-01-13T11:13:54.675269\"", \""source_client_ip\"": \""193.145.230.x\"", \""lambda_ip\"": \""169.254.66.x\"", \""destination_host\"": \""ocsp.xxxx.es\"", \""destination_ip\"": \""213.162.193.244\"", \""source_region\"": \""eu-north-1\"", \""destination_region\"": \""ap-southeast-1\"", \""method\"": \""POST\"", \""request_url\"": \""http://ocsp.xxxx.es\""}"", ""logger"": ""network.connections"", ""requestId"": ""300986c0-8a80-44f4-857d-22093a58bb02""}
+"
+1736766834875,"{""timestamp"": ""2025-01-13T11:13:54Z"", ""level"": ""INFO"", ""message"": ""Request through ap-southeast-1 successful with status 200"", ""logger"": ""root"", ""requestId"": ""300986c0-8a80-44f4-857d-22093a58bb02""}
+"
+1736766834876,"{""time"":""2025-01-13T11:13:54.876Z"",""type"":""platform.report"",""record"":{""requestId"":""300986c0-8a80-44f4-857d-22093a58bb02"",""metrics"":{""durationMs"":201.804,""billedDurationMs"":202,""memorySizeMB"":256,""maxMemoryUsedMB"":55},""status"":""success""}}"
+1736766842653,"{""time"":""2025-01-13T11:14:02.653Z"",""type"":""platform.start"",""record"":{""requestId"":""2f6db31c-4a1c-40ea-8511-bdb1e4ed3817"",""version"":""$LATEST""}}"
+1736766842653,"{""timestamp"": ""2025-01-13T11:14:02Z"", ""level"": ""INFO"", ""message"": ""Received OCSP request of size 155 bytes from 193.145.230.x"", ""logger"": ""root"", ""requestId"": ""2f6db31c-4a1c-40ea-8511-bdb1e4ed3817""}
+"
+1736766842654,"{""timestamp"": ""2025-01-13T11:14:02Z"", ""level"": ""INFO"", ""message"": ""{\""timestamp\"": \""2025-01-13T11:14:02.654076\"", \""source_client_ip\"": \""193.145.230.x\"", \""lambda_ip\"": \""169.254.66.x\"", \""destination_host\"": \""ocsp.xxxx.es\"", \""destination_ip\"": \""195.77.23.39\"", \""source_region\"": \""eu-north-1\"", \""destination_region\"": \""us-west-2\"", \""method\"": \""POST\"", \""request_url\"": \""http://ocsp.xxxx.es\""}"", ""logger"": ""network.connections"", ""requestId"": ""2f6db31c-4a1c-40ea-8511-bdb1e4ed3817""}
+"
+1736766842740,"{""timestamp"": ""2025-01-13T11:14:02Z"", ""level"": ""INFO"", ""message"": ""Request through us-west-2 successful with status 200"", ""logger"": ""root"", ""requestId"": ""2f6db31c-4a1c-40ea-8511-bdb1e4ed3817""}
+"
+1736766842741,"{""time"":""2025-01-13T11:14:02.741Z"",""type"":""platform.report"",""record"":{""requestId"":""2f6db31c-4a1c-40ea-8511-bdb1e4ed3817"",""metrics"":{""durationMs"":88.169,""billedDurationMs"":89,""memorySizeMB"":256,""maxMemoryUsedMB"":55},""status"":""success""}}"
+1736766850296,"{""time"":""2025-01-13T11:14:10.296Z"",""type"":""platform.start"",""record"":{""requestId"":""a7d105da-097c-4215-9a40-d5131488ea30"",""version"":""$LATEST""}}"
+1736766850297,"{""timestamp"": ""2025-01-13T11:14:10Z"", ""level"": ""INFO"", ""message"": ""Received OCSP request of size 155 bytes from 193.145.230.x"", ""logger"": ""root"", ""requestId"": ""a7d105da-097c-4215-9a40-d5131488ea30""}
+"
+1736766850297,"{""timestamp"": ""2025-01-13T11:14:10Z"", ""level"": ""INFO"", ""message"": ""{\""timestamp\"": \""2025-01-13T11:14:10.297126\"", \""source_client_ip\"": \""193.145.230.x\"", \""lambda_ip\"": \""169.254.66.x\"", \""destination_host\"": \""ocsp.xxxx.es\"", \""destination_ip\"": \""195.77.23.41\"", \""source_region\"": \""eu-north-1\"", \""destination_region\"": \""eu-west-1\"", \""method\"": \""POST\"", \""request_url\"": \""http://ocsp.xxxx.es\""}"", ""logger"": ""network.connections"", ""requestId"": ""a7d105da-097c-4215-9a40-d5131488ea30""}
+"
+1736766850420,"{""timestamp"": ""2025-01-13T11:14:10Z"", ""level"": ""INFO"", ""message"": ""Request through eu-west-1 successful with status 200"", ""logger"": ""root"", ""requestId"": ""a7d105da-097c-4215-9a40-d5131488ea30""}
+"
+1736766850421,"{""time"":""2025-01-13T11:14:10.421Z"",""type"":""platform.report"",""record"":{""requestId"":""a7d105da-097c-4215-9a40-d5131488ea30"",""metrics"":{""durationMs"":125.272,""billedDurationMs"":126,""memorySizeMB"":256,""maxMemoryUsedMB"":56},""status"":""success""}}"
+1736766858003,"{""time"":""2025-01-13T11:14:18.003Z"",""type"":""platform.start"",""record"":{""requestId"":""cb8bee46-113d-4c9b-881a-0d0666fbc1eb"",""version"":""$LATEST""}}"
+1736766858003,"{""timestamp"": ""2025-01-13T11:14:18Z"", ""level"": ""INFO"", ""message"": ""Received OCSP request of size 155 bytes from 193.145.230.x"", ""logger"": ""root"", ""requestId"": ""cb8bee46-113d-4c9b-881a-0d0666fbc1eb""}
+"
+1736766858004,"{""timestamp"": ""2025-01-13T11:14:18Z"", ""level"": ""INFO"", ""message"": ""{\""timestamp\"": \""2025-01-13T11:14:18.004022\"", \""source_client_ip\"": \""193.145.230.x\"", \""lambda_ip\"": \""169.254.66.x\"", \""destination_host\"": \""ocsp.xxxx.es\"", \""destination_ip\"": \""195.77.23.39\"", \""source_region\"": \""eu-north-1\"", \""destination_region\"": \""ap-southeast-1\"", \""method\"": \""POST\"", \""request_url\"": \""http://ocsp.xxxx.es\""}"", ""logger"": ""network.connections"", ""requestId"": ""cb8bee46-113d-4c9b-881a-0d0666fbc1eb""}
+"
+1736766858133,"{""timestamp"": ""2025-01-13T11:14:18Z"", ""level"": ""INFO"", ""message"": ""Request through ap-southeast-1 successful with status 200"", ""logger"": ""root"", ""requestId"": ""cb8bee46-113d-4c9b-881a-0d0666fbc1eb""}
+"
+1736766858134,"{""time"":""2025-01-13T11:14:18.134Z"",""type"":""platform.report"",""record"":{""requestId"":""cb8bee46-113d-4c9b-881a-0d0666fbc1eb"",""metrics"":{""durationMs"":131.268,""billedDurationMs"":132,""memorySizeMB"":256,""maxMemoryUsedMB"":56},""status"":""success""}}"
+1736766865568,"{""time"":""2025-01-13T11:14:25.568Z"",""type"":""platform.start"",""record"":{""requestId"":""6c3647bf-4f77-48e8-bf98-160d6c288af7"",""version"":""$LATEST""}}"
+1736766865569,"{""timestamp"": ""2025-01-13T11:14:25Z"", ""level"": ""INFO"", ""message"": ""Received OCSP request of size 155 bytes from 193.145.230.x"", ""logger"": ""root"", ""requestId"": ""6c3647bf-4f77-48e8-bf98-160d6c288af7""}
+"
+1736766865621,"{""timestamp"": ""2025-01-13T11:14:25Z"", ""level"": ""INFO"", ""message"": ""{\""timestamp\"": \""2025-01-13T11:14:25.569518\"", \""source_client_ip\"": \""193.145.230.x\"", \""lambda_ip\"": \""169.254.66.x\"", \""destination_host\"": \""ocsp.xxxx.es\"", \""destination_ip\"": \""213.162.193.244\"", \""source_region\"": \""eu-north-1\"", \""destination_region\"": \""ap-southeast-1\"", \""method\"": \""POST\"", \""request_url\"": \""http://ocsp.xxxx.es\""}"", ""logger"": ""network.connections"", ""requestId"": ""6c3647bf-4f77-48e8-bf98-160d6c288af7""}
+"
+1736766865722,"{""timestamp"": ""2025-01-13T11:14:25Z"", ""level"": ""INFO"", ""message"": ""Request through ap-southeast-1 successful with status 200"", ""logger"": ""root"", ""requestId"": ""6c3647bf-4f77-48e8-bf98-160d6c288af7""}
+"
+1736766865723,"{""time"":""2025-01-13T11:14:25.723Z"",""type"":""platform.report"",""record"":{""requestId"":""6c3647bf-4f77-48e8-bf98-160d6c288af7"",""metrics"":{""durationMs"":154.636,""billedDurationMs"":155,""memorySizeMB"":256,""maxMemoryUsedMB"":56},""status"":""success""}}"
+1736766873188,"{""time"":""2025-01-13T11:14:33.188Z"",""type"":""platform.start"",""record"":{""requestId"":""d62d8afb-f341-4e9d-90ca-1510c0b38002"",""version"":""$LATEST""}}"
+1736766873188,"{""timestamp"": ""2025-01-13T11:14:33Z"", ""level"": ""INFO"", ""message"": ""Received OCSP request of size 155 bytes from 193.145.230.x"", ""logger"": ""root"", ""requestId"": ""d62d8afb-f341-4e9d-90ca-1510c0b38002""}
+"
+1736766873189,"{""timestamp"": ""2025-01-13T11:14:33Z"", ""level"": ""INFO"", ""message"": ""{\""timestamp\"": \""2025-01-13T11:14:33.189041\"", \""source_client_ip\"": \""193.145.230.x\"", \""lambda_ip\"": \""169.254.66.x\"", \""destination_host\"": \""ocsp.xxxx.es\"", \""destination_ip\"": \""213.162.193.244\"", \""source_region\"": \""eu-north-1\"", \""destination_region\"": \""us-east-1\"", \""method\"": \""POST\"", \""request_url\"": \""http://ocsp.xxxx.es\""}"", ""logger"": ""network.connections"", ""requestId"": ""d62d8afb-f341-4e9d-90ca-1510c0b38002""}
+"
+1736766873319,"{""timestamp"": ""2025-01-13T11:14:33Z"", ""level"": ""INFO"", ""message"": ""Request through us-east-1 successful with status 200"", ""logger"": ""root"", ""requestId"": ""d62d8afb-f341-4e9d-90ca-1510c0b38002""}
+"
+1736766873320,"{""time"":""2025-01-13T11:14:33.320Z"",""type"":""platform.report"",""record"":{""requestId"":""d62d8afb-f341-4e9d-90ca-1510c0b38002"",""metrics"":{""durationMs"":132.391,""billedDurationMs"":133,""memorySizeMB"":256,""maxMemoryUsedMB"":56},""status"":""success""}}"
+1736766880062,"{""time"":""2025-01-13T11:14:40.062Z"",""type"":""platform.start"",""record"":{""requestId"":""6cdd0926-d0e4-43af-b197-f504367a4cec"",""version"":""$LATEST""}}"
+1736766880063,"{""timestamp"": ""2025-01-13T11:14:40Z"", ""level"": ""INFO"", ""message"": ""Received OCSP request of size 155 bytes from 193.145.230.x"", ""logger"": ""root"", ""requestId"": ""6cdd0926-d0e4-43af-b197-f504367a4cec""}
+"
+1736766880063,"{""timestamp"": ""2025-01-13T11:14:40Z"", ""level"": ""INFO"", ""message"": ""{\""timestamp\"": \""2025-01-13T11:14:40.063385\"", \""source_client_ip\"": \""193.145.230.x\"", \""lambda_ip\"": \""169.254.66.x\"", \""destination_host\"": \""ocsp.xxxx.es\"", \""destination_ip\"": \""195.77.23.41\"", \""source_region\"": \""eu-north-1\"", \""destination_region\"": \""ap-southeast-1\"", \""method\"": \""POST\"", \""request_url\"": \""http://ocsp.xxxx.es\""}"", ""logger"": ""network.connections"", ""requestId"": ""6cdd0926-d0e4-43af-b197-f504367a4cec""}
+"
+1736766880127,"{""timestamp"": ""2025-01-13T11:14:40Z"", ""level"": ""INFO"", ""message"": ""Request through ap-southeast-1 successful with status 200"", ""logger"": ""root"", ""requestId"": ""6cdd0926-d0e4-43af-b197-f504367a4cec""}
+"
+1736766880128,"{""time"":""2025-01-13T11:14:40.128Z"",""type"":""platform.report"",""record"":{""requestId"":""6cdd0926-d0e4-43af-b197-f504367a4cec"",""metrics"":{""durationMs"":65.563,""billedDurationMs"":66,""memorySizeMB"":256,""maxMemoryUsedMB"":56},""status"":""success""}}"
+1736766887477,"{""time"":""2025-01-13T11:14:47.477Z"",""type"":""platform.start"",""record"":{""requestId"":""f511513d-036a-4e62-ab92-2223d2704e89"",""version"":""$LATEST""}}"
+1736766887477,"{""timestamp"": ""2025-01-13T11:14:47Z"", ""level"": ""INFO"", ""message"": ""Received OCSP request of size 155 bytes from 193.145.230.x"", ""logger"": ""root"", ""requestId"": ""f511513d-036a-4e62-ab92-2223d2704e89""}
+"
+1736766887478,"{""timestamp"": ""2025-01-13T11:14:47Z"", ""level"": ""INFO"", ""message"": ""{\""timestamp\"": \""2025-01-13T11:14:47.477796\"", \""source_client_ip\"": \""193.145.230.x\"", \""lambda_ip\"": \""169.254.66.x\"", \""destination_host\"": \""ocsp.xxxx.es\"", \""destination_ip\"": \""213.162.193.244\"", \""source_region\"": \""eu-north-1\"", \""destination_region\"": \""us-west-2\"", \""method\"": \""POST\"", \""request_url\"": \""http://ocsp.xxxx.es\""}"", ""logger"": ""network.connections"", ""requestId"": ""f511513d-036a-4e62-ab92-2223d2704e89""}
+"
+1736766887606,"{""timestamp"": ""2025-01-13T11:14:47Z"", ""level"": ""INFO"", ""message"": ""Request through us-west-2 successful with status 200"", ""logger"": ""root"", ""requestId"": ""f511513d-036a-4e62-ab92-2223d2704e89""}
+"
+1736766887607,"{""time"":""2025-01-13T11:14:47.607Z"",""type"":""platform.report"",""record"":{""requestId"":""f511513d-036a-4e62-ab92-2223d2704e89"",""metrics"":{""durationMs"":130.179,""billedDurationMs"":131,""memorySizeMB"":256,""maxMemoryUsedMB"":56},""status"":""success""}}"
+1736766895855,"{""time"":""2025-01-13T11:14:55.855Z"",""type"":""platform.start"",""record"":{""requestId"":""2a9e45b1-67be-47f7-90f8-98eb86c78c92"",""version"":""$LATEST""}}"
+1736766895855,"{""timestamp"": ""2025-01-13T11:14:55Z"", ""level"": ""INFO"", ""message"": ""Received OCSP request of size 155 bytes from 193.145.230.x"", ""logger"": ""root"", ""requestId"": ""2a9e45b1-67be-47f7-90f8-98eb86c78c92""}
+"
+1736766895908,"{""timestamp"": ""2025-01-13T11:14:55Z"", ""level"": ""INFO"", ""message"": ""{\""timestamp\"": \""2025-01-13T11:14:55.856040\"", \""source_client_ip\"": \""193.145.230.x\"", \""lambda_ip\"": \""169.254.66.x\"", \""destination_host\"": \""ocsp.xxxx.es\"", \""destination_ip\"": \""195.77.23.39\"", \""source_region\"": \""eu-north-1\"", \""destination_region\"": \""ap-southeast-1\"", \""method\"": \""POST\"", \""request_url\"": \""http://ocsp.xxxx.es\""}"", ""logger"": ""network.connections"", ""requestId"": ""2a9e45b1-67be-47f7-90f8-98eb86c78c92""}
+"
+1736766895970,"{""timestamp"": ""2025-01-13T11:14:55Z"", ""level"": ""INFO"", ""message"": ""Request through ap-southeast-1 successful with status 200"", ""logger"": ""root"", ""requestId"": ""2a9e45b1-67be-47f7-90f8-98eb86c78c92""}
+"
+1736766895972,"{""time"":""2025-01-13T11:14:55.972Z"",""type"":""platform.report"",""record"":{""requestId"":""2a9e45b1-67be-47f7-90f8-98eb86c78c92"",""metrics"":{""durationMs"":116.951,""billedDurationMs"":117,""memorySizeMB"":256,""maxMemoryUsedMB"":56},""status"":""success""}}"
+1736766905204,"{""time"":""2025-01-13T11:15:05.204Z"",""type"":""platform.start"",""record"":{""requestId"":""f817bd02-238b-4e17-991f-ead896f4eb53"",""version"":""$LATEST""}}"
+1736766905204,"{""timestamp"": ""2025-01-13T11:15:05Z"", ""level"": ""INFO"", ""message"": ""Received OCSP request of size 155 bytes from 193.145.230.x"", ""logger"": ""root"", ""requestId"": ""f817bd02-238b-4e17-991f-ead896f4eb53""}
+"
+1736766905205,"{""timestamp"": ""2025-01-13T11:15:05Z"", ""level"": ""INFO"", ""message"": ""{\""timestamp\"": \""2025-01-13T11:15:05.204848\"", \""source_client_ip\"": \""193.145.230.x\"", \""lambda_ip\"": \""169.254.66.x\"", \""destination_host\"": \""ocsp.xxxx.es\"", \""destination_ip\"": \""195.77.23.39\"", \""source_region\"": \""eu-north-1\"", \""destination_region\"": \""us-west-2\"", \""method\"": \""POST\"", \""request_url\"": \""http://ocsp.xxxx.es\""}"", ""logger"": ""network.connections"", ""requestId"": ""f817bd02-238b-4e17-991f-ead896f4eb53""}
+"
+1736766905270,"{""timestamp"": ""2025-01-13T11:15:05Z"", ""level"": ""INFO"", ""message"": ""Request through us-west-2 successful with status 200"", ""logger"": ""root"", ""requestId"": ""f817bd02-238b-4e17-991f-ead896f4eb53""}
+"
+1736766905271,"{""time"":""2025-01-13T11:15:05.271Z"",""type"":""platform.report"",""record"":{""requestId"":""f817bd02-238b-4e17-991f-ead896f4eb53"",""metrics"":{""durationMs"":67.541,""billedDurationMs"":68,""memorySizeMB"":256,""maxMemoryUsedMB"":56},""status"":""success""}}"
+1736766914176,"{""time"":""2025-01-13T11:15:14.176Z"",""type"":""platform.start"",""record"":{""requestId"":""956ea798-022f-4c79-9161-e6f3a2424c8a"",""version"":""$LATEST""}}"
+1736766914177,"{""timestamp"": ""2025-01-13T11:15:14Z"", ""level"": ""INFO"", ""message"": ""Received OCSP request of size 155 bytes from 193.145.230.x"", ""logger"": ""root"", ""requestId"": ""956ea798-022f-4c79-9161-e6f3a2424c8a""}
+"
+1736766914178,"{""timestamp"": ""2025-01-13T11:15:14Z"", ""level"": ""INFO"", ""message"": ""{\""timestamp\"": \""2025-01-13T11:15:14.177537\"", \""source_client_ip\"": \""193.145.230.x\"", \""lambda_ip\"": \""169.254.66.x\"", \""destination_host\"": \""ocsp.xxxx.es\"", \""destination_ip\"": \""195.77.23.41\"", \""source_region\"": \""eu-north-1\"", \""destination_region\"": \""eu-central-1\"", \""method\"": \""POST\"", \""request_url\"": \""http://ocsp.xxxx.es\""}"", ""logger"": ""network.connections"", ""requestId"": ""956ea798-022f-4c79-9161-e6f3a2424c8a""}
+"
+1736766914296,"{""timestamp"": ""2025-01-13T11:15:14Z"", ""level"": ""INFO"", ""message"": ""Request through eu-central-1 successful with status 200"", ""logger"": ""root"", ""requestId"": ""956ea798-022f-4c79-9161-e6f3a2424c8a""}
+"
+1736766914297,"{""time"":""2025-01-13T11:15:14.297Z"",""type"":""platform.report"",""record"":{""requestId"":""956ea798-022f-4c79-9161-e6f3a2424c8a"",""metrics"":{""durationMs"":120.475,""billedDurationMs"":121,""memorySizeMB"":256,""maxMemoryUsedMB"":56},""status"":""success""}}"
+1736766923296,"{""time"":""2025-01-13T11:15:23.296Z"",""type"":""platform.start"",""record"":{""requestId"":""12575774-4a89-4a8d-8c07-d664e5558378"",""version"":""$LATEST""}}"
+1736766923297,"{""timestamp"": ""2025-01-13T11:15:23Z"", ""level"": ""INFO"", ""message"": ""Received OCSP request of size 155 bytes from 193.145.230.x"", ""logger"": ""root"", ""requestId"": ""12575774-4a89-4a8d-8c07-d664e5558378""}
+"
+1736766923298,"{""timestamp"": ""2025-01-13T11:15:23Z"", ""level"": ""INFO"", ""message"": ""{\""timestamp\"": \""2025-01-13T11:15:23.297816\"", \""source_client_ip\"": \""193.145.230.x\"", \""lambda_ip\"": \""169.254.66.x\"", \""destination_host\"": \""ocsp.xxxx.es\"", \""destination_ip\"": \""195.77.23.39\"", \""source_region\"": \""eu-north-1\"", \""destination_region\"": \""ap-southeast-1\"", \""method\"": \""POST\"", \""request_url\"": \""http://ocsp.xxxx.es\""}"", ""logger"": ""network.connections"", ""requestId"": ""12575774-4a89-4a8d-8c07-d664e5558378""}
+"
+1736766923423,"{""timestamp"": ""2025-01-13T11:15:23Z"", ""level"": ""INFO"", ""message"": ""Request through ap-southeast-1 successful with status 200"", ""logger"": ""root"", ""requestId"": ""12575774-4a89-4a8d-8c07-d664e5558378""}
+"
+1736766923424,"{""time"":""2025-01-13T11:15:23.424Z"",""type"":""platform.report"",""record"":{""requestId"":""12575774-4a89-4a8d-8c07-d664e5558378"",""metrics"":{""durationMs"":127.567,""billedDurationMs"":128,""memorySizeMB"":256,""maxMemoryUsedMB"":56},""status"":""success""}}"
+1736766930255,"{""time"":""2025-01-13T11:15:30.255Z"",""type"":""platform.start"",""record"":{""requestId"":""743d52e0-bb3e-45ce-b772-6863ff558732"",""version"":""$LATEST""}}"
+1736766930255,"{""timestamp"": ""2025-01-13T11:15:30Z"", ""level"": ""INFO"", ""message"": ""Received OCSP request of size 155 bytes from 193.145.230.x"", ""logger"": ""root"", ""requestId"": ""743d52e0-bb3e-45ce-b772-6863ff558732""}
+"
+1736766930307,"{""timestamp"": ""2025-01-13T11:15:30Z"", ""level"": ""INFO"", ""message"": ""{\""timestamp\"": \""2025-01-13T11:15:30.255981\"", \""source_client_ip\"": \""193.145.230.x\"", \""lambda_ip\"": \""169.254.66.x\"", \""destination_host\"": \""ocsp.xxxx.es\"", \""destination_ip\"": \""213.162.193.244\"", \""source_region\"": \""eu-north-1\"", \""destination_region\"": \""eu-west-1\"", \""method\"": \""POST\"", \""request_url\"": \""http://ocsp.xxxx.es\""}"", ""logger"": ""network.connections"", ""requestId"": ""743d52e0-bb3e-45ce-b772-6863ff558732""}
+"
+1736766930433,"{""timestamp"": ""2025-01-13T11:15:30Z"", ""level"": ""INFO"", ""message"": ""Request through eu-west-1 successful with status 200"", ""logger"": ""root"", ""requestId"": ""743d52e0-bb3e-45ce-b772-6863ff558732""}
+"
+1736766930434,"{""time"":""2025-01-13T11:15:30.434Z"",""type"":""platform.report"",""record"":{""requestId"":""743d52e0-bb3e-45ce-b772-6863ff558732"",""metrics"":{""durationMs"":179.207,""billedDurationMs"":180,""memorySizeMB"":256,""maxMemoryUsedMB"":56},""status"":""success""}}"
+1736766937646,"{""time"":""2025-01-13T11:15:37.646Z"",""type"":""platform.start"",""record"":{""requestId"":""f99d2766-834e-4bd2-9d7d-64da4a562f19"",""version"":""$LATEST""}}"
+1736766937647,"{""timestamp"": ""2025-01-13T11:15:37Z"", ""level"": ""INFO"", ""message"": ""Received OCSP request of size 155 bytes from 193.145.230.x"", ""logger"": ""root"", ""requestId"": ""f99d2766-834e-4bd2-9d7d-64da4a562f19""}
+"
+1736766937647,"{""timestamp"": ""2025-01-13T11:15:37Z"", ""level"": ""INFO"", ""message"": ""{\""timestamp\"": \""2025-01-13T11:15:37.647195\"", \""source_client_ip\"": \""193.145.230.x\"", \""lambda_ip\"": \""169.254.66.x\"", \""destination_host\"": \""ocsp.xxxx.es\"", \""destination_ip\"": \""195.77.23.39\"", \""source_region\"": \""eu-north-1\"", \""destination_region\"": \""eu-central-1\"", \""method\"": \""POST\"", \""request_url\"": \""http://ocsp.xxxx.es\""}"", ""logger"": ""network.connections"", ""requestId"": ""f99d2766-834e-4bd2-9d7d-64da4a562f19""}
+"
+1736766937761,"{""timestamp"": ""2025-01-13T11:15:37Z"", ""level"": ""INFO"", ""message"": ""Request through eu-central-1 successful with status 200"", ""logger"": ""root"", ""requestId"": ""f99d2766-834e-4bd2-9d7d-64da4a562f19""}
+"
+1736766937762,"{""time"":""2025-01-13T11:15:37.762Z"",""type"":""platform.report"",""record"":{""requestId"":""f99d2766-834e-4bd2-9d7d-64da4a562f19"",""metrics"":{""durationMs"":115.792,""billedDurationMs"":116,""memorySizeMB"":256,""maxMemoryUsedMB"":56},""status"":""success""}}"
+1736766945058,"{""time"":""2025-01-13T11:15:45.058Z"",""type"":""platform.start"",""record"":{""requestId"":""71de348a-6040-4327-b495-00e9cd27db7d"",""version"":""$LATEST""}}"
+1736766945058,"{""timestamp"": ""2025-01-13T11:15:45Z"", ""level"": ""INFO"", ""message"": ""Received OCSP request of size 155 bytes from 193.145.230.x"", ""logger"": ""root"", ""requestId"": ""71de348a-6040-4327-b495-00e9cd27db7d""}
+"
+1736766945059,"{""timestamp"": ""2025-01-13T11:15:45Z"", ""level"": ""INFO"", ""message"": ""{\""timestamp\"": \""2025-01-13T11:15:45.059033\"", \""source_client_ip\"": \""193.145.230.x\"", \""lambda_ip\"": \""169.254.66.x\"", \""destination_host\"": \""ocsp.xxxx.es\"", \""destination_ip\"": \""213.162.193.244\"", \""source_region\"": \""eu-north-1\"", \""destination_region\"": \""us-west-2\"", \""method\"": \""POST\"", \""request_url\"": \""http://ocsp.xxxx.es\""}"", ""logger"": ""network.connections"", ""requestId"": ""71de348a-6040-4327-b495-00e9cd27db7d""}
+"
+1736766945176,"{""timestamp"": ""2025-01-13T11:15:45Z"", ""level"": ""INFO"", ""message"": ""Request through us-west-2 successful with status 200"", ""logger"": ""root"", ""requestId"": ""71de348a-6040-4327-b495-00e9cd27db7d""}
+"
+1736766945177,"{""time"":""2025-01-13T11:15:45.177Z"",""type"":""platform.report"",""record"":{""requestId"":""71de348a-6040-4327-b495-00e9cd27db7d"",""metrics"":{""durationMs"":119.084,""billedDurationMs"":120,""memorySizeMB"":256,""maxMemoryUsedMB"":56},""status"":""success""}}"
+1736766954252,"{""time"":""2025-01-13T11:15:54.252Z"",""type"":""platform.start"",""record"":{""requestId"":""d372ba97-2b3d-46b8-9f89-9a8c35050968"",""version"":""$LATEST""}}"
+1736766954253,"{""timestamp"": ""2025-01-13T11:15:54Z"", ""level"": ""INFO"", ""message"": ""Received OCSP request of size 155 bytes from 193.145.230.x"", ""logger"": ""root"", ""requestId"": ""d372ba97-2b3d-46b8-9f89-9a8c35050968""}
+"
+1736766954253,"{""timestamp"": ""2025-01-13T11:15:54Z"", ""level"": ""INFO"", ""message"": ""{\""timestamp\"": \""2025-01-13T11:15:54.253144\"", \""source_client_ip\"": \""193.145.230.x\"", \""lambda_ip\"": \""169.254.66.x\"", \""destination_host\"": \""ocsp.xxxx.es\"", \""destination_ip\"": \""195.77.23.41\"", \""source_region\"": \""eu-north-1\"", \""destination_region\"": \""eu-central-1\"", \""method\"": \""POST\"", \""request_url\"": \""http://ocsp.xxxx.es\""}"", ""logger"": ""network.connections"", ""requestId"": ""d372ba97-2b3d-46b8-9f89-9a8c35050968""}
+"
+1736766954315,"{""timestamp"": ""2025-01-13T11:15:54Z"", ""level"": ""INFO"", ""message"": ""Request through eu-central-1 successful with status 200"", ""logger"": ""root"", ""requestId"": ""d372ba97-2b3d-46b8-9f89-9a8c35050968""}
+"
+1736766954316,"{""time"":""2025-01-13T11:15:54.316Z"",""type"":""platform.report"",""record"":{""requestId"":""d372ba97-2b3d-46b8-9f89-9a8c35050968"",""metrics"":{""durationMs"":64.348,""billedDurationMs"":65,""memorySizeMB"":256,""maxMemoryUsedMB"":56},""status"":""success""}}"
+1736766963040,"{""time"":""2025-01-13T11:16:03.040Z"",""type"":""platform.start"",""record"":{""requestId"":""ad100763-b1c5-4e48-97bc-345f51445256"",""version"":""$LATEST""}}"
+1736766963041,"{""timestamp"": ""2025-01-13T11:16:03Z"", ""level"": ""INFO"", ""message"": ""Received OCSP request of size 155 bytes from 193.145.230.x"", ""logger"": ""root"", ""requestId"": ""ad100763-b1c5-4e48-97bc-345f51445256""}
+"
+1736766963095,"{""timestamp"": ""2025-01-13T11:16:03Z"", ""level"": ""INFO"", ""message"": ""{\""timestamp\"": \""2025-01-13T11:16:03.041515\"", \""source_client_ip\"": \""193.145.230.x\"", \""lambda_ip\"": \""169.254.66.x\"", \""destination_host\"": \""ocsp.xxxx.es\"", \""destination_ip\"": \""213.162.193.244\"", \""source_region\"": \""eu-north-1\"", \""destination_region\"": \""eu-central-1\"", \""method\"": \""POST\"", \""request_url\"": \""http://ocsp.xxxx.es\""}"", ""logger"": ""network.connections"", ""requestId"": ""ad100763-b1c5-4e48-97bc-345f51445256""}
+"
+1736766963157,"{""timestamp"": ""2025-01-13T11:16:03Z"", ""level"": ""INFO"", ""message"": ""Request through eu-central-1 successful with status 200"", ""logger"": ""root"", ""requestId"": ""ad100763-b1c5-4e48-97bc-345f51445256""}
+"
+1736766963158,"{""time"":""2025-01-13T11:16:03.158Z"",""type"":""platform.report"",""record"":{""requestId"":""ad100763-b1c5-4e48-97bc-345f51445256"",""metrics"":{""durationMs"":117.491,""billedDurationMs"":118,""memorySizeMB"":256,""maxMemoryUsedMB"":56},""status"":""success""}}"
+1736766970732,"{""time"":""2025-01-13T11:16:10.732Z"",""type"":""platform.start"",""record"":{""requestId"":""142f8991-ea47-4240-9121-790898d30328"",""version"":""$LATEST""}}"
+1736766970733,"{""timestamp"": ""2025-01-13T11:16:10Z"", ""level"": ""INFO"", ""message"": ""Received OCSP request of size 155 bytes from 193.145.230.x"", ""logger"": ""root"", ""requestId"": ""142f8991-ea47-4240-9121-790898d30328""}
+"
+1736766970733,"{""timestamp"": ""2025-01-13T11:16:10Z"", ""level"": ""INFO"", ""message"": ""{\""timestamp\"": \""2025-01-13T11:16:10.733264\"", \""source_client_ip\"": \""193.145.230.x\"", \""lambda_ip\"": \""169.254.66.x\"", \""destination_host\"": \""ocsp.xxxx.es\"", \""destination_ip\"": \""213.162.193.244\"", \""source_region\"": \""eu-north-1\"", \""destination_region\"": \""ap-southeast-1\"", \""method\"": \""POST\"", \""request_url\"": \""http://ocsp.xxxx.es\""}"", ""logger"": ""network.connections"", ""requestId"": ""142f8991-ea47-4240-9121-790898d30328""}
+"
+1736766970855,"{""timestamp"": ""2025-01-13T11:16:10Z"", ""level"": ""INFO"", ""message"": ""Request through ap-southeast-1 successful with status 200"", ""logger"": ""root"", ""requestId"": ""142f8991-ea47-4240-9121-790898d30328""}
+"
+1736766970856,"{""time"":""2025-01-13T11:16:10.856Z"",""type"":""platform.report"",""record"":{""requestId"":""142f8991-ea47-4240-9121-790898d30328"",""metrics"":{""durationMs"":124.075,""billedDurationMs"":125,""memorySizeMB"":256,""maxMemoryUsedMB"":56},""status"":""success""}}"
+1736766979292,"{""time"":""2025-01-13T11:16:19.292Z"",""type"":""platform.start"",""record"":{""requestId"":""b93a4bd2-6d65-43b1-ae45-029eb7c7e5c3"",""version"":""$LATEST""}}"
+1736766979292,"{""timestamp"": ""2025-01-13T11:16:19Z"", ""level"": ""INFO"", ""message"": ""Received OCSP request of size 155 bytes from 193.145.230.x"", ""logger"": ""root"", ""requestId"": ""b93a4bd2-6d65-43b1-ae45-029eb7c7e5c3""}
+"
+1736766979293,"{""timestamp"": ""2025-01-13T11:16:19Z"", ""level"": ""INFO"", ""message"": ""{\""timestamp\"": \""2025-01-13T11:16:19.292900\"", \""source_client_ip\"": \""193.145.230.x\"", \""lambda_ip\"": \""169.254.66.x\"", \""destination_host\"": \""ocsp.xxxx.es\"", \""destination_ip\"": \""195.77.23.41\"", \""source_region\"": \""eu-north-1\"", \""destination_region\"": \""eu-central-1\"", \""method\"": \""POST\"", \""request_url\"": \""http://ocsp.xxxx.es\""}"", ""logger"": ""network.connections"", ""requestId"": ""b93a4bd2-6d65-43b1-ae45-029eb7c7e5c3""}
+"
+1736766979360,"{""timestamp"": ""2025-01-13T11:16:19Z"", ""level"": ""INFO"", ""message"": ""Request through eu-central-1 successful with status 200"", ""logger"": ""root"", ""requestId"": ""b93a4bd2-6d65-43b1-ae45-029eb7c7e5c3""}
+"
+1736766979361,"{""time"":""2025-01-13T11:16:19.361Z"",""type"":""platform.report"",""record"":{""requestId"":""b93a4bd2-6d65-43b1-ae45-029eb7c7e5c3"",""metrics"":{""durationMs"":68.986,""billedDurationMs"":69,""memorySizeMB"":256,""maxMemoryUsedMB"":56},""status"":""success""}}"
+1736766986740,"{""time"":""2025-01-13T11:16:26.740Z"",""type"":""platform.start"",""record"":{""requestId"":""1159b56c-a512-4764-9ceb-7e4b29b0874f"",""version"":""$LATEST""}}"
+1736766986740,"{""timestamp"": ""2025-01-13T11:16:26Z"", ""level"": ""INFO"", ""message"": ""Received OCSP request of size 155 bytes from 193.145.230.x"", ""logger"": ""root"", ""requestId"": ""1159b56c-a512-4764-9ceb-7e4b29b0874f""}
+"
+1736766986741,"{""timestamp"": ""2025-01-13T11:16:26Z"", ""level"": ""INFO"", ""message"": ""{\""timestamp\"": \""2025-01-13T11:16:26.740642\"", \""source_client_ip\"": \""193.145.230.x\"", \""lambda_ip\"": \""169.254.66.x\"", \""destination_host\"": \""ocsp.xxxx.es\"", \""destination_ip\"": \""213.162.193.244\"", \""source_region\"": \""eu-north-1\"", \""destination_region\"": \""eu-west-1\"", \""method\"": \""POST\"", \""request_url\"": \""http://ocsp.xxxx.es\""}"", ""logger"": ""network.connections"", ""requestId"": ""1159b56c-a512-4764-9ceb-7e4b29b0874f""}
+"
+1736766986861,"{""timestamp"": ""2025-01-13T11:16:26Z"", ""level"": ""INFO"", ""message"": ""Request through eu-west-1 successful with status 200"", ""logger"": ""root"", ""requestId"": ""1159b56c-a512-4764-9ceb-7e4b29b0874f""}
+"
+1736766986862,"{""time"":""2025-01-13T11:16:26.862Z"",""type"":""platform.report"",""record"":{""requestId"":""1159b56c-a512-4764-9ceb-7e4b29b0874f"",""metrics"":{""durationMs"":122.571,""billedDurationMs"":123,""memorySizeMB"":256,""maxMemoryUsedMB"":56},""status"":""success""}}"
+1736766994125,"{""time"":""2025-01-13T11:16:34.125Z"",""type"":""platform.start"",""record"":{""requestId"":""76c40b4e-96be-4415-ae29-f1ffc3163bf4"",""version"":""$LATEST""}}"
+1736766994125,"{""timestamp"": ""2025-01-13T11:16:34Z"", ""level"": ""INFO"", ""message"": ""Received OCSP request of size 155 bytes from 193.145.230.x"", ""logger"": ""root"", ""requestId"": ""76c40b4e-96be-4415-ae29-f1ffc3163bf4""}
+"
+1736766994187,"{""timestamp"": ""2025-01-13T11:16:34Z"", ""level"": ""INFO"", ""message"": ""{\""timestamp\"": \""2025-01-13T11:16:34.125797\"", \""source_client_ip\"": \""193.145.230.x\"", \""lambda_ip\"": \""169.254.66.x\"", \""destination_host\"": \""ocsp.xxxx.es\"", \""destination_ip\"": \""213.162.193.244\"", \""source_region\"": \""eu-north-1\"", \""destination_region\"": \""eu-central-1\"", \""method\"": \""POST\"", \""request_url\"": \""http://ocsp.xxxx.es\""}"", ""logger"": ""network.connections"", ""requestId"": ""76c40b4e-96be-4415-ae29-f1ffc3163bf4""}
+"
+1736766994250,"{""timestamp"": ""2025-01-13T11:16:34Z"", ""level"": ""INFO"", ""message"": ""Request through eu-central-1 successful with status 200"", ""logger"": ""root"", ""requestId"": ""76c40b4e-96be-4415-ae29-f1ffc3163bf4""}
+"
+1736766994251,"{""time"":""2025-01-13T11:16:34.251Z"",""type"":""platform.report"",""record"":{""requestId"":""76c40b4e-96be-4415-ae29-f1ffc3163bf4"",""metrics"":{""durationMs"":126.758,""billedDurationMs"":127,""memorySizeMB"":256,""maxMemoryUsedMB"":56},""status"":""success""}}"
+1736767003320,"{""time"":""2025-01-13T11:16:43.320Z"",""type"":""platform.start"",""record"":{""requestId"":""ced98efb-a318-4d60-9e66-242f966bf1ca"",""version"":""$LATEST""}}"
+1736767003321,"{""timestamp"": ""2025-01-13T11:16:43Z"", ""level"": ""INFO"", ""message"": ""Received OCSP request of size 155 bytes from 193.145.230.x"", ""logger"": ""root"", ""requestId"": ""ced98efb-a318-4d60-9e66-242f966bf1ca""}
+"
+1736767003321,"{""timestamp"": ""2025-01-13T11:16:43Z"", ""level"": ""INFO"", ""message"": ""{\""timestamp\"": \""2025-01-13T11:16:43.321458\"", \""source_client_ip\"": \""193.145.230.x\"", \""lambda_ip\"": \""169.254.66.x\"", \""destination_host\"": \""ocsp.xxxx.es\"", \""destination_ip\"": \""213.162.193.244\"", \""source_region\"": \""eu-north-1\"", \""destination_region\"": \""eu-central-1\"", \""method\"": \""POST\"", \""request_url\"": \""http://ocsp.xxxx.es\""}"", ""logger"": ""network.connections"", ""requestId"": ""ced98efb-a318-4d60-9e66-242f966bf1ca""}
+"
+1736767003390,"{""timestamp"": ""2025-01-13T11:16:43Z"", ""level"": ""INFO"", ""message"": ""Request through eu-central-1 successful with status 200"", ""logger"": ""root"", ""requestId"": ""ced98efb-a318-4d60-9e66-242f966bf1ca""}
+"
+1736767003391,"{""time"":""2025-01-13T11:16:43.391Z"",""type"":""platform.report"",""record"":{""requestId"":""ced98efb-a318-4d60-9e66-242f966bf1ca"",""metrics"":{""durationMs"":70.323,""billedDurationMs"":71,""memorySizeMB"":256,""maxMemoryUsedMB"":56},""status"":""success""}}"
+1736767010213,"{""time"":""2025-01-13T11:16:50.213Z"",""type"":""platform.start"",""record"":{""requestId"":""bd9b7c0a-ce9c-41a0-a12c-a92002bce837"",""version"":""$LATEST""}}"
+1736767010213,"{""timestamp"": ""2025-01-13T11:16:50Z"", ""level"": ""INFO"", ""message"": ""Received OCSP request of size 155 bytes from 193.145.230.x"", ""logger"": ""root"", ""requestId"": ""bd9b7c0a-ce9c-41a0-a12c-a92002bce837""}
+"
+1736767010214,"{""timestamp"": ""2025-01-13T11:16:50Z"", ""level"": ""INFO"", ""message"": ""{\""timestamp\"": \""2025-01-13T11:16:50.213673\"", \""source_client_ip\"": \""193.145.230.x\"", \""lambda_ip\"": \""169.254.66.x\"", \""destination_host\"": \""ocsp.xxxx.es\"", \""destination_ip\"": \""195.77.23.41\"", \""source_region\"": \""eu-north-1\"", \""destination_region\"": \""us-east-1\"", \""method\"": \""POST\"", \""request_url\"": \""http://ocsp.xxxx.es\""}"", ""logger"": ""network.connections"", ""requestId"": ""bd9b7c0a-ce9c-41a0-a12c-a92002bce837""}
+"
+1736767010333,"{""timestamp"": ""2025-01-13T11:16:50Z"", ""level"": ""INFO"", ""message"": ""Request through us-east-1 successful with status 200"", ""logger"": ""root"", ""requestId"": ""bd9b7c0a-ce9c-41a0-a12c-a92002bce837""}
+"
+1736767010334,"{""time"":""2025-01-13T11:16:50.334Z"",""type"":""platform.report"",""record"":{""requestId"":""bd9b7c0a-ce9c-41a0-a12c-a92002bce837"",""metrics"":{""durationMs"":121.734,""billedDurationMs"":122,""memorySizeMB"":256,""maxMemoryUsedMB"":56},""status"":""success""}}"
